@@ -37,81 +37,155 @@ LM <- StateLevelData %>% select(fipsstat:year,
                                 RPC_Income_Maintenance = rpcim,
                                 RPC_retirement_pmt = rpcrpo,
                                 everything()) %>% 
-    mutate(across(Violent_Crime_Rate:Larceny_Rate, 
-                  .fns = list(log = ~log(.x)), 
-                  .names = "{.fn}.{.col}")) %>% 
-    select(-c(starts_with("yr"), ends_with("rr"))) %>% as_tibble()
+  mutate(across(Violent_Crime_Rate:Larceny_Rate, 
+                .fns = list(log = ~log(.x)), 
+                .names = "{.fn}.{.col}")) %>% 
+  select(-c(starts_with("yr"), ends_with("rr"))) %>% as_tibble()
 
 #table 1
 stats <- list(
-    mean = ~mean(.x, na.rm = TRUE),
-    standard_deviation = ~sd(.x, na.rm = TRUE)
+  mean = ~mean(.x, na.rm = TRUE),
+  standard_deviation = ~sd(.x, na.rm = TRUE)
 )
 
 t1 <- LM %>% select(state, Violent_Crime_Rate:Arrest_Rate_for_Violent_Crimes) %>%
-    group_by(state) %>% 
-    summarise(across(c(Violent_Crime_Rate:Arrest_Rate_for_Violent_Crimes), 
-              stats), .names = "{.fn}.{.col}") %>%
-    ungroup() %>% 
-    tibble::as_tibble() %>% 
-    summarise(across(ends_with("_mean"), 
-                        ~ sd(.x, na.rm = TRUE), .names = "standard_deviation_of_{.col}"),
-                 across(ends_with("_standard_deviation"),
-                        ~ mean(.x, na.rm = TRUE), .names = "mean_of_{.col}"))%>% t()%>% 
-    round(2) %>% 
-    as.data.frame() %>% 
-    rownames_to_column() %>% 
-    rename(variable = rowname, value = V1) %>%
-    separate(col = variable, into = c("Stats", "Variables"), sep = "_of_") %>% 
-
-    pivot_wider(names_from = Stats, values_from = value, values_fill = 0) %>%
-    rename(c(Std_of_State_Mean = standard_deviation, Mean_of_State_Std = mean)) 
+  group_by(state) %>% 
+  summarise(across(c(Violent_Crime_Rate:Arrest_Rate_for_Violent_Crimes), 
+                   stats), .names = "{.fn}.{.col}") %>%
+  ungroup() %>% 
+  tibble::as_tibble() %>% 
+  summarise(across(ends_with("_mean"), 
+                   ~ sd(.x, na.rm = TRUE), .names = "standard_deviation_of_{.col}"),
+            across(ends_with("_standard_deviation"),
+                   ~ mean(.x, na.rm = TRUE), .names = "mean_of_{.col}"))%>% t()%>% 
+  round(2) %>% 
+  as.data.frame() %>% 
+  rownames_to_column() %>% 
+  rename(variable = rowname, value = V1) %>%
+  separate(col = variable, into = c("Stats", "Variables"), sep = "_of_") %>% 
+  
+  pivot_wider(names_from = Stats, values_from = value, values_fill = 0) %>%
+  rename(c(Std_of_State_Mean = standard_deviation, Mean_of_State_Std = mean)) 
 
 #shift the values of the last column up
 shift <- function(x, n){
-    c(x[-(seq(n))], rep(NA, n))
+  c(x[-(seq(n))], rep(NA, n))
 }
 
 t1$Mean_of_State_Std <- shift(t1$Mean_of_State_Std, 19)
 t1 <- t1[1:19, ]
 t1$Variables=gsub("_mean", "", t1$Variables)
-  
-t1 %>% 
-    mutate(Variables = str_replace_all(Variables, "_", " ")) %>%
-    kbl(caption = "Table 1",
-        col.names = c("Variable",
-                      "Standard Deviation of State Means",
-                      "Mean of Within-State Standard Deviations"),
-        booktabs = T
-    ) %>% 
-    kable_styling(latex_options = c("striped", "HOLD_position"))
-    
-    
 
+t1 %>% 
+  mutate(Variables = str_replace_all(Variables, "_", " ")) %>%
+  kbl(caption = "Table 1",
+      col.names = c("Variable",
+                    "Standard Deviation of State Means",
+                    "Mean of Within-State Standard Deviations"),
+      booktabs = T
+  ) %>% 
+  kable_styling(latex_options = c("striped", "HOLD_position"))
 
 #table 2
 stats_2 <- list(
-    Obs = length,
-    mean = ~mean(.x, na.rm = TRUE),
-    standard_deviation = ~sd(.x, na.rm = TRUE)
+  Obs = length,
+  mean = ~mean(.x, na.rm = TRUE),
+  standard_deviation = ~sd(.x, na.rm = TRUE)
 )
 
-LM %>% select(shalll:RPC_retirement_pmt) %>% 
-    summarise(across(c(shalll:RPC_retirement_pmt), 
-                     stats_2, .names = "{.fn}.{.col}")) %>% 
-    tibble::as_tibble() %>% 
-    t()%>% 
-    round(5) %>% 
-    as.data.frame() %>% 
-    rownames_to_column() %>%  
-    rename(variable = rowname, value = V1) %>%
-    separate(col = variable, into = c("Stats", "Variables"), sep = "\\.") %>% 
-    pivot_wider(names_from = Variables, values_from = value, values_fill = 0) %>% 
-    t() %>%
-    as.data.frame() %>% 
-    rownames_to_column() %>% 
-    janitor::row_to_names(row_number = 1) %>% 
-    View()
+t2 <- LM %>% select(shalll:RPC_retirement_pmt) %>% 
+  summarise(across(c(shalll:RPC_retirement_pmt), 
+                   stats_2, .names = "{.fn}.{.col}")) %>% 
+  tibble::as_tibble() %>% 
+  t()%>% 
+  round(5) %>% 
+  as.data.frame() %>% 
+  rownames_to_column() %>%  
+  rename(variable = rowname, value = V1) %>%
+  separate(col = variable, into = c("Stats", "Variables"), sep = "\\.") %>% 
+  pivot_wider(names_from = Variables, values_from = value, values_fill = 0) %>% 
+  t() %>%
+  as.data.frame() %>% 
+  rownames_to_column() %>% 
+  janitor::row_to_names(row_number = 1)
 
+t2$Obs <- as.integer(t2$Obs)
+t2$mean <- as.numeric(t2$mean)
+t2$standard_deviation <- as.numeric(t2$standard_deviation)
 
+t2 <- t2 %>% mutate(Stats = str_replace_all(Stats, "_", " "),
+                    Stats = str_to_title(Stats))
+
+row.names(t2) <- NULL
+
+t2 %>% 
+  kbl(caption = "Table 2",
+      col.names = c("Variable",
+                    "Obs",
+                    "Mean",
+                    "Std Dev."),
+      booktabs = T
+  ) %>% 
+  kable_styling(latex_options = c("striped", "HOLD_position"))
+
+#table 2 cont.
+LM %>% select(shalll, starts_with("Arrest_Rate_"), Violent_Crime_Rate:Larceny_Rate, starts_with("RPC_"), starts_with("pp")) %>% 
+  summarise(across(everything(), 
+                   stats_2, .names = "{.fn}.{.col}")) %>% 
+  tibble::as_tibble() %>% 
+  t()%>% 
+  round(5) %>% 
+  as.data.frame() %>% 
+  rownames_to_column() %>%  
+  rename(variable = rowname, value = V1) %>% 
+  separate(col = variable, into = c("Stats", "Variables"), sep = "\\.") %>% 
+  pivot_wider(names_from = Stats, values_from = value, values_fill = 0) %>%
+  as.data.frame() %>% 
+  slice(25:67) %>%
+  mutate(Variables = recode(Variables, 
+                            ppwm1019 = 'White Male Between 10-19',
+                            ppbm1019 = 'Black Male Between 10-19',
+                            ppnm1019 = 'Other Male Between 10-19',
+                            ppwf1019 = 'White Female Between 10-19',
+                            ppbf1019 = 'Black Female Between 10-19',
+                            ppnf1019 = 'Other Female Between 10-19',
+                            ppwm2029 = 'White Male Between 20-29',
+                            ppbm2029 = 'Black Male Between 20-29',
+                            ppnm2029 = 'Other Male Between 20-29',
+                            ppwf2029 = 'White Female Between 20-29',
+                            ppbf2029 = 'Black Female Between 20-29',
+                            ppnf2029 = 'Other Female Between 20-29',
+                            ppwm3039 = 'White Male Between 30-39',
+                            ppbm3039 = 'Black Male Between 30-39',
+                            ppnm3039 = 'Other Male Between 30-39',
+                            ppwf3039 = 'White Female Between 30-39',
+                            ppbf3039 = 'Black Female Between 30-39',
+                            ppnf3039 = 'Other Female Between 30-39',
+                            ppwm4049 = 'White Male Between 40-49',
+                            ppbm4049 = 'Black Male Between 40-49',
+                            ppnm4049 = 'Other Male Between 40-49',
+                            ppwf4049 = 'White Female Between 40-49',
+                            ppbf4049 = 'Black Female Between 40-49',
+                            ppnf4049 = 'Other Female Between 40-49',
+                            ppwm5064 = 'White Male Between 50-64',
+                            ppbm5064 = 'Black Male Between 50-64',
+                            ppnm5064 = 'Other Male Between 50-64',
+                            ppwf5064 = 'White Female Between 50-64',
+                            ppbf5064 = 'Black Female Between 50-64',
+                            ppnf5064 = 'Other Female Between 50-64',
+                            ppwm65o = 'White Male Over 65',
+                            ppbm65o = 'Black Male Over 65',
+                            ppnm65o = 'Other Male Over 65',
+                            ppwf65o = 'White Female Over 65',
+                            ppbf65o = 'Black Female Over 65',
+                            ppnf65o = 'Other Female Over 65')) %>% 
+  slice(-(1:7)) %>% 
+  kbl(caption = "Table 2 Cont.",
+      col.names = c("Variable",
+                    "Obs",
+                    "Mean",
+                    "Std Dev."),
+      booktabs = T
+  ) %>% 
+  kable_styling(latex_options = c("striped", "HOLD_position"))
 
