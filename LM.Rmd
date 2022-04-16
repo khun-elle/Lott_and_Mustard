@@ -1,8 +1,21 @@
+---
+title: "Lott & Mustard Replication"
+author: "Elle Boodsakorn"
+date: "5/4/2022"
+output:
+  md_document:
+    variant: markdown_github
+always_allow_html: yes
+---
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 load.libraries <- c('did', 'tidyverse', 'haven', 'fixest', 'skimr', 'kableExtra', 'stargazer', 'foreign')
 install.lib <- load.libraries[!load.libraries %in% installed.packages()]
 for(libs in install.lib) install.packages(libs, dependences = TRUE)
 sapply(load.libraries, require, character = TRUE)
+```
 
+```{r setup 1.1, warning=FALSE, echo=FALSE}
 StateLevelData <- read_dta("/Users/jirapat/Desktop/STATA/Causal/UpdatedStateLevelData-2010.dta") %>% filter(year >= 1977 & year <= 1992)
 
 skim(StateLevelData)
@@ -41,7 +54,9 @@ LM <- StateLevelData %>% select(fipsstat:year,
                 .fns = list(log = ~log(.x)), 
                 .names = "{.fn}.{.col}")) %>% 
   select(-c(starts_with("yr"), ends_with("rr"))) %>% as_tibble()
+```
 
+```{r setup 1.2, warning=FALSE, echo=FALSE}
 #table 1
 stats <- list(
   mean = ~mean(.x, na.rm = TRUE),
@@ -85,7 +100,9 @@ t1 %>%
       booktabs = T
   ) %>% 
   kable_styling(latex_options = c("striped", "HOLD_position"))
+```
 
+```{r setup 1.3, warning=FALSE, echo=FALSE}
 #table 2
 stats_2 <- list(
   Obs = length,
@@ -127,7 +144,9 @@ t2 %>%
       booktabs = T
   ) %>% 
   kable_styling(latex_options = c("striped", "HOLD_position"))
+```
 
+```{r setup 1.4, warning=FALSE, echo=FALSE}
 #table 2 cont.
 LM %>% select(shalll, starts_with("Arrest_Rate_"), Violent_Crime_Rate:Larceny_Rate, starts_with("RPC_"), starts_with("pp")) %>% 
   summarise(across(everything(), 
@@ -188,7 +207,9 @@ LM %>% select(shalll, starts_with("Arrest_Rate_"), Violent_Crime_Rate:Larceny_Ra
       booktabs = T
   ) %>% 
   kable_styling(latex_options = c("striped", "HOLD_position"))
+```
 
+```{r setup 1.5, warning=FALSE, echo=FALSE}
 #table 3
 ln_crime_rate <- LM %>% select(starts_with("log."))
 
@@ -219,4 +240,6 @@ for (i in 1:9) {
   regression[[dependent_variable]] <- mdl
 }
 
+regression
+```
 
