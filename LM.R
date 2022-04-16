@@ -219,7 +219,11 @@ for (i in 1:9) {
   regression[[dependent_variable]] <- mdl
 }
 
-tab_model(regression[1:3])
-tab_model(regression[4:6])
-tab_model(regression[7:9])
+tab_model(regression[1:3], show.ci = FALSE, show.se = TRUE, show.p = FALSE, digits = 5)
+
+library(memisc)
+tab_model(regression[4:6], collapse.ci = TRUE)
+memisc::mtable("Model 4"=regression[4],"Model 5"=regression[5],"Model 6"=regression[6],summary.stats=c("R-squared","N"))
+
+tab_model(regression[7:9], collapse.ci = TRUE)
 

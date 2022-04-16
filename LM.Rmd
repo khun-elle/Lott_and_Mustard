@@ -240,8 +240,22 @@ for (i in 1:9) {
 ```
 
 ```{r setup 1.6, warning=FALSE, echo=FALSE}
-tab_model(regression[1:3])
-tab_model(regression[4:6])
-tab_model(regression[7:9])
+tab_model(regression[1:3], 
+          show.ci = FALSE, 
+          show.se = TRUE, 
+          show.p = FALSE, 
+          digits = 5)
+
+tab_model(regression[4:6], 
+          show.ci = FALSE, 
+          show.se = TRUE, 
+          show.p = FALSE, 
+          digits = 5)
+
+tab_model(regression[7:9], 
+          show.ci = FALSE, 
+          show.se = TRUE, 
+          show.p = FALSE, 
+          digits = 5)
 ```
 

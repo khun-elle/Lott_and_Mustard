@@ -1118,13 +1118,13 @@ Other Female Over 65
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
  
 </th>
-<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+<th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
 log Violent Crime Rate
 </th>
-<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+<th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
 log Murder Rate
 </th>
-<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+<th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
 log Rape Rate
 </th>
 </tr>
@@ -1136,28 +1136,19 @@ Predictors
 Estimates
 </td>
 <td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-CI
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-p
+std. Error
 </td>
 <td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
 Estimates
 </td>
 <td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-CI
+std. Error
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+Estimates
 </td>
 <td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  col7">
-p
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  col8">
-Estimates
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  col9">
-CI
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  0">
-p
+std. Error
 </td>
 </tr>
 <tr>
@@ -1165,31 +1156,22 @@ p
 shalll
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.10
+-0.09775
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.14 – -0.06
+0.02071
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-0.05066
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.05
+0.03858
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.13 – 0.03
+-0.03398
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.190
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.03
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.09 – 0.02
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.212
+0.02718
 </td>
 </tr>
 <tr>
@@ -1197,31 +1179,22 @@ shalll
 Its corresponding Arrest<br>Rate
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+-0.00029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00036
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.412
+-0.00040
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – -0.00
+-0.00060
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.035</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.121
+0.00038
 </td>
 </tr>
 <tr>
@@ -1229,31 +1202,22 @@ Its corresponding Arrest<br>Rate
 RPC Personal Income
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00004
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00 – 0.00
+0.00001
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+0.00005
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00002
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00 – 0.00
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.022</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.818
+0.00001
 </td>
 </tr>
 <tr>
@@ -1261,31 +1225,22 @@ RPC Personal Income
 RPC Unemployment<br>Insurance
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+-0.00015
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00025
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.541
+-0.00102
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – -0.00
+-0.00016
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.035</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.573
+0.00028
 </td>
 </tr>
 <tr>
@@ -1293,31 +1248,22 @@ RPC Unemployment<br>Insurance
 RPC Income Maintenance
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00003
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00036
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.927
+-0.00046
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00056
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+-0.00079
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.413
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.070
+0.00043
 </td>
 </tr>
 <tr>
@@ -1325,31 +1271,22 @@ RPC Income Maintenance
 RPC retirement pmt
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+-0.00008
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00009
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.362
+0.00002
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00017
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+-0.00019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.922
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.065
+0.00010
 </td>
 </tr>
 <tr>
@@ -1357,31 +1294,22 @@ RPC retirement pmt
 ppwm 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--63.93
+-63.93429
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--109.19 – -18.68
+23.04863
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.006</strong>
+9.23603
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-9.24
+44.09839
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--77.35 – 95.82
+-104.41321
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.834
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--104.41
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--156.51 – -52.31
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>\<0.001</strong>
+26.53565
 </td>
 </tr>
 <tr>
@@ -1389,31 +1317,22 @@ ppwm 1019
 ppbm 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-106.49
+106.49051
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--1.49 – 214.47
+54.99847
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.053
+108.59308
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-108.59
+83.31742
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--54.99 – 272.18
+-31.45459
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.193
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--31.45
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--165.05 – 102.14
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.644
+68.04392
 </td>
 </tr>
 <tr>
@@ -1421,31 +1340,22 @@ ppbm 1019
 ppnm 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-390.41
+390.41177
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-104.51 – 676.31
+145.61340
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.008</strong>
+-462.61888
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--462.62
+239.40267
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--932.66 – 7.42
+-110.51101
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.054
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--110.51
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--383.07 – 162.05
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.426
+138.82030
 </td>
 </tr>
 <tr>
@@ -1453,31 +1363,22 @@ ppnm 1019
 ppwf 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-72.02
+72.01944
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-25.74 – 118.30
+23.56975
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.002</strong>
+-13.09908
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--13.10
+45.67416
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--102.77 – 76.58
+116.29746
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.774
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-116.30
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-61.58 – 171.01
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>\<0.001</strong>
+27.86843
 </td>
 </tr>
 <tr>
@@ -1485,31 +1386,22 @@ ppwf 1019
 ppbf 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--78.26
+-78.25589
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--186.10 – 29.59
+54.92694
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.155
+-53.75880
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--53.76
+78.16889
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--207.23 – 99.72
+50.69286
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.492
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-50.69
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--86.21 – 187.60
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.467
+69.72812
 </td>
 </tr>
 <tr>
@@ -1517,31 +1409,22 @@ ppbf 1019
 ppnf 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--286.97
+-286.96533
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--564.36 – -9.58
+141.28051
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.043</strong>
+392.90321
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-392.90
+213.67262
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--26.62 – 812.42
+225.09534
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.066
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-225.10
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--30.64 – 480.83
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.084
+130.24926
 </td>
 </tr>
 <tr>
@@ -1549,31 +1432,22 @@ ppnf 1019
 ppwm 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-9.12
+9.11862
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--6.04 – 24.28
+7.72194
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.238
+23.61683
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-23.62
+14.09412
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--4.06 – 51.29
+-1.12033
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.094
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--1.12
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--21.57 – 19.33
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.914
+10.41640
 </td>
 </tr>
 <tr>
@@ -1581,31 +1455,22 @@ ppwm 2029
 ppbm 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-3.13
+3.13277
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--56.27 – 62.53
+30.25338
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.918
+-28.36895
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--28.37
+48.63261
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--123.85 – 67.12
+134.58789
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.560
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-134.59
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-51.05 – 218.13
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.002</strong>
+42.54807
 </td>
 </tr>
 <tr>
@@ -1613,31 +1478,22 @@ ppbm 2029
 ppnm 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--89.25
+-89.25171
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--243.43 – 64.92
+78.52515
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.256
+139.91898
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-139.92
+147.48453
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--149.65 – 429.49
+42.93354
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.343
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-42.93
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--149.16 – 235.03
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.661
+97.83643
 </td>
 </tr>
 <tr>
@@ -1645,31 +1501,22 @@ ppnm 2029
 ppwf 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.75
+0.74510
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--17.18 – 18.67
+9.12952
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.935
+-24.13657
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--24.14
+16.70711
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--56.94 – 8.67
+32.50377
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.149
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-32.50
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-7.32 – 57.68
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.011</strong>
+12.82443
 </td>
 </tr>
 <tr>
@@ -1677,31 +1524,22 @@ ppwf 2029
 ppbf 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--14.65
+-14.64648
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--71.82 – 42.53
+29.11878
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.615
+34.58401
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-34.58
+44.37590
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--52.54 – 121.71
+-73.10564
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.436
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--73.11
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--148.46 – 2.25
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.057
+38.38099
 </td>
 </tr>
 <tr>
@@ -1709,31 +1547,22 @@ ppbf 2029
 ppnf 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--2.47
+-2.47440
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--126.19 – 121.24
+63.01059
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.969
+45.48957
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-45.49
+126.35510
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--202.59 – 293.57
+-67.24677
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.719
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--67.25
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--249.60 – 115.11
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.469
+92.87714
 </td>
 </tr>
 <tr>
@@ -1741,31 +1570,22 @@ ppnf 2029
 ppwm 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-50.87
+50.86677
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-21.50 – 80.24
+14.95841
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.001</strong>
+-14.52110
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--14.52
+28.47142
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--70.42 – 41.38
+28.11918
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.610
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-28.12
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--14.26 – 70.50
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.193
+21.58348
 </td>
 </tr>
 <tr>
@@ -1773,31 +1593,22 @@ ppwm 3039
 ppbm 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-42.27
+42.27123
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--34.92 – 119.46
+39.31507
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.283
+-81.88212
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--81.88
+68.94124
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--217.24 – 53.48
+-302.24993
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.235
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--302.25
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--407.82 – -196.68
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>\<0.001</strong>
+53.76613
 </td>
 </tr>
 <tr>
@@ -1805,31 +1616,22 @@ ppbm 3039
 ppnm 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-526.75
+526.75466
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-313.64 – 739.87
+108.54230
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-53.85583
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--53.86
+252.15102
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--548.92 – 441.21
+291.60677
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.831
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-291.61
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-33.07 – 550.14
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.027</strong>
+131.67535
 </td>
 </tr>
 <tr>
@@ -1837,31 +1639,22 @@ ppnm 3039
 ppwf 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--40.04
+-40.04014
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--70.35 – -9.73
+15.43884
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.010</strong>
+40.68557
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-40.69
+28.06709
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--14.42 – 95.79
+8.67213
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.148
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-8.67
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--31.81 – 49.15
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.674
+20.61696
 </td>
 </tr>
 <tr>
@@ -1869,31 +1662,22 @@ ppwf 3039
 ppbf 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.17
+1.16667
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--59.62 – 61.95
+30.95773
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.970
+54.47495
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-54.47
+51.03184
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--45.72 – 154.67
+228.41981
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.286
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-228.42
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-149.59 – 307.25
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>\<0.001</strong>
+40.14889
 </td>
 </tr>
 <tr>
@@ -1901,31 +1685,22 @@ ppbf 3039
 ppnf 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--375.15
+-375.15032
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--567.10 – -183.20
+97.76274
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+30.43240
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-30.43
+214.06073
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--389.85 – 450.71
+-171.37809
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.887
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--171.38
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--395.11 – 52.35
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.133
+113.95041
 </td>
 </tr>
 <tr>
@@ -1933,31 +1708,22 @@ ppnf 3039
 ppwm 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--64.15
+-64.14780
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--101.08 – -27.21
+18.81129
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.001</strong>
+-32.94867
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--32.95
+41.19445
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--113.83 – 47.93
+56.61844
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.424
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-56.62
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-12.45 – 100.79
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.012</strong>
+22.49749
 </td>
 </tr>
 <tr>
@@ -1965,31 +1731,22 @@ ppwm 4049
 ppbm 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-128.76
+128.76132
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.96 – 256.57
+65.09433
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.048</strong>
+-50.90077
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--50.90
+97.33189
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--242.00 – 140.20
+158.32378
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.601
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-158.32
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--7.90 – 324.55
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.062
+84.66196
 </td>
 </tr>
 <tr>
@@ -1997,31 +1754,22 @@ ppbm 4049
 ppnm 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--269.68
+-269.67712
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--517.97 – -21.38
+126.46329
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.033</strong>
+118.18092
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-118.18
+260.36212
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--393.01 – 629.37
+-465.33421
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.650
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--465.33
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--766.05 – -164.62
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.002</strong>
+153.15870
 </td>
 </tr>
 <tr>
@@ -2029,31 +1777,22 @@ ppnm 4049
 ppwf 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-67.30
+67.29883
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-28.71 – 105.89
+19.65524
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.001</strong>
+40.13030
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-40.13
+40.98404
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--40.34 – 120.60
+-49.32220
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.328
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--49.32
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--92.18 – -6.47
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.024</strong>
+21.82785
 </td>
 </tr>
 <tr>
@@ -2061,31 +1800,22 @@ ppwf 4049
 ppbf 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--82.69
+-82.69352
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--195.90 – 30.51
+57.65823
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.152
+157.20153
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-157.20
+88.93386
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--17.41 – 331.81
+-140.56672
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.078
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--140.57
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--293.93 – 12.79
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.072
+78.10856
 </td>
 </tr>
 <tr>
@@ -2093,31 +1823,22 @@ ppbf 4049
 ppnf 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-248.18
+248.18469
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-49.54 – 446.83
+101.17289
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.014</strong>
+-35.83759
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--35.84
+247.60177
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--521.97 – 450.30
+451.80195
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.885
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-451.80
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-214.62 – 688.99
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>\<0.001</strong>
+120.80313
 </td>
 </tr>
 <tr>
@@ -2125,31 +1846,22 @@ ppnf 4049
 ppwm 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--16.23
+-16.22705
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--54.48 – 22.03
+19.48362
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.405
+5.40684
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-5.41
+34.18356
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--61.71 – 72.52
+-65.40697
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.874
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--65.41
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--105.79 – -25.03
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.002</strong>
+20.56670
 </td>
 </tr>
 <tr>
@@ -2157,31 +1869,22 @@ ppwm 5064
 ppbm 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-68.54
+68.54353
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--44.12 – 181.21
+57.38100
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.233
+-172.00956
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--172.01
+86.26888
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--341.39 – -2.63
+-16.77301
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.047</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--16.77
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--136.62 – 103.08
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.784
+61.04260
 </td>
 </tr>
 <tr>
@@ -2189,31 +1892,22 @@ ppbm 5064
 ppnm 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--282.32
+-282.31630
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--475.28 – -89.35
+98.28068
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.004</strong>
+-55.35348
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--55.35
+322.14477
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--687.85 – 577.14
+-415.97874
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.864
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--415.98
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--688.59 – -143.36
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.003</strong>
+138.84792
 </td>
 </tr>
 <tr>
@@ -2221,31 +1915,22 @@ ppnm 5064
 ppwf 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-30.32
+30.31866
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--2.54 – 63.17
+16.73387
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.070
+-6.80361
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--6.80
+28.94076
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--63.63 – 50.02
+61.15215
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.814
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-61.15
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-25.37 – 96.94
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.001</strong>
+18.22682
 </td>
 </tr>
 <tr>
@@ -2253,31 +1938,22 @@ ppwf 5064
 ppbf 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--64.97
+-64.96979
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--166.13 – 36.20
+51.52545
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.208
+29.42392
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-29.42
+85.65680
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--138.75 – 197.60
+39.24933
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.731
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-39.25
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--84.70 – 163.20
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.534
+63.13001
 </td>
 </tr>
 <tr>
@@ -2285,31 +1961,22 @@ ppbf 5064
 ppnf 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-71.61
+71.61000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--86.69 – 229.91
+80.62415
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.375
+-24.55105
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--24.55
+176.08019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--370.26 – 321.16
+174.48925
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.889
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-174.49
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--45.61 – 394.59
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.120
+112.10075
 </td>
 </tr>
 <tr>
@@ -2317,31 +1984,22 @@ ppnf 5064
 ppwm 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--88.81
+-88.81041
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--114.53 – -63.09
+13.09936
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-46.39578
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--46.40
+22.30941
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--90.20 – -2.59
+40.58238
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.038</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-40.58
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-7.23 – 73.93
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.017</strong>
+16.98692
 </td>
 </tr>
 <tr>
@@ -2349,31 +2007,22 @@ ppwm 65 o
 ppbm 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-171.25
+171.24554
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-61.13 – 281.36
+56.08427
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.002</strong>
+-169.02652
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--169.03
+91.27575
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--348.24 – 10.18
+-235.09472
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.064
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--235.09
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--373.57 – -96.62
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.001</strong>
+70.52822
 </td>
 </tr>
 <tr>
@@ -2381,31 +2030,22 @@ ppbm 65 o
 ppnm 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--182.56
+-182.55760
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--567.27 – 202.16
+195.94365
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.352
+130.70738
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-130.71
+417.53153
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--689.06 – 950.48
+-285.73658
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.754
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--285.74
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--662.70 – 91.23
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.137
+191.99360
 </td>
 </tr>
 <tr>
@@ -2413,31 +2053,22 @@ ppnm 65 o
 ppwf 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-68.15
+68.15398
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-50.72 – 85.59
+8.88153
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+33.14981
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-33.15
+16.37226
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.00 – 65.29
+-14.82481
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.043</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--14.82
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--37.57 – 7.92
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.201
+11.58439
 </td>
 </tr>
 <tr>
@@ -2445,31 +2076,22 @@ ppwf 65 o
 ppbf 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--110.87
+-110.87405
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--191.38 – -30.37
+41.00362
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.007</strong>
+135.05517
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-135.06
+58.10214
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-20.98 – 249.13
+158.39276
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.020</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-158.39
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-54.13 – 262.65
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.003</strong>
+53.10058
 </td>
 </tr>
 <tr>
@@ -2477,31 +2099,22 @@ ppbf 65 o
 ppnf 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--22.24
+-22.24071
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--302.19 – 257.71
+142.58261
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.876
+-85.22749
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--85.23
+247.44743
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--571.06 – 400.61
+90.60793
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.731
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-90.61
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--197.79 – 379.01
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.538
+146.88702
 </td>
 </tr>
 <tr>
@@ -2509,31 +2122,22 @@ ppnf 65 o
 density
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+-0.00078
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – -0.00
+0.00017
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-0.00053
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00022
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – -0.00
+0.00036
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.017</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.054
+0.00019
 </td>
 </tr>
 <tr>
@@ -2541,44 +2145,35 @@ density
 popstate
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00 – 0.00
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.002</strong>
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+-0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.190
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.109
+0.00000
 </td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm; border-top:1px solid;">
 Observations
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="2">
 802
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="2">
 806
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="2">
 799
 </td>
 </tr>
@@ -2586,13 +2181,13 @@ Observations
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
 R<sup>2</sup> / R<sup>2</sup> adjusted
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="2">
 0.981 / 0.979
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="2">
 0.948 / 0.940
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="2">
 0.942 / 0.933
 </td>
 </tr>
@@ -2602,13 +2197,13 @@ R<sup>2</sup> / R<sup>2</sup> adjusted
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
  
 </th>
-<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+<th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
 log Aggravate Assult Rate
 </th>
-<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+<th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
 log Robbery Rate
 </th>
-<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+<th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
 log Property Crime Rate
 </th>
 </tr>
@@ -2620,28 +2215,19 @@ Predictors
 Estimates
 </td>
 <td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-CI
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-p
+std. Error
 </td>
 <td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
 Estimates
 </td>
 <td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-CI
+std. Error
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+Estimates
 </td>
 <td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  col7">
-p
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  col8">
-Estimates
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  col9">
-CI
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  0">
-p
+std. Error
 </td>
 </tr>
 <tr>
@@ -2649,31 +2235,22 @@ p
 shalll
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.10
+-0.10098
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.16 – -0.04
+0.02919
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.001</strong>
+-0.04779
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.05
+0.03083
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.11 – 0.01
+-0.00720
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.122
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.01
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.03 – 0.02
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.599
+0.01368
 </td>
 </tr>
 <tr>
@@ -2681,31 +2258,22 @@ shalll
 Its corresponding Arrest<br>Rate
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00012
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.814
+-0.00037
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00040
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+-0.00202
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.362
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.058
+0.00106
 </td>
 </tr>
 <tr>
@@ -2713,31 +2281,22 @@ Its corresponding Arrest<br>Rate
 RPC Personal Income
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00007
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00 – 0.00
+0.00001
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-0.00001
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00002
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+-0.00002
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.643
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – -0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.031</strong>
+0.00001
 </td>
 </tr>
 <tr>
@@ -2745,31 +2304,22 @@ RPC Personal Income
 RPC Unemployment<br>Insurance
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+-0.00009
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00034
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.796
+-0.00070
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00034
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – -0.00
+0.00024
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.039</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.146
+0.00016
 </td>
 </tr>
 <tr>
@@ -2777,31 +2327,22 @@ RPC Unemployment<br>Insurance
 RPC Income Maintenance
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00092
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00048
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.053
+-0.00042
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00051
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.411
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.987
+0.00020
 </td>
 </tr>
 <tr>
@@ -2809,31 +2350,22 @@ RPC Income Maintenance
 RPC retirement pmt
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+-0.00007
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00015
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.633
+-0.00006
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00012
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+-0.00004
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.604
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.392
+0.00005
 </td>
 </tr>
 <tr>
@@ -2841,31 +2373,22 @@ RPC retirement pmt
 ppwm 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--23.62
+-23.62391
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--93.97 – 46.73
+35.83146
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.510
+-176.19129
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--176.19
+33.90475
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--242.76 – -109.62
+-14.94973
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>\<0.001</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--14.95
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--41.48 – 11.58
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.269
+13.51165
 </td>
 </tr>
 <tr>
@@ -2873,31 +2396,22 @@ ppwm 1019
 ppbm 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-219.65
+219.64718
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-80.31 – 358.99
+70.97069
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.002</strong>
+102.70057
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-102.70
+86.95635
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--68.03 – 273.43
+-63.78579
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.238
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--63.79
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--137.08 – 9.51
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.088
+37.33003
 </td>
 </tr>
 <tr>
@@ -2905,31 +2419,22 @@ ppbm 1019
 ppnm 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-513.75
+513.74843
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-139.32 – 888.18
+190.70808
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.007</strong>
+182.96014
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-182.96
+146.86678
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--105.39 – 471.31
+118.23843
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.213
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-118.24
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--1.21 – 237.68
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.052
+60.83661
 </td>
 </tr>
 <tr>
@@ -2937,31 +2442,22 @@ ppnm 1019
 ppwf 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-28.07
+28.07099
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--43.90 – 100.04
+36.65556
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.444
+185.63830
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-185.64
+35.01540
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-116.89 – 254.39
+21.32845
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>\<0.001</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-21.33
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--5.90 – 48.56
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.125
+13.86891
 </td>
 </tr>
 <tr>
@@ -2969,31 +2465,22 @@ ppwf 1019
 ppbf 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--183.26
+-183.26321
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--314.88 – -51.65
+67.03384
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.006</strong>
+-98.36233
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--98.36
+83.63550
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--262.57 – 65.84
+46.55455
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.240
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-46.55
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--23.25 – 116.36
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.191
+35.55154
 </td>
 </tr>
 <tr>
@@ -3001,31 +2488,22 @@ ppbf 1019
 ppnf 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--396.12
+-396.12120
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--759.47 – -32.77
+185.06615
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.033</strong>
+-90.08432
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--90.08
+140.54751
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--366.03 – 185.86
+-112.12742
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.522
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--112.13
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--230.00 – 5.75
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.062
+60.03761
 </td>
 </tr>
 <tr>
@@ -3033,31 +2511,22 @@ ppnf 1019
 ppwm 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-2.39
+2.39154
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--17.77 – 22.55
+10.26716
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.816
+45.42257
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-45.42
+11.82011
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-22.22 – 68.63
+6.97955
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>\<0.001</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-6.98
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--2.70 – 16.66
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.157
+4.92820
 </td>
 </tr>
 <tr>
@@ -3065,31 +2534,22 @@ ppwm 2029
 ppbm 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--31.49
+-31.49373
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--109.53 – 46.54
+39.74672
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.428
+-43.86818
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--43.87
+43.37852
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--129.04 – 41.30
+-21.11673
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.312
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--21.12
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--56.28 – 14.05
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.239
+17.91197
 </td>
 </tr>
 <tr>
@@ -3097,31 +2557,22 @@ ppbm 2029
 ppnm 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--86.93
+-86.93231
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--296.06 – 122.20
+106.51667
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.415
+-120.22605
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--120.23
+107.34346
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--330.98 – 90.53
+-73.89357
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.263
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--73.89
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--157.13 – 9.35
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.082
+42.39632
 </td>
 </tr>
 <tr>
@@ -3129,31 +2580,22 @@ ppnm 2029
 ppwf 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-7.93
+7.93497
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--15.68 – 31.55
+12.02858
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.510
+-45.96671
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--45.97
+14.41697
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--74.27 – -17.66
+-8.47671
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.001</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--8.48
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--20.34 – 3.38
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.161
+6.03979
 </td>
 </tr>
 <tr>
@@ -3161,31 +2603,22 @@ ppwf 2029
 ppbf 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-11.35
+11.34932
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--59.79 – 82.49
+36.23395
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.754
+16.26912
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-16.27
+41.05285
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--64.33 – 96.87
+9.90724
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.692
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-9.91
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--24.03 – 43.85
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.567
+17.28678
 </td>
 </tr>
 <tr>
@@ -3193,31 +2626,22 @@ ppbf 2029
 ppnf 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--48.73
+-48.72727
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--219.80 – 122.35
+87.13393
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.576
+85.79247
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-85.79
+99.50990
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--109.58 – 281.17
+55.19131
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.389
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-55.19
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--18.19 – 128.57
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.140
+37.37534
 </td>
 </tr>
 <tr>
@@ -3225,31 +2649,22 @@ ppnf 2029
 ppwm 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-69.89
+69.88784
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-29.19 – 110.59
+20.73060
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.001</strong>
+48.87439
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-48.87
+24.08141
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.59 – 96.15
+1.03247
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.043</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-1.03
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--14.91 – 16.97
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.899
+8.11941
 </td>
 </tr>
 <tr>
@@ -3257,31 +2672,22 @@ ppwm 3039
 ppbm 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-127.96
+127.95902
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-12.46 – 243.46
+58.82590
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.030</strong>
+93.39596
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-93.40
+55.73607
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--16.03 – 202.83
+64.63511
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.094
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-64.64
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-15.07 – 114.20
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.011</strong>
+25.24677
 </td>
 </tr>
 <tr>
@@ -3289,31 +2695,22 @@ ppbm 3039
 ppnm 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-499.11
+499.10766
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-201.68 – 796.53
+151.48720
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.001</strong>
+572.16481
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-572.16
+159.28391
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-259.43 – 884.90
+86.42250
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>\<0.001</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-86.42
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--33.70 – 206.54
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.158
+61.18147
 </td>
 </tr>
 <tr>
@@ -3321,31 +2718,22 @@ ppnm 3039
 ppwf 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--71.45
+-71.45067
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--113.85 – -29.05
+21.59485
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.001</strong>
+-32.95749
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--32.96
+25.47732
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--82.98 – 17.06
+-2.51613
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.196
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--2.52
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--19.40 – 14.36
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.770
+8.59749
 </td>
 </tr>
 <tr>
@@ -3353,31 +2741,22 @@ ppwf 3039
 ppbf 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--42.97
+-42.96828
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--129.03 – 43.10
+43.83501
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.327
+-58.52136
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--58.52
+42.40293
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--141.77 – 24.73
+-51.34759
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.168
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--51.35
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--89.58 – -13.11
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.009</strong>
+19.47503
 </td>
 </tr>
 <tr>
@@ -3385,31 +2764,22 @@ ppbf 3039
 ppnf 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--294.12
+-294.12372
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--558.34 – -29.91
+134.57178
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.029</strong>
+-504.09038
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--504.09
+144.01734
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--786.85 – -221.33
+-110.29887
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>\<0.001</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--110.30
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--211.66 – -8.94
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.033</strong>
+51.62540
 </td>
 </tr>
 <tr>
@@ -3417,31 +2787,22 @@ ppnf 3039
 ppwm 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--118.72
+-118.72473
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--171.60 – -65.84
+26.93342
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-2.37054
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--2.37
+28.17788
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--57.69 – 52.95
+-25.41874
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.933
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--25.42
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--46.50 – -4.34
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.018</strong>
+10.73543
 </td>
 </tr>
 <tr>
@@ -3449,31 +2810,22 @@ ppwm 4049
 ppbm 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-49.54
+49.54494
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--119.68 – 218.76
+86.18863
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.566
+202.63874
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-202.64
+88.74032
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-28.41 – 376.87
+82.71378
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.023</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-82.71
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-7.52 – 157.91
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.031</strong>
+38.29787
 </td>
 </tr>
 <tr>
@@ -3481,31 +2833,22 @@ ppbm 4049
 ppnm 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--269.20
+-269.20019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--579.52 – 41.12
+158.05561
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.089
+63.11729
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-63.12
+164.03741
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--258.95 – 385.18
+243.75190
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.701
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-243.75
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-95.74 – 391.76
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.001</strong>
+75.38701
 </td>
 </tr>
 <tr>
@@ -3513,31 +2856,22 @@ ppnm 4049
 ppwf 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-124.34
+124.33672
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-68.94 – 179.73
+28.21566
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-1.52659
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--1.53
+28.34842
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--57.18 – 54.13
+24.78925
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.957
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-24.79
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-2.13 – 47.45
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.032</strong>
+11.54078
 </td>
 </tr>
 <tr>
@@ -3545,31 +2879,22 @@ ppwf 4049
 ppbf 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--54.40
+-54.40258
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--203.19 – 94.38
+75.77935
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.473
+-84.56966
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--84.57
+82.31515
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--246.18 – 77.04
+-26.15754
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.305
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--26.16
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--96.52 – 44.20
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.466
+35.83719
 </td>
 </tr>
 <tr>
@@ -3577,31 +2902,22 @@ ppbf 4049
 ppnf 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-214.60
+214.59925
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--32.58 – 461.77
+125.89332
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.089
+16.56594
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-16.57
+130.30491
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--239.27 – 272.40
+-151.03205
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.899
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--151.03
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--268.14 – -33.93
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.012</strong>
+59.64599
 </td>
 </tr>
 <tr>
@@ -3609,31 +2925,22 @@ ppnf 4049
 ppwm 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--33.34
+-33.34385
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--85.71 – 19.02
+26.67023
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.212
+46.18062
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-46.18
+29.40368
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--11.55 – 103.91
+-24.34047
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.117
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--24.34
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--44.57 – -4.12
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.018</strong>
+10.30142
 </td>
 </tr>
 <tr>
@@ -3641,31 +2948,22 @@ ppwm 5064
 ppbm 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-166.52
+166.51967
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-21.12 – 311.92
+74.05619
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.025</strong>
+-158.34694
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--158.35
+83.31232
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--321.92 – 5.23
+-29.19835
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.058
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--29.20
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--95.72 – 37.32
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.389
+33.88233
 </td>
 </tr>
 <tr>
@@ -3673,31 +2971,22 @@ ppbm 5064
 ppnm 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--285.84
+-285.84016
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--533.89 – -37.79
+126.34081
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.024</strong>
+-294.24926
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--294.25
+141.20780
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--571.49 – -17.01
+-183.74506
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.038</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--183.75
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--311.38 – -56.11
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.005</strong>
+65.00607
 </td>
 </tr>
 <tr>
@@ -3705,31 +2994,22 @@ ppnm 5064
 ppwf 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-57.73
+57.73385
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-12.95 – 102.52
+22.81002
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.012</strong>
+-51.45802
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--51.46
+24.95847
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--100.46 – -2.46
+13.12013
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.040</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-13.12
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--5.01 – 31.25
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.156
+9.23522
 </td>
 </tr>
 <tr>
@@ -3737,31 +3017,22 @@ ppwf 5064
 ppbf 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--177.04
+-177.04234
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--306.17 – -47.91
+65.77049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.007</strong>
+158.93582
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-158.94
+73.78367
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-14.07 – 303.80
+20.71683
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.032</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-20.72
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--36.67 – 78.11
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.479
+29.23080
 </td>
 </tr>
 <tr>
@@ -3769,31 +3040,22 @@ ppbf 5064
 ppnf 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--38.22
+-38.21936
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--237.17 – 160.73
+101.33113
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.706
+217.96058
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-217.96
+122.36149
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--22.28 – 458.20
+157.93828
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.075
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-157.94
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-48.04 – 267.84
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.005</strong>
+55.97466
 </td>
 </tr>
 <tr>
@@ -3801,31 +3063,22 @@ ppnf 5064
 ppwm 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--133.61
+-133.61482
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--169.22 – -98.01
+18.13470
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-41.74382
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--41.74
+17.18630
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--75.49 – -8.00
+-46.52540
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.015</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--46.53
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--61.06 – -32.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>\<0.001</strong>
+7.40071
 </td>
 </tr>
 <tr>
@@ -3833,31 +3086,22 @@ ppwm 65 o
 ppbm 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-378.02
+378.02416
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-236.68 – 519.37
+71.98966
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-24.08973
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--24.09
+75.51560
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--172.35 – 124.17
+13.84257
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.750
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-13.84
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--51.88 – 79.56
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.679
+33.47237
 </td>
 </tr>
 <tr>
@@ -3865,31 +3109,22 @@ ppbm 65 o
 ppnm 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--21.35
+-21.34555
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--540.34 – 497.65
+264.33778
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.936
+-441.38794
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--441.39
+228.17744
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--889.38 – 6.61
+-140.00242
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.053
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--140.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--351.36 – 71.35
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.194
+107.64897
 </td>
 </tr>
 <tr>
@@ -3897,31 +3132,22 @@ ppnm 65 o
 ppwf 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-94.63
+94.63263
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-68.41 – 120.86
+13.35824
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+42.48169
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-42.48
+12.41756
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-18.10 – 66.86
+25.97796
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.001</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-25.98
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-16.36 – 35.59
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>\<0.001</strong>
+4.89705
 </td>
 </tr>
 <tr>
@@ -3929,31 +3155,22 @@ ppwf 65 o
 ppbf 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--198.37
+-198.37047
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--301.16 – -95.58
+52.35252
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-50.42140
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--50.42
+55.12019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--158.64 – 57.80
+-52.90493
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.361
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--52.90
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--100.73 – -5.08
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.030</strong>
+24.35791
 </td>
 </tr>
 <tr>
@@ -3961,31 +3178,22 @@ ppbf 65 o
 ppnf 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--131.18
+-131.18437
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--516.39 – 254.02
+196.19575
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.504
+112.30346
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-112.30
+159.10492
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--200.08 – 424.68
+-40.01857
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.481
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--40.02
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--186.62 – 106.59
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.592
+74.67091
 </td>
 </tr>
 <tr>
@@ -3993,31 +3201,22 @@ ppnf 65 o
 density
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+-0.00068
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – -0.00
+0.00019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-0.00103
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00025
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – -0.00
+-0.00051
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>\<0.001</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – -0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>\<0.001</strong>
+0.00011
 </td>
 </tr>
 <tr>
@@ -4025,44 +3224,35 @@ density
 popstate
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00 – 0.00
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.007</strong>
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.087
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.591
+0.00000
 </td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm; border-top:1px solid;">
 Observations
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="2">
 808
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="2">
 809
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="2">
 809
 </td>
 </tr>
@@ -4070,13 +3260,13 @@ Observations
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
 R<sup>2</sup> / R<sup>2</sup> adjusted
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="2">
 0.964 / 0.958
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="2">
 0.984 / 0.981
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="2">
 0.964 / 0.959
 </td>
 </tr>
@@ -4086,13 +3276,13 @@ R<sup>2</sup> / R<sup>2</sup> adjusted
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
  
 </th>
-<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+<th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
 log Auto Theft Rate
 </th>
-<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+<th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
 log Burglary Rate
 </th>
-<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+<th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
 log Larceny Rate
 </th>
 </tr>
@@ -4104,28 +3294,19 @@ Predictors
 Estimates
 </td>
 <td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-CI
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-p
+std. Error
 </td>
 <td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
 Estimates
 </td>
 <td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-CI
+std. Error
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+Estimates
 </td>
 <td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  col7">
-p
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  col8">
-Estimates
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  col9">
-CI
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  0">
-p
+std. Error
 </td>
 </tr>
 <tr>
@@ -4133,31 +3314,22 @@ p
 shalll
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.01
+-0.01039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.07 – 0.04
+0.02793
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.710
+-0.04512
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.05
+0.01987
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.08 – -0.01
+0.00399
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.023</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.02 – 0.03
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.777
+0.01407
 </td>
 </tr>
 <tr>
@@ -4165,31 +3337,22 @@ shalll
 Its corresponding Arrest<br>Rate
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+-0.00474
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.01 – -0.00
+0.00180
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.009</strong>
+-0.00042
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00087
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+-0.00013
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.629
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.214
+0.00011
 </td>
 </tr>
 <tr>
@@ -4197,31 +3360,22 @@ Its corresponding Arrest<br>Rate
 RPC Personal Income
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+-0.00003
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – -0.00
+0.00002
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.033</strong>
+-0.00002
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00001
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – -0.00
+-0.00002
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.049</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – -0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.005</strong>
+0.00001
 </td>
 </tr>
 <tr>
@@ -4229,31 +3383,22 @@ RPC Personal Income
 RPC Unemployment<br>Insurance
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+-0.00074
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – -0.00
+0.00035
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.035</strong>
+0.00071
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00024
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00 – 0.00
+0.00019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.003</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.204
+0.00015
 </td>
 </tr>
 <tr>
@@ -4261,31 +3406,22 @@ RPC Unemployment<br>Insurance
 RPC Income Maintenance
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+-0.00051
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00045
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.266
+0.00003
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00007
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.909
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.723
+0.00018
 </td>
 </tr>
 <tr>
@@ -4293,31 +3429,22 @@ RPC Income Maintenance
 RPC retirement pmt
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+-0.00009
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00010
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.360
+-0.00009
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00008
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+0.00001
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.241
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.844
+0.00005
 </td>
 </tr>
 <tr>
@@ -4325,31 +3452,22 @@ RPC retirement pmt
 ppwm 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--46.09
+-46.09415
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--96.15 – 3.96
+25.49246
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.071
+-20.06362
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--20.06
+19.35218
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--58.06 – 17.93
+-19.96650
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.300
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--19.97
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--47.29 – 7.36
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.152
+13.91711
 </td>
 </tr>
 <tr>
@@ -4357,31 +3475,22 @@ ppwm 1019
 ppbm 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-153.24
+153.23510
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-14.04 – 292.43
+70.89673
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.031</strong>
+-92.84450
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--92.84
+54.92875
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--200.69 – 15.00
+-66.98913
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.091
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--66.99
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--138.78 – 4.80
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.067
+36.56371
 </td>
 </tr>
 <tr>
@@ -4389,31 +3498,22 @@ ppbm 1019
 ppnm 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-93.90
+93.90494
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--126.07 – 313.88
+112.04155
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.402
+339.22359
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-339.22
+94.83101
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-153.04 – 525.41
+15.97890
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>\<0.001</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-15.98
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--88.59 – 120.54
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.764
+53.25833
 </td>
 </tr>
 <tr>
@@ -4421,31 +3521,22 @@ ppnm 1019
 ppwf 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-45.64
+45.63865
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--6.38 – 97.65
+26.49325
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.085
+23.08448
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-23.08
+19.76146
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--15.71 – 61.88
+28.54042
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.243
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-28.54
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-0.45 – 56.64
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.046</strong>
+14.30972
 </td>
 </tr>
 <tr>
@@ -4453,31 +3544,22 @@ ppwf 1019
 ppbf 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--160.60
+-160.60076
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--290.87 – -30.33
+66.34933
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.016</strong>
+69.03437
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-69.03
+52.78925
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--34.61 – 172.68
+50.30884
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.191
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-50.31
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--19.00 – 119.62
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.155
+35.30001
 </td>
 </tr>
 <tr>
@@ -4485,31 +3567,22 @@ ppbf 1019
 ppnf 1019
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--30.98
+-30.97954
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--241.44 – 179.48
+107.19360
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.773
+-321.12420
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--321.12
+94.26434
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--506.20 – -136.05
+-14.41316
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.001</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--14.41
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--116.94 – 88.11
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.783
+52.21817
 </td>
 </tr>
 <tr>
@@ -4517,31 +3590,22 @@ ppnf 1019
 ppwm 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-13.15
+13.14646
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--6.12 – 32.41
+9.81363
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.181
+10.13936
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-10.14
+6.58229
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--2.78 – 23.06
+7.82228
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.124
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-7.82
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--1.24 – 16.88
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.091
+4.61559
 </td>
 </tr>
 <tr>
@@ -4549,31 +3613,22 @@ ppwm 2029
 ppbm 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--108.64
+-108.64436
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--185.57 – -31.72
+39.18157
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.006</strong>
+-37.39903
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--37.40
+26.05299
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--88.55 – 13.75
+-11.51698
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.152
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--11.52
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--47.21 – 24.18
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.527
+18.18037
 </td>
 </tr>
 <tr>
@@ -4581,31 +3636,22 @@ ppbm 2029
 ppnm 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--66.80
+-66.79862
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--238.75 – 105.15
+87.58003
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.446
+-47.16164
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--47.16
+61.34693
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--167.61 – 73.28
+-55.45880
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.442
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--55.46
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--137.96 – 27.04
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.187
+42.02028
 </td>
 </tr>
 <tr>
@@ -4613,31 +3659,22 @@ ppnm 2029
 ppwf 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--20.65
+-20.64922
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--42.70 – 1.40
+11.23226
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.066
+-10.21335
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--10.21
+8.66060
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--27.22 – 6.79
+-8.34130
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.239
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--8.34
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--19.57 – 2.89
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.145
+5.71891
 </td>
 </tr>
 <tr>
@@ -4645,31 +3682,22 @@ ppwf 2029
 ppbf 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-87.85
+87.84627
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-12.01 – 163.68
+38.62514
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.023</strong>
+2.33551
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-2.34
+24.83891
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--46.43 – 51.10
+11.49831
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.925
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-11.50
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--22.66 – 45.66
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.509
+17.39942
 </td>
 </tr>
 <tr>
@@ -4677,31 +3705,22 @@ ppbf 2029
 ppnf 2029
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-74.32
+74.32312
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--74.17 – 222.82
+75.63208
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.326
+37.46533
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-37.47
+54.62251
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--69.78 – 144.71
+41.64650
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.493
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-41.65
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--33.97 – 117.26
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.280
+38.51460
 </td>
 </tr>
 <tr>
@@ -4709,31 +3728,22 @@ ppnf 2029
 ppwm 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-31.89
+31.89024
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--8.15 – 71.93
+20.39472
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.118
+-7.40331
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--7.40
+12.03023
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--31.02 – 16.22
+2.28908
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.538
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-2.29
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--13.13 – 17.71
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.771
+7.85387
 </td>
 </tr>
 <tr>
@@ -4741,31 +3751,22 @@ ppwm 3039
 ppbm 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-246.66
+246.66175
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-142.15 – 351.17
+53.22873
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+79.82247
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-79.82
+37.07784
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-7.03 – 152.62
+48.25933
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.032</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-48.26
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-0.11 – 96.41
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.049</strong>
+24.52558
 </td>
 </tr>
 <tr>
@@ -4773,31 +3774,22 @@ ppbm 3039
 ppnm 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-81.67
+81.66636
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--166.22 – 329.55
+126.25382
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.518
+181.43550
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-181.44
+86.88221
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-10.85 – 352.02
+47.30843
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.037</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-47.31
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--72.23 – 166.85
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.437
+60.88394
 </td>
 </tr>
 <tr>
@@ -4805,31 +3797,22 @@ ppnm 3039
 ppwf 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--48.66
+-48.66394
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--89.34 – -7.99
+20.71838
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.019</strong>
+13.58610
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-13.59
+12.20913
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--10.38 – 37.56
+-2.31026
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.266
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--2.31
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--19.17 – 14.55
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.788
+8.58832
 </td>
 </tr>
 <tr>
@@ -4837,31 +3820,22 @@ ppwf 3039
 ppbf 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--150.76
+-150.76057
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--233.40 – -68.12
+42.09280
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-43.30509
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--43.31
+29.96969
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--102.15 – 15.54
+-49.45516
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.149
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--49.46
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--86.15 – -12.76
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.008</strong>
+18.68868
 </td>
 </tr>
 <tr>
@@ -4869,31 +3843,22 @@ ppbf 3039
 ppnf 3039
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--100.08
+-100.08345
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--328.16 – 127.99
+116.16660
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.389
+-216.15053
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--216.15
+72.43915
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--358.37 – -73.93
+-79.28006
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.003</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--79.28
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--182.26 – 23.70
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.131
+52.45096
 </td>
 </tr>
 <tr>
@@ -4901,31 +3866,22 @@ ppnf 3039
 ppwm 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--40.90
+-40.90035
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--86.59 – 4.79
+23.27252
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.079
+-23.17836
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--23.18
+16.31450
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--55.21 – 8.85
+-25.97802
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.156
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--25.98
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--45.99 – -5.97
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.011</strong>
+10.19319
 </td>
 </tr>
 <tr>
@@ -4933,31 +3889,22 @@ ppwm 4049
 ppbm 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--77.88
+-77.88283
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--228.61 – 72.85
+76.77233
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.311
+71.62376
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-71.62
+60.21805
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--46.61 – 189.85
+119.49553
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.235
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-119.50
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-46.99 – 192.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.001</strong>
+36.92982
 </td>
 </tr>
 <tr>
@@ -4965,31 +3912,22 @@ ppbm 4049
 ppnm 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-95.24
+95.24049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--157.28 – 347.76
+128.61810
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.459
+209.34969
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-209.35
+112.97757
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--12.47 – 431.17
+263.13654
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.064
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-263.14
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-122.62 – 403.65
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>\<0.001</strong>
+71.56761
 </td>
 </tr>
 <tr>
@@ -4997,31 +3935,22 @@ ppnm 4049
 ppwf 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-43.50
+43.49635
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--1.72 – 88.71
+23.02784
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.059
+20.29378
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-20.29
+17.32247
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--13.72 – 54.30
+27.01051
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.242
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-27.01
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-5.53 – 48.49
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.014</strong>
+10.93938
 </td>
 </tr>
 <tr>
@@ -5029,31 +3958,22 @@ ppwf 4049
 ppbf 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-115.93
+115.93464
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--28.04 – 259.91
+73.33194
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.114
+-38.77726
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--38.78
+55.78549
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--148.30 – 70.75
+-46.15076
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.487
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--46.15
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--112.55 – 20.25
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.173
+33.82074
 </td>
 </tr>
 <tr>
@@ -5061,31 +3981,22 @@ ppbf 4049
 ppnf 4049
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-81.80
+81.80461
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--122.90 – 286.51
+104.26295
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.433
+-130.17615
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--130.18
+90.28866
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--307.45 – 47.09
+-169.61036
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.150
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--169.61
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--280.84 – -58.38
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.003</strong>
+56.65296
 </td>
 </tr>
 <tr>
@@ -5093,31 +4004,22 @@ ppnf 4049
 ppwm 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-66.99
+66.99038
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-21.44 – 112.54
+23.19808
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.004</strong>
+-29.69917
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--29.70
+15.79440
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--60.71 – 1.31
+-23.47249
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.060
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--23.47
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--43.03 – -3.91
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.019</strong>
+9.96233
 </td>
 </tr>
 <tr>
@@ -5125,31 +4027,22 @@ ppwm 5064
 ppbm 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--77.95
+-77.94535
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--234.64 – 78.75
+79.80935
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.329
+93.25959
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-93.26
+49.06478
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--3.07 – 189.59
+-65.09301
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.058
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--65.09
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--128.75 – -1.44
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.045</strong>
+32.42082
 </td>
 </tr>
 <tr>
@@ -5157,31 +4050,22 @@ ppbm 5064
 ppnm 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--586.22
+-586.21805
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--850.06 – -322.38
+134.38276
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-214.29213
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--214.29
+103.10869
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--416.73 – -11.85
+-152.70343
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.038</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--152.70
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--269.80 – -35.60
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.011</strong>
+59.64260
 </td>
 </tr>
 <tr>
@@ -5189,31 +4073,22 @@ ppnm 5064
 ppwf 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--83.24
+-83.23505
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--123.57 – -42.90
+20.54166
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+18.24263
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-18.24
+13.90085
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--9.05 – 45.54
+16.03871
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.190
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-16.04
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--1.77 – 33.85
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.077
+9.07141
 </td>
 </tr>
 <tr>
@@ -5221,31 +4096,22 @@ ppwf 5064
 ppbf 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-49.21
+49.21176
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--74.99 – 173.42
+63.26220
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.437
+-39.55054
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--39.55
+39.36026
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--116.83 – 37.73
+41.91545
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.315
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-41.92
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--17.05 – 100.88
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.163
+30.03344
 </td>
 </tr>
 <tr>
@@ -5253,31 +4119,22 @@ ppbf 5064
 ppnf 5064
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-398.34
+398.33515
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-177.56 – 619.11
+112.44550
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+150.69238
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-150.69
+84.71167
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--15.63 – 317.01
+152.52317
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.076
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-152.52
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-55.72 – 249.33
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.002</strong>
+49.30670
 </td>
 </tr>
 <tr>
@@ -5285,31 +4142,22 @@ ppnf 5064
 ppwm 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--125.54
+-125.54156
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--156.18 – -94.91
+15.60336
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+-49.01898
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--49.02
+10.12431
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--68.90 – -29.14
+-31.48280
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>\<0.001</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--31.48
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--45.76 – -17.21
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>\<0.001</strong>
+7.27137
 </td>
 </tr>
 <tr>
@@ -5317,31 +4165,22 @@ ppwm 65 o
 ppbm 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-102.99
+102.98654
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--26.50 – 232.47
+65.95147
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.119
+-59.10490
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--59.10
+44.29815
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--146.08 – 27.87
+31.20937
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.183
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-31.21
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--36.88 – 99.30
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.368
+34.67894
 </td>
 </tr>
 <tr>
@@ -5349,31 +4188,22 @@ ppbm 65 o
 ppnm 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--432.64
+-432.64244
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--929.52 – 64.24
+253.07719
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.088
+-413.53075
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--413.53
+160.18956
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--728.04 – -99.02
+-29.91345
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>0.010</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--29.91
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--223.07 – 163.24
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.761
+98.37817
 </td>
 </tr>
 <tr>
@@ -5381,31 +4211,22 @@ ppnm 65 o
 ppwf 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-84.83
+84.82877
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-63.53 – 106.13
+10.84931
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>\<0.001</strong>
+35.78423
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-35.78
+6.79554
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-22.44 – 49.13
+12.84824
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>\<0.001</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
-12.85
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
-3.02 – 22.67
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.010</strong>
+5.00502
 </td>
 </tr>
 <tr>
@@ -5413,31 +4234,22 @@ ppwf 65 o
 ppbf 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--75.19
+-75.19459
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--168.18 – 17.79
+47.36021
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.113
+-11.18660
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--11.19
+30.79618
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--71.65 – 49.28
+-69.25338
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.717
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--69.25
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--120.16 – -18.35
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>0.008</strong>
+25.92845
 </td>
 </tr>
 <tr>
@@ -5445,31 +4257,22 @@ ppbf 65 o
 ppnf 65 o
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-31.00
+30.99880
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--318.70 – 380.70
+178.11318
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.862
+136.40516
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-136.41
+115.50359
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--90.37 – 363.18
+-94.07776
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.238
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--94.08
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--226.52 – 38.37
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.164
+67.45732
 </td>
 </tr>
 <tr>
@@ -5477,31 +4280,22 @@ ppnf 65 o
 density
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+-0.00057
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – -0.00
+0.00020
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.005</strong>
+-0.00052
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00
+0.00014
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – -0.00
+-0.00052
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-<strong>\<0.001</strong>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – -0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-<strong>\<0.001</strong>
+0.00011
 </td>
 </tr>
 <tr>
@@ -5509,44 +4303,35 @@ density
 popstate
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00 – 0.00
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.006</strong>
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.00 – 0.00
+-0.00000
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col7">
-0.341
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col8">
--0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  col9">
--0.00 – 0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  0">
-0.670
+0.00000
 </td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm; border-top:1px solid;">
 Observations
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="2">
 809
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="2">
 809
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="2">
 808
 </td>
 </tr>
@@ -5554,13 +4339,13 @@ Observations
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
 R<sup>2</sup> / R<sup>2</sup> adjusted
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="2">
 0.961 / 0.955
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="2">
 0.955 / 0.948
 </td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="2">
 0.966 / 0.961
 </td>
 </tr>
