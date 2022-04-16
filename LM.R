@@ -1,4 +1,4 @@
-load.libraries <- c('did', 'tidyverse', 'haven', 'fixest', 'skimr', 'kableExtra', 'stargazer', 'foreign')
+load.libraries <- c('did', 'tidyverse', 'haven', 'fixest', 'skimr', 'kableExtra', 'stargazer', 'foreign', 'sjPlot', 'sjmisc', 'sjlabelled')
 install.lib <- load.libraries[!load.libraries %in% installed.packages()]
 for(libs in install.lib) install.packages(libs, dependences = TRUE)
 sapply(load.libraries, require, character = TRUE)
@@ -219,4 +219,7 @@ for (i in 1:9) {
   regression[[dependent_variable]] <- mdl
 }
 
+tab_model(regression[1:3])
+tab_model(regression[4:6])
+tab_model(regression[7:9])
 
