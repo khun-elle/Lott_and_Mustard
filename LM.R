@@ -250,7 +250,8 @@ data_for_bacon <- LM %>% select(state:shalll, starts_with("log."))
 df_bacon1 <- bacon(log.Violent_Crime_Rate ~ shalll,
                   data = data_for_bacon,
                   id_var = "state",
-                  time_var = "year") %>%   
+                  time_var = "year",
+                  quietly = TRUE) %>%   
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
   summarise(weighted_estimate = sum(weighted_estimate))
@@ -271,7 +272,8 @@ print(paste("Two-way FE estimate =", round(fit_tw1$coefficients[2], 4)))
 df_bacon2 <- bacon(log.Murder_Rate ~ shalll,
                    data = data_for_bacon,
                    id_var = "state",
-                   time_var = "year") %>% 
+                   time_var = "year",
+                   quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
   summarise(weighted_estimate = sum(weighted_estimate)) 
@@ -292,7 +294,8 @@ print(paste("Two-way FE estimate =", round(fit_tw2$coefficients[2], 4)))
 df_bacon3 <- bacon(log.Rape_Rate ~ shalll,
                    data = data_for_bacon,
                    id_var = "state",
-                   time_var = "year") %>% 
+                   time_var = "year",
+                   quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
   summarise(weighted_estimate = sum(weighted_estimate)) 
@@ -313,7 +316,8 @@ print(paste("Two-way FE estimate =", round(fit_tw3$coefficients[2], 4)))
 df_bacon4 <- bacon(log.Aggravate_Assult_Rate ~ shalll,
                    data = data_for_bacon,
                    id_var = "state",
-                   time_var = "year") %>% 
+                   time_var = "year",
+                   quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
   summarise(weighted_estimate = sum(weighted_estimate)) 
@@ -334,7 +338,8 @@ print(paste("Two-way FE estimate =", round(fit_tw4$coefficients[2], 4)))
 df_bacon5 <- bacon(log.Robbery_Rate ~ shalll,
                    data = data_for_bacon,
                    id_var = "state",
-                   time_var = "year") %>% 
+                   time_var = "year",
+                   quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
   summarise(weighted_estimate = sum(weighted_estimate)) 
@@ -355,7 +360,8 @@ print(paste("Two-way FE estimate =", round(fit_tw5$coefficients[2], 4)))
 df_bacon6 <- bacon(log.Property_Crime_Rate ~ shalll,
                    data = data_for_bacon,
                    id_var = "state",
-                   time_var = "year") %>% 
+                   time_var = "year",
+                   quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
   summarise(weighted_estimate = sum(weighted_estimate)) 
@@ -376,7 +382,8 @@ print(paste("Two-way FE estimate =", round(fit_tw6$coefficients[2], 4)))
 df_bacon7 <- bacon(log.Auto_Theft_Rate ~ shalll,
                    data = data_for_bacon,
                    id_var = "state",
-                   time_var = "year") %>% 
+                   time_var = "year",
+                   quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
   summarise(weighted_estimate = sum(weighted_estimate)) 
@@ -397,7 +404,8 @@ print(paste("Two-way FE estimate =", round(fit_tw7$coefficients[2], 4)))
 df_bacon8 <- bacon(log.Burglary_Rate ~ shalll,
                    data = data_for_bacon,
                    id_var = "state",
-                   time_var = "year") %>% 
+                   time_var = "year",
+                   quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
   summarise(weighted_estimate = sum(weighted_estimate)) 
@@ -418,7 +426,8 @@ print(paste("Two-way FE estimate =", round(fit_tw8$coefficients[2], 4)))
 df_bacon9 <- bacon(log.Larceny_Rate ~ shalll,
                    data = data_for_bacon,
                    id_var = "state",
-                   time_var = "year") %>% 
+                   time_var = "year",
+                   quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
   summarise(weighted_estimate = sum(weighted_estimate)) 

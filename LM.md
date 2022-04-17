@@ -4350,13 +4350,6 @@ R<sup>2</sup> / R<sup>2</sup> adjusted
 </td>
 </tr>
 </table>
-
-    ##                       type  weight  avg_est
-    ## 1 Earlier vs Later Treated 0.06838  0.07561
-    ## 2  Later vs Always Treated 0.15894 -0.02812
-    ## 3 Later vs Earlier Treated 0.02339 -0.07645
-    ## 4     Treated vs Untreated 0.74929 -0.11202
-
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 **Bacon Decomposition: Log Violent Crime Rate**
@@ -4410,12 +4403,6 @@ Treated vs Untreated
     ## [1] "Weighted sum of decomposition = -0.085"
 
     ## [1] "Two-way FE estimate = -0.085"
-
-    ##                       type  weight  avg_est
-    ## 1 Earlier vs Later Treated 0.06838  0.07974
-    ## 2  Later vs Always Treated 0.15894 -0.00789
-    ## 3 Later vs Earlier Treated 0.02339  0.00179
-    ## 4     Treated vs Untreated 0.74929 -0.05551
 
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
@@ -4471,12 +4458,6 @@ Treated vs Untreated
 
     ## [1] "Two-way FE estimate = -0.0374"
 
-    ##                       type  weight  avg_est
-    ## 1 Earlier vs Later Treated 0.06838 -0.03864
-    ## 2  Later vs Always Treated 0.15894 -0.19207
-    ## 3 Later vs Earlier Treated 0.02339 -0.08243
-    ## 4     Treated vs Untreated 0.74929  0.00406
-
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 **Bacon Decomposition: Log Rape Rate**
@@ -4530,12 +4511,6 @@ Treated vs Untreated
     ## [1] "Weighted sum of decomposition = -0.0321"
 
     ## [1] "Two-way FE estimate = -0.0321"
-
-    ##                       type  weight  avg_est
-    ## 1 Earlier vs Later Treated 0.06838  0.11645
-    ## 2  Later vs Always Treated 0.15894  0.00612
-    ## 3 Later vs Earlier Treated 0.02339 -0.14717
-    ## 4     Treated vs Untreated 0.74929 -0.18354
 
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
@@ -4591,12 +4566,6 @@ Treated vs Untreated
 
     ## [1] "Two-way FE estimate = -0.132"
 
-    ##                       type  weight  avg_est
-    ## 1 Earlier vs Later Treated 0.06838  0.10775
-    ## 2  Later vs Always Treated 0.15894  0.10999
-    ## 3 Later vs Earlier Treated 0.02339  0.08955
-    ## 4     Treated vs Untreated 0.74929 -0.01341
-
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 **Bacon Decomposition: Log Robbery Rate**
@@ -4650,12 +4619,6 @@ Treated vs Untreated
     ## [1] "Weighted sum of decomposition = 0.0169"
 
     ## [1] "Two-way FE estimate = 0.0169"
-
-    ##                       type  weight  avg_est
-    ## 1 Earlier vs Later Treated 0.06838 -0.01052
-    ## 2  Later vs Always Treated 0.15894  0.05383
-    ## 3 Later vs Earlier Treated 0.02339  0.00644
-    ## 4     Treated vs Untreated 0.74929  0.02810
 
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
@@ -4711,12 +4674,6 @@ Treated vs Untreated
 
     ## [1] "Two-way FE estimate = 0.029"
 
-    ##                       type  weight avg_est
-    ## 1 Earlier vs Later Treated 0.06838 0.08313
-    ## 2  Later vs Always Treated 0.15894 0.21147
-    ## 3 Later vs Earlier Treated 0.02339 0.08680
-    ## 4     Treated vs Untreated 0.74929 0.03507
-
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 **Bacon Decomposition: Log Auto Theft Rate**
@@ -4771,12 +4728,6 @@ Treated vs Untreated
 
     ## [1] "Two-way FE estimate = 0.0676"
 
-    ##                       type  weight  avg_est
-    ## 1 Earlier vs Later Treated 0.06838 -0.03397
-    ## 2  Later vs Always Treated 0.15894  0.03046
-    ## 3 Later vs Earlier Treated 0.02339 -0.05563
-    ## 4     Treated vs Untreated 0.74929  0.00858
-
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 **Bacon Decomposition: Log Burglary Rate**
@@ -4830,12 +4781,6 @@ Treated vs Untreated
     ## [1] "Weighted sum of decomposition = 0.0076"
 
     ## [1] "Two-way FE estimate = 0.0076"
-
-    ##                       type  weight  avg_est
-    ## 1 Earlier vs Later Treated 0.06838 -0.00608
-    ## 2  Later vs Always Treated 0.15894  0.05034
-    ## 3 Later vs Earlier Treated 0.02339  0.02077
-    ## 4     Treated vs Untreated 0.74929  0.03746
 
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
