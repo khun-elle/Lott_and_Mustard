@@ -1,4 +1,4 @@
-load.libraries <- c('did', 'tidyverse', 'haven', 'fixest', 'skimr', 'kableExtra', 'stargazer', 'foreign', 'sjPlot', 'sjmisc', 'sjlabelled')
+load.libraries <- c('did', 'tidyverse', 'haven', 'fixest', 'skimr', 'kableExtra', 'stargazer', 'foreign', 'sjPlot', 'sjmisc', 'sjlabelled', 'bacondecomp')
 install.lib <- load.libraries[!load.libraries %in% installed.packages()]
 for(libs in install.lib) install.packages(libs, dependences = TRUE)
 sapply(load.libraries, require, character = TRUE)
@@ -219,11 +219,221 @@ for (i in 1:9) {
   regression[[dependent_variable]] <- mdl
 }
 
-tab_model(regression[1:3], show.ci = FALSE, show.se = TRUE, show.p = FALSE, digits = 5)
+tab_model(regression[1:3], 
+          show.ci = FALSE, 
+          show.se = TRUE, 
+          show.p = FALSE,
+          show.intercept = TRUE,
+          digits = 5,
+          dv.labels = c("Log Violent Crime Rate", "Log Murder Rate", "Log Rape Rate"))
 
-library(memisc)
-tab_model(regression[4:6], collapse.ci = TRUE)
-memisc::mtable("Model 4"=regression[4],"Model 5"=regression[5],"Model 6"=regression[6],summary.stats=c("R-squared","N"))
+tab_model(regression[4:6], 
+          show.ci = FALSE, 
+          show.se = TRUE, 
+          show.p = FALSE, 
+          show.intercept = TRUE,
+          digits = 5,
+          dv.labels = c("Log Aggravate Assult Rate", "Log Robbery Rate", "Log Property Crime Rate"))
 
-tab_model(regression[7:9], collapse.ci = TRUE)
+tab_model(regression[7:9], 
+          show.ci = FALSE, 
+          show.se = TRUE, 
+          show.p = FALSE, 
+          show.intercept = TRUE,
+          digits = 5,
+          dv.labels = c("Log Auto Theft Rate", "Log Burglary Rate", "Log Larceny Rate"))
+
+#Bacon Decomposition without controls
+data_for_bacon <- LM %>% select(state:shalll, starts_with("log."))
+
+#when y = log.Violent_Crime_Rate
+df_bacon1 <- bacon(log.Violent_Crime_Rate ~ shalll,
+                  data = data_for_bacon,
+                  id_var = "state",
+                  time_var = "year") %>%   
+  mutate(weighted_estimate = estimate * weight) %>% 
+  group_by(type) %>%
+  summarise(weighted_estimate = sum(weighted_estimate))
+
+kbl(df_bacon1, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Violent Crime Rate**", format_caption = c("italic", "underline")) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+coef_bacon1 <- sum(df_bacon1$weighted_estimate)
+
+print(paste("Weighted sum of decomposition =", round(coef_bacon1, 4)))
+
+fit_tw1 <- lm(log.Violent_Crime_Rate ~ shalll + factor(state) + factor(year),
+             data = data_for_bacon)
+
+print(paste("Two-way FE estimate =", round(fit_tw1$coefficients[2], 4)))
+
+#when y = log.Murder_Rate
+df_bacon2 <- bacon(log.Murder_Rate ~ shalll,
+                   data = data_for_bacon,
+                   id_var = "state",
+                   time_var = "year") %>% 
+  mutate(weighted_estimate = estimate * weight) %>% 
+  group_by(type) %>%
+  summarise(weighted_estimate = sum(weighted_estimate)) 
+
+kbl(df_bacon2, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Murder Rate**", format_caption = c("italic", "underline")) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+coef_bacon2 <- sum(df_bacon2$weighted_estimate)
+
+print(paste("Weighted sum of decomposition =", round(coef_bacon2, 4)))
+
+fit_tw2 <- lm(log.Murder_Rate ~ shalll + factor(state) + factor(year), 
+              data = data_for_bacon)
+
+print(paste("Two-way FE estimate =", round(fit_tw2$coefficients[2], 4)))
+
+#when y = log.Rape_Rate
+df_bacon3 <- bacon(log.Rape_Rate ~ shalll,
+                   data = data_for_bacon,
+                   id_var = "state",
+                   time_var = "year") %>% 
+  mutate(weighted_estimate = estimate * weight) %>% 
+  group_by(type) %>%
+  summarise(weighted_estimate = sum(weighted_estimate)) 
+
+kbl(df_bacon3, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Rape Rate**", format_caption = c("italic", "underline")) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+coef_bacon3 <- sum(df_bacon3$weighted_estimate)
+
+print(paste("Weighted sum of decomposition =", round(coef_bacon3, 4)))
+
+fit_tw3 <- lm(log.Rape_Rate ~ shalll + factor(state) + factor(year), 
+              data = data_for_bacon)
+
+print(paste("Two-way FE estimate =", round(fit_tw3$coefficients[2], 4)))
+
+#when y = log.Aggravate_Assult_Rate
+df_bacon4 <- bacon(log.Aggravate_Assult_Rate ~ shalll,
+                   data = data_for_bacon,
+                   id_var = "state",
+                   time_var = "year") %>% 
+  mutate(weighted_estimate = estimate * weight) %>% 
+  group_by(type) %>%
+  summarise(weighted_estimate = sum(weighted_estimate)) 
+
+kbl(df_bacon4, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Aggravate Assault Rate**", format_caption = c("italic", "underline")) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+coef_bacon4 <- sum(df_bacon4$weighted_estimate)
+
+print(paste("Weighted sum of decomposition =", round(coef_bacon4, 4)))
+
+fit_tw4 <- lm(log.Aggravate_Assult_Rate ~ shalll + factor(state) + factor(year), 
+              data = data_for_bacon)
+
+print(paste("Two-way FE estimate =", round(fit_tw4$coefficients[2], 4)))
+
+#when y = log.Robbery_Rate
+df_bacon5 <- bacon(log.Robbery_Rate ~ shalll,
+                   data = data_for_bacon,
+                   id_var = "state",
+                   time_var = "year") %>% 
+  mutate(weighted_estimate = estimate * weight) %>% 
+  group_by(type) %>%
+  summarise(weighted_estimate = sum(weighted_estimate)) 
+
+kbl(df_bacon5, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Robbery Rate**", format_caption = c("italic", "underline")) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+coef_bacon5 <- sum(df_bacon5$weighted_estimate)
+
+print(paste("Weighted sum of decomposition =", round(coef_bacon5, 4)))
+
+fit_tw5 <- lm(log.Robbery_Rate ~ shalll + factor(state) + factor(year), 
+              data = data_for_bacon)
+
+print(paste("Two-way FE estimate =", round(fit_tw5$coefficients[2], 4)))
+
+#when y = log.Property_Crime_Rate
+df_bacon6 <- bacon(log.Property_Crime_Rate ~ shalll,
+                   data = data_for_bacon,
+                   id_var = "state",
+                   time_var = "year") %>% 
+  mutate(weighted_estimate = estimate * weight) %>% 
+  group_by(type) %>%
+  summarise(weighted_estimate = sum(weighted_estimate)) 
+
+kbl(df_bacon6, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Property Crime Rate**", format_caption = c("italic", "underline")) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+coef_bacon6 <- sum(df_bacon6$weighted_estimate)
+
+print(paste("Weighted sum of decomposition =", round(coef_bacon6, 4)))
+
+fit_tw6 <- lm(log.Property_Crime_Rate ~ shalll + factor(state) + factor(year), 
+              data = data_for_bacon)
+
+print(paste("Two-way FE estimate =", round(fit_tw6$coefficients[2], 4)))
+
+#when y = log.Auto_Theft_Rate
+df_bacon7 <- bacon(log.Auto_Theft_Rate ~ shalll,
+                   data = data_for_bacon,
+                   id_var = "state",
+                   time_var = "year") %>% 
+  mutate(weighted_estimate = estimate * weight) %>% 
+  group_by(type) %>%
+  summarise(weighted_estimate = sum(weighted_estimate)) 
+
+kbl(df_bacon7, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Auto Theft Rate**", format_caption = c("italic", "underline")) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+coef_bacon7 <- sum(df_bacon7$weighted_estimate)
+
+print(paste("Weighted sum of decomposition =", round(coef_bacon7, 4)))
+
+fit_tw7 <- lm(log.Auto_Theft_Rate ~ shalll + factor(state) + factor(year), 
+              data = data_for_bacon)
+
+print(paste("Two-way FE estimate =", round(fit_tw7$coefficients[2], 4)))
+
+#when y = log.Burglary_Rate
+df_bacon8 <- bacon(log.Burglary_Rate ~ shalll,
+                   data = data_for_bacon,
+                   id_var = "state",
+                   time_var = "year") %>% 
+  mutate(weighted_estimate = estimate * weight) %>% 
+  group_by(type) %>%
+  summarise(weighted_estimate = sum(weighted_estimate)) 
+
+kbl(df_bacon8, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Burglary Rate**", format_caption = c("italic", "underline")) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+coef_bacon8 <- sum(df_bacon8$weighted_estimate)
+
+print(paste("Weighted sum of decomposition =", round(coef_bacon8, 4)))
+
+fit_tw8 <- lm(log.Burglary_Rate ~ shalll + factor(state) + factor(year), 
+              data = data_for_bacon)
+
+print(paste("Two-way FE estimate =", round(fit_tw8$coefficients[2], 4)))
+
+#when y = log.Larceny_Rate
+df_bacon9 <- bacon(log.Larceny_Rate ~ shalll,
+                   data = data_for_bacon,
+                   id_var = "state",
+                   time_var = "year") %>% 
+  mutate(weighted_estimate = estimate * weight) %>% 
+  group_by(type) %>%
+  summarise(weighted_estimate = sum(weighted_estimate)) 
+
+kbl(df_bacon1, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Larceny Rate**", format_caption = c("italic", "underline")) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
+coef_bacon9 <- sum(df_bacon9$weighted_estimate)
+
+print(paste("Weighted sum of decomposition =", round(coef_bacon9, 4)))
+
+fit_tw9 <- lm(log.Larceny_Rate ~ shalll + factor(state) + factor(year), 
+              data = data_for_bacon)
+
+print(paste("Two-way FE estimate =", round(fit_tw9$coefficients[2], 4)))
+
+###
 

@@ -1119,13 +1119,13 @@ Other Female Over 65
  
 </th>
 <th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
-log Violent Crime Rate
+Log Violent Crime Rate
 </th>
 <th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
-log Murder Rate
+Log Murder Rate
 </th>
 <th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
-log Rape Rate
+Log Rape Rate
 </th>
 </tr>
 <tr>
@@ -2198,13 +2198,13 @@ R<sup>2</sup> / R<sup>2</sup> adjusted
  
 </th>
 <th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
-log Aggravate Assult Rate
+Log Aggravate Assult Rate
 </th>
 <th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
-log Robbery Rate
+Log Robbery Rate
 </th>
 <th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
-log Property Crime Rate
+Log Property Crime Rate
 </th>
 </tr>
 <tr>
@@ -3277,13 +3277,13 @@ R<sup>2</sup> / R<sup>2</sup> adjusted
  
 </th>
 <th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
-log Auto Theft Rate
+Log Auto Theft Rate
 </th>
 <th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
-log Burglary Rate
+Log Burglary Rate
 </th>
 <th colspan="2" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
-log Larceny Rate
+Log Larceny Rate
 </th>
 </tr>
 <tr>
@@ -4350,3 +4350,543 @@ R<sup>2</sup> / R<sup>2</sup> adjusted
 </td>
 </tr>
 </table>
+
+    ##                       type  weight  avg_est
+    ## 1 Earlier vs Later Treated 0.06838  0.07561
+    ## 2  Later vs Always Treated 0.15894 -0.02812
+    ## 3 Later vs Earlier Treated 0.02339 -0.07645
+    ## 4     Treated vs Untreated 0.74929 -0.11202
+
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+**Bacon Decomposition: Log Violent Crime Rate**
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Type
+</th>
+<th style="text-align:right;">
+Weighted Estimate
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Earlier vs Later Treated
+</td>
+<td style="text-align:right;">
+0.0051705
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Always Treated
+</td>
+<td style="text-align:right;">
+-0.0044690
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Earlier Treated
+</td>
+<td style="text-align:right;">
+-0.0017883
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Treated vs Untreated
+</td>
+<td style="text-align:right;">
+-0.0839315
+</td>
+</tr>
+</tbody>
+</table>
+
+    ## [1] "Weighted sum of decomposition = -0.085"
+
+    ## [1] "Two-way FE estimate = -0.085"
+
+    ##                       type  weight  avg_est
+    ## 1 Earlier vs Later Treated 0.06838  0.07974
+    ## 2  Later vs Always Treated 0.15894 -0.00789
+    ## 3 Later vs Earlier Treated 0.02339  0.00179
+    ## 4     Treated vs Untreated 0.74929 -0.05551
+
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+**Bacon Decomposition: Log Murder Rate**
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Type
+</th>
+<th style="text-align:right;">
+Weighted Estimate
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Earlier vs Later Treated
+</td>
+<td style="text-align:right;">
+0.0054525
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Always Treated
+</td>
+<td style="text-align:right;">
+-0.0012542
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Earlier Treated
+</td>
+<td style="text-align:right;">
+0.0000418
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Treated vs Untreated
+</td>
+<td style="text-align:right;">
+-0.0415959
+</td>
+</tr>
+</tbody>
+</table>
+
+    ## [1] "Weighted sum of decomposition = -0.0374"
+
+    ## [1] "Two-way FE estimate = -0.0374"
+
+    ##                       type  weight  avg_est
+    ## 1 Earlier vs Later Treated 0.06838 -0.03864
+    ## 2  Later vs Always Treated 0.15894 -0.19207
+    ## 3 Later vs Earlier Treated 0.02339 -0.08243
+    ## 4     Treated vs Untreated 0.74929  0.00406
+
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+**Bacon Decomposition: Log Rape Rate**
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Type
+</th>
+<th style="text-align:right;">
+Weighted Estimate
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Earlier vs Later Treated
+</td>
+<td style="text-align:right;">
+-0.0026425
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Always Treated
+</td>
+<td style="text-align:right;">
+-0.0305273
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Earlier Treated
+</td>
+<td style="text-align:right;">
+-0.0019283
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Treated vs Untreated
+</td>
+<td style="text-align:right;">
+0.0030423
+</td>
+</tr>
+</tbody>
+</table>
+
+    ## [1] "Weighted sum of decomposition = -0.0321"
+
+    ## [1] "Two-way FE estimate = -0.0321"
+
+    ##                       type  weight  avg_est
+    ## 1 Earlier vs Later Treated 0.06838  0.11645
+    ## 2  Later vs Always Treated 0.15894  0.00612
+    ## 3 Later vs Earlier Treated 0.02339 -0.14717
+    ## 4     Treated vs Untreated 0.74929 -0.18354
+
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+**Bacon Decomposition: Log Aggravate Assault Rate**
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Type
+</th>
+<th style="text-align:right;">
+Weighted Estimate
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Earlier vs Later Treated
+</td>
+<td style="text-align:right;">
+0.0079628
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.0009728
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Earlier Treated
+</td>
+<td style="text-align:right;">
+-0.0034427
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Treated vs Untreated
+</td>
+<td style="text-align:right;">
+-0.1375213
+</td>
+</tr>
+</tbody>
+</table>
+
+    ## [1] "Weighted sum of decomposition = -0.132"
+
+    ## [1] "Two-way FE estimate = -0.132"
+
+    ##                       type  weight  avg_est
+    ## 1 Earlier vs Later Treated 0.06838  0.10775
+    ## 2  Later vs Always Treated 0.15894  0.10999
+    ## 3 Later vs Earlier Treated 0.02339  0.08955
+    ## 4     Treated vs Untreated 0.74929 -0.01341
+
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+**Bacon Decomposition: Log Robbery Rate**
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Type
+</th>
+<th style="text-align:right;">
+Weighted Estimate
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Earlier vs Later Treated
+</td>
+<td style="text-align:right;">
+0.0073682
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.0174822
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Earlier Treated
+</td>
+<td style="text-align:right;">
+0.0020947
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Treated vs Untreated
+</td>
+<td style="text-align:right;">
+-0.0100514
+</td>
+</tr>
+</tbody>
+</table>
+
+    ## [1] "Weighted sum of decomposition = 0.0169"
+
+    ## [1] "Two-way FE estimate = 0.0169"
+
+    ##                       type  weight  avg_est
+    ## 1 Earlier vs Later Treated 0.06838 -0.01052
+    ## 2  Later vs Always Treated 0.15894  0.05383
+    ## 3 Later vs Earlier Treated 0.02339  0.00644
+    ## 4     Treated vs Untreated 0.74929  0.02810
+
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+**Bacon Decomposition: Log Property Crime Rate**
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Type
+</th>
+<th style="text-align:right;">
+Weighted Estimate
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Earlier vs Later Treated
+</td>
+<td style="text-align:right;">
+-0.0007191
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.0085564
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Earlier Treated
+</td>
+<td style="text-align:right;">
+0.0001507
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Treated vs Untreated
+</td>
+<td style="text-align:right;">
+0.0210569
+</td>
+</tr>
+</tbody>
+</table>
+
+    ## [1] "Weighted sum of decomposition = 0.029"
+
+    ## [1] "Two-way FE estimate = 0.029"
+
+    ##                       type  weight avg_est
+    ## 1 Earlier vs Later Treated 0.06838 0.08313
+    ## 2  Later vs Always Treated 0.15894 0.21147
+    ## 3 Later vs Earlier Treated 0.02339 0.08680
+    ## 4     Treated vs Untreated 0.74929 0.03507
+
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+**Bacon Decomposition: Log Auto Theft Rate**
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Type
+</th>
+<th style="text-align:right;">
+Weighted Estimate
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Earlier vs Later Treated
+</td>
+<td style="text-align:right;">
+0.0056843
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.0336117
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Earlier Treated
+</td>
+<td style="text-align:right;">
+0.0020305
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Treated vs Untreated
+</td>
+<td style="text-align:right;">
+0.0262756
+</td>
+</tr>
+</tbody>
+</table>
+
+    ## [1] "Weighted sum of decomposition = 0.0676"
+
+    ## [1] "Two-way FE estimate = 0.0676"
+
+    ##                       type  weight  avg_est
+    ## 1 Earlier vs Later Treated 0.06838 -0.03397
+    ## 2  Later vs Always Treated 0.15894  0.03046
+    ## 3 Later vs Earlier Treated 0.02339 -0.05563
+    ## 4     Treated vs Untreated 0.74929  0.00858
+
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+**Bacon Decomposition: Log Burglary Rate**
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Type
+</th>
+<th style="text-align:right;">
+Weighted Estimate
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Earlier vs Later Treated
+</td>
+<td style="text-align:right;">
+-0.0023226
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.0048413
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Earlier Treated
+</td>
+<td style="text-align:right;">
+-0.0013013
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Treated vs Untreated
+</td>
+<td style="text-align:right;">
+0.0064291
+</td>
+</tr>
+</tbody>
+</table>
+
+    ## [1] "Weighted sum of decomposition = 0.0076"
+
+    ## [1] "Two-way FE estimate = 0.0076"
+
+    ##                       type  weight  avg_est
+    ## 1 Earlier vs Later Treated 0.06838 -0.00608
+    ## 2  Later vs Always Treated 0.15894  0.05034
+    ## 3 Later vs Earlier Treated 0.02339  0.02077
+    ## 4     Treated vs Untreated 0.74929  0.03746
+
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+**Bacon Decomposition: Log Larceny Rate**
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Type
+</th>
+<th style="text-align:right;">
+Weighted Estimate
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Earlier vs Later Treated
+</td>
+<td style="text-align:right;">
+0.0051705
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Always Treated
+</td>
+<td style="text-align:right;">
+-0.0044690
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Later vs Earlier Treated
+</td>
+<td style="text-align:right;">
+-0.0017883
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Treated vs Untreated
+</td>
+<td style="text-align:right;">
+-0.0839315
+</td>
+</tr>
+</tbody>
+</table>
+
+    ## [1] "Weighted sum of decomposition = 0.0361"
+
+    ## [1] "Two-way FE estimate = 0.0361"
