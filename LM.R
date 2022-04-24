@@ -42,6 +42,19 @@ LM <- StateLevelData %>% select(fipsstat:year,
                 .names = "{.fn}.{.col}")) %>% 
   select(-c(starts_with("yr"), ends_with("rr"))) %>% as_tibble()
 
+#rollout
+rollout <- LM %>% 
+  select(state:shalll) %>% 
+  mutate(yearXshalll = year * shalll) %>% 
+  group_by(state) 
+
+rollout <- rollout[rollout$shalll != 0, ] 
+rollout <- rollout[match(unique(rollout$state), rollout$state),]  %>% 
+  select(state, yearXshalll) %>% 
+  rename(year_first_treated = yearXshalll) %>% 
+  as_tibble() %>% 
+  arrange(year_first_treated)
+
 #table 1
 stats <- list(
   mean = ~mean(.x, na.rm = TRUE),
@@ -119,7 +132,7 @@ t2 <- t2 %>% mutate(Stats = str_replace_all(Stats, "_", " "),
 row.names(t2) <- NULL
 
 t2 %>% 
-  kbl(caption = "Table 2",
+  kbl(caption = "Table 2: Summary Statistics for Various Crime Outcomes and Demographics Variables",
       col.names = c("Variable",
                     "Obs",
                     "Mean",
@@ -254,9 +267,12 @@ df_bacon1 <- bacon(log.Violent_Crime_Rate ~ shalll,
                   quietly = TRUE) %>%   
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
-  summarise(weighted_estimate = sum(weighted_estimate))
+  summarise(weights = sum(weight),
+            average_DID_estimate = mean(estimate),
+            weighted_estimate = sum(weighted_estimate))
+            
 
-kbl(df_bacon1, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Violent Crime Rate**", format_caption = c("italic", "underline")) %>%
+kbl(df_bacon1, col.names = c("Type", "Weights", "Average DID Estimate", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Violent Crime Rate**", format_caption = c("italic", "underline")) %>%
   kable_styling(bootstrap_options = "striped", full_width = F)
 
 coef_bacon1 <- sum(df_bacon1$weighted_estimate)
@@ -276,9 +292,11 @@ df_bacon2 <- bacon(log.Murder_Rate ~ shalll,
                    quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
-  summarise(weighted_estimate = sum(weighted_estimate)) 
+  summarise(weights = sum(weight),
+            average_DID_estimate = mean(estimate),
+            weighted_estimate = sum(weighted_estimate))
 
-kbl(df_bacon2, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Murder Rate**", format_caption = c("italic", "underline")) %>%
+kbl(df_bacon2, col.names = c("Type", "Weights", "Average DID Estimate", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Murder Rate**", format_caption = c("italic", "underline")) %>%
   kable_styling(bootstrap_options = "striped", full_width = F)
 
 coef_bacon2 <- sum(df_bacon2$weighted_estimate)
@@ -298,9 +316,11 @@ df_bacon3 <- bacon(log.Rape_Rate ~ shalll,
                    quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
-  summarise(weighted_estimate = sum(weighted_estimate)) 
+  summarise(weights = sum(weight),
+            average_DID_estimate = mean(estimate),
+            weighted_estimate = sum(weighted_estimate))
 
-kbl(df_bacon3, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Rape Rate**", format_caption = c("italic", "underline")) %>%
+kbl(df_bacon3, col.names = c("Type", "Weights", "Average DID Estimate", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Rape Rate**", format_caption = c("italic", "underline")) %>%
   kable_styling(bootstrap_options = "striped", full_width = F)
 
 coef_bacon3 <- sum(df_bacon3$weighted_estimate)
@@ -320,9 +340,11 @@ df_bacon4 <- bacon(log.Aggravate_Assult_Rate ~ shalll,
                    quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
-  summarise(weighted_estimate = sum(weighted_estimate)) 
+  summarise(weights = sum(weight),
+            average_DID_estimate = mean(estimate),
+            weighted_estimate = sum(weighted_estimate))
 
-kbl(df_bacon4, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Aggravate Assault Rate**", format_caption = c("italic", "underline")) %>%
+kbl(df_bacon4, col.names = c("Type", "Weights", "Average DID Estimate", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Aggravate Assault Rate**", format_caption = c("italic", "underline")) %>%
   kable_styling(bootstrap_options = "striped", full_width = F)
 
 coef_bacon4 <- sum(df_bacon4$weighted_estimate)
@@ -342,9 +364,11 @@ df_bacon5 <- bacon(log.Robbery_Rate ~ shalll,
                    quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
-  summarise(weighted_estimate = sum(weighted_estimate)) 
+  summarise(weights = sum(weight),
+            average_DID_estimate = mean(estimate),
+            weighted_estimate = sum(weighted_estimate))
 
-kbl(df_bacon5, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Robbery Rate**", format_caption = c("italic", "underline")) %>%
+kbl(df_bacon5, col.names = c("Type", "Weights", "Average DID Estimate", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Robbery Rate**", format_caption = c("italic", "underline")) %>%
   kable_styling(bootstrap_options = "striped", full_width = F)
 
 coef_bacon5 <- sum(df_bacon5$weighted_estimate)
@@ -364,9 +388,11 @@ df_bacon6 <- bacon(log.Property_Crime_Rate ~ shalll,
                    quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
-  summarise(weighted_estimate = sum(weighted_estimate)) 
+  summarise(weights = sum(weight),
+            average_DID_estimate = mean(estimate),
+            weighted_estimate = sum(weighted_estimate))
 
-kbl(df_bacon6, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Property Crime Rate**", format_caption = c("italic", "underline")) %>%
+kbl(df_bacon6, col.names = c("Type", "Weights", "Average DID Estimate", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Property Crime Rate**", format_caption = c("italic", "underline")) %>%
   kable_styling(bootstrap_options = "striped", full_width = F)
 
 coef_bacon6 <- sum(df_bacon6$weighted_estimate)
@@ -386,9 +412,11 @@ df_bacon7 <- bacon(log.Auto_Theft_Rate ~ shalll,
                    quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
-  summarise(weighted_estimate = sum(weighted_estimate)) 
+  summarise(weights = sum(weight),
+            average_DID_estimate = mean(estimate),
+            weighted_estimate = sum(weighted_estimate)) 
 
-kbl(df_bacon7, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Auto Theft Rate**", format_caption = c("italic", "underline")) %>%
+kbl(df_bacon7, col.names = c("Type", "Weights", "Average DID Estimate", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Auto Theft Rate**", format_caption = c("italic", "underline")) %>%
   kable_styling(bootstrap_options = "striped", full_width = F)
 
 coef_bacon7 <- sum(df_bacon7$weighted_estimate)
@@ -408,9 +436,11 @@ df_bacon8 <- bacon(log.Burglary_Rate ~ shalll,
                    quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
-  summarise(weighted_estimate = sum(weighted_estimate)) 
+  summarise(weights = sum(weight),
+            average_DID_estimate = mean(estimate),
+            weighted_estimate = sum(weighted_estimate)) 
 
-kbl(df_bacon8, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Burglary Rate**", format_caption = c("italic", "underline")) %>%
+kbl(df_bacon8, col.names = c("Type", "Weights", "Average DID Estimate", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Burglary Rate**", format_caption = c("italic", "underline")) %>%
   kable_styling(bootstrap_options = "striped", full_width = F)
 
 coef_bacon8 <- sum(df_bacon8$weighted_estimate)
@@ -430,9 +460,11 @@ df_bacon9 <- bacon(log.Larceny_Rate ~ shalll,
                    quietly = TRUE) %>% 
   mutate(weighted_estimate = estimate * weight) %>% 
   group_by(type) %>%
-  summarise(weighted_estimate = sum(weighted_estimate)) 
+  summarise(weights = sum(weight),
+            average_DID_estimate = mean(estimate),
+            weighted_estimate = sum(weighted_estimate))
 
-kbl(df_bacon1, col.names = c("Type", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Larceny Rate**", format_caption = c("italic", "underline")) %>%
+kbl(df_bacon1, col.names = c("Type", "Weights", "Average DID Estimate", "Weighted Estimate"), caption = "**Bacon Decomposition: Log Larceny Rate**", format_caption = c("italic", "underline")) %>%
   kable_styling(bootstrap_options = "striped", full_width = F)
 
 coef_bacon9 <- sum(df_bacon9$weighted_estimate)
@@ -444,5 +476,82 @@ fit_tw9 <- lm(log.Larceny_Rate ~ shalll + factor(state) + factor(year),
 
 print(paste("Two-way FE estimate =", round(fit_tw9$coefficients[2], 4)))
 
-###
+#Callaway & Sant'anna
+cs_data <- LM %>% select(fipsstat:shalll,
+                         starts_with("log."),
+                         starts_with("Arrest_Rate_")) %>% 
+  group_by(fipsstat) %>% 
+  mutate(treated = ifelse(sum(shalll) > 0, 1, 0)) %>% 
+  ungroup() 
+
+year_treated_for_each_state <- cs_data %>% 
+  select(fipsstat:shalll) %>% 
+  mutate(is_treated = year * shalll) %>% 
+  group_by(fipsstat, shalll) %>% 
+  summarise(year_treated = min(is_treated)) %>% 
+  ungroup() 
+
+year_treated_for_each_state <- year_treated_for_each_state[year_treated_for_each_state$shalll != 0, ] 
+
+cs_data <- merge(x = cs_data, y = year_treated_for_each_state, by = "fipsstat", all.x = TRUE)
+
+cs_data[is.na(cs_data)] = 0
+
+cs_data <- cs_data[ , -which(names(cs_data) %in% c("state.y", "year.y", "shalll.y", "shalll.x", "treated", "shalll.x.1", "year_treated.y", "year_treated.x"))]
+
+cs_data <- cs_data %>% select(fipsstat:year,
+                              year_treated,
+                              starts_with("log."),
+                              Arrest_Rate_for_Violent_Crime,
+                              Arrest_Rate_for_Murder,
+                              Arrest_Rate_for_Rape,
+                              Arrest_Rate_for_Aggravated_Assault,
+                              Arrest_Rate_for_Robbery,
+                              Arrest_Rate_for_Property_Crimes,
+                              Arrest_Rate_for_Auto_Theft,
+                              Arrest_Rate_for_Burglary,
+                              Arrest_Rate_for_Larceny)
+
+# objects <- c("cs_type_group", "cs_type_dynamic", "sa")
+# 
+# objectlist <- setNames(vector(length(objects), mode="list"), objects)
+
+l1 <- c()
+l2 <- c()
+l3 <- c()
+
+dependent_vars <- cs_data %>% select(starts_with("log.")) %>% names()
+independent_vars <- cs_data %>% select(starts_with("Arrest_Rate_")) %>% names()
+
+for (n in 1:9){
+  y <- dependent_vars[n]
+  x <- independent_vars[n]
+  rhs <- as.formula(paste('~', x))
+  atts <- att_gt(yname = y, # LHS variable
+                 tname = 'year', # panel time variable
+                 idname = 'fipsstat', # firms' panel id variable
+                 gname = 'year_treated', 
+                 data = cs_data, # data
+                 xformla = rhs,
+                 est_method = "dr",
+                 control_group = "notyettreated",
+                 bstrap = TRUE, # if TRUE compute bootstrapped SE
+                 biters = 1000, # number of bootstrap iterations
+                 print_details = FALSE, # if TRUE, print detailed results
+                 clustervars = 'fipsstat', # cluster level
+                 panel = TRUE)
+  agg_effects <- aggte(atts, type = "group", balance_e = TRUE, na.rm = TRUE)
+  # summary(agg_effects)
+  l1 <- c(l1, agg_effects)
+  l2 <- c(l2, c(agg_effects$overall.att, agg_effects$overall.se))
+  
+  sun_abbraham <- paste(y, '~', x, " + sunab(year_treated, year) | fipsstat + year") %>% 
+    as.formula()
+  sun_abbraham_reg <- feols(fml = sun_abbraham, data = cs_data)
+  l3 <- c(l3, sun_abbraham_reg)
+}
+
+
+
+
 
