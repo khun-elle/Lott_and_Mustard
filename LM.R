@@ -542,22 +542,35 @@ for (n in 1:9){
                  panel = TRUE)
   agg_effects <- aggte(atts, type = "group", balance_e = TRUE, na.rm = TRUE)
   # summary(agg_effects)
-  l1 <- c(l1, agg_effects)
-  l2 <- c(l2, c(agg_effects$overall.att, agg_effects$overall.se))
+  # l1 <- c(l1, agg_effects)
+  # l2 <- c(l2, c(agg_effects$overall.att, agg_effects$overall.se))
+  l1[[y]] <- agg_effects
+  l2[[y]] <- c(agg_effects$overall.att, agg_effects$overall.se)
   
   sun_abbraham <- paste(y, '~', x, " + sunab(year_treated, year) | fipsstat + year") %>%
     as.formula()
   sun_abbraham_reg <- feols(fml = sun_abbraham, data = cs_data)
-  l3 <- c(l3, sun_abbraham_reg)
+  # l3 <- c(l3, sun_abbraham_reg)
+  l3[[y]] <- sun_abbraham_reg
 }
 
-l2 <- l2 %>% as.data.frame()
-l2_estimates <- l2[seq(1, nrow(l2), 2), ] %>% as.data.frame()
-l2_se <- l2[seq(2, nrow(l2), 2), ] %>% as.data.frame()
+l2 <- l2 %>% as.data.frame() %>%t() 
 
-types_of_crimes <- dependent_vars %>% as.data.frame()
-cs_table <- cbind(types_of_crimes, l2_estimates, l2_se)
+# l2_estimates <- l2[seq(1, nrow(l2), 2), ] %>% as.data.frame()
+# l2_se <- l2[seq(2, nrow(l2), 2), ] %>% as.data.frame()
+# types_of_crimes <- dependent_vars %>% as.data.frame()
+# cs_table <- cbind(types_of_crimes, l2_estimates, l2_se)
 
-kable(cs_table, col.names = c("Types of Crimes", "Overall ATTs", "Overall SEs"), caption = "**Table 4 Callaway and Sant’anna Overall ATTs and Standard Errors**", format_caption = c("italic", "underline")) %>%
+kable(l2, col.names = c("Overall ATTs", "Overall SEs"), caption = "**Table 4 Callaway and Sant’anna Overall ATTs and Standard Errors**", format_caption = c("italic", "underline")) %>%
   kable_styling(bootstrap_options = "striped", full_width = F)
+
+# Sun and Abraham event study
+for (i in 1:9) {
+  y <- dependent_vars[i]
+  file_name <- paste0(y, ".jpeg")
+  jpeg(filename = file_name, width = 700, height = 350)
+  iplot(l3[[y]], ref.line = -1, main = "")
+  dev.off()
+}
+
 
