@@ -229,7 +229,8 @@ Arrest Rate for Violent Crimes
 </table>
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>
-Table 2
+Table 2: Summary Statistics for Various Crime Outcomes and Demographics
+Variables
 </caption>
 <thead>
 <tr>
@@ -1113,6 +1114,22 @@ Other Female Over 65
 </tr>
 </tbody>
 </table>
+
+    ## NOTE: 14 observations removed because of NA values (RHS: 14).
+
+    ## NOTE: 10 observations removed because of NA values (RHS: 10).
+
+    ## NOTE: 17 observations removed because of NA values (RHS: 17).
+
+    ## NOTE: 8 observations removed because of NA values (RHS: 8).
+
+    ## NOTE: 7 observations removed because of NA values (RHS: 7).
+    ## NOTE: 7 observations removed because of NA values (RHS: 7).
+    ## NOTE: 7 observations removed because of NA values (RHS: 7).
+    ## NOTE: 7 observations removed because of NA values (RHS: 7).
+
+    ## NOTE: 8 observations removed because of NA values (RHS: 8).
+
 <table style="border-collapse:collapse; border:none;">
 <tr>
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
@@ -4360,6 +4377,12 @@ R<sup>2</sup> / R<sup>2</sup> adjusted
 Type
 </th>
 <th style="text-align:right;">
+Weights
+</th>
+<th style="text-align:right;">
+Average DID Estimate
+</th>
+<th style="text-align:right;">
 Weighted Estimate
 </th>
 </tr>
@@ -4370,12 +4393,24 @@ Weighted Estimate
 Earlier vs Later Treated
 </td>
 <td style="text-align:right;">
+0.0683810
+</td>
+<td style="text-align:right;">
+0.1000224
+</td>
+<td style="text-align:right;">
 0.0051705
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.1589397
+</td>
+<td style="text-align:right;">
+-0.0596393
 </td>
 <td style="text-align:right;">
 -0.0044690
@@ -4386,12 +4421,24 @@ Later vs Always Treated
 Later vs Earlier Treated
 </td>
 <td style="text-align:right;">
+0.0233921
+</td>
+<td style="text-align:right;">
+0.0208665
+</td>
+<td style="text-align:right;">
 -0.0017883
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Treated vs Untreated
+</td>
+<td style="text-align:right;">
+0.7492871
+</td>
+<td style="text-align:right;">
+-0.1422163
 </td>
 <td style="text-align:right;">
 -0.0839315
@@ -4414,6 +4461,12 @@ Treated vs Untreated
 Type
 </th>
 <th style="text-align:right;">
+Weights
+</th>
+<th style="text-align:right;">
+Average DID Estimate
+</th>
+<th style="text-align:right;">
 Weighted Estimate
 </th>
 </tr>
@@ -4424,12 +4477,24 @@ Weighted Estimate
 Earlier vs Later Treated
 </td>
 <td style="text-align:right;">
+0.0683810
+</td>
+<td style="text-align:right;">
+0.0545024
+</td>
+<td style="text-align:right;">
 0.0054525
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.1589397
+</td>
+<td style="text-align:right;">
+-0.0384771
 </td>
 <td style="text-align:right;">
 -0.0012542
@@ -4440,12 +4505,24 @@ Later vs Always Treated
 Later vs Earlier Treated
 </td>
 <td style="text-align:right;">
+0.0233921
+</td>
+<td style="text-align:right;">
+0.0188246
+</td>
+<td style="text-align:right;">
 0.0000418
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Treated vs Untreated
+</td>
+<td style="text-align:right;">
+0.7492871
+</td>
+<td style="text-align:right;">
+-0.0848318
 </td>
 <td style="text-align:right;">
 -0.0415959
@@ -4468,6 +4545,12 @@ Treated vs Untreated
 Type
 </th>
 <th style="text-align:right;">
+Weights
+</th>
+<th style="text-align:right;">
+Average DID Estimate
+</th>
+<th style="text-align:right;">
 Weighted Estimate
 </th>
 </tr>
@@ -4478,12 +4561,24 @@ Weighted Estimate
 Earlier vs Later Treated
 </td>
 <td style="text-align:right;">
+0.0683810
+</td>
+<td style="text-align:right;">
+-0.0264193
+</td>
+<td style="text-align:right;">
 -0.0026425
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.1589397
+</td>
+<td style="text-align:right;">
+-0.2001560
 </td>
 <td style="text-align:right;">
 -0.0305273
@@ -4494,12 +4589,24 @@ Later vs Always Treated
 Later vs Earlier Treated
 </td>
 <td style="text-align:right;">
+0.0233921
+</td>
+<td style="text-align:right;">
+-0.0106483
+</td>
+<td style="text-align:right;">
 -0.0019283
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Treated vs Untreated
+</td>
+<td style="text-align:right;">
+0.7492871
+</td>
+<td style="text-align:right;">
+-0.0030557
 </td>
 <td style="text-align:right;">
 0.0030423
@@ -4522,6 +4629,12 @@ Treated vs Untreated
 Type
 </th>
 <th style="text-align:right;">
+Weights
+</th>
+<th style="text-align:right;">
+Average DID Estimate
+</th>
+<th style="text-align:right;">
 Weighted Estimate
 </th>
 </tr>
@@ -4532,12 +4645,24 @@ Weighted Estimate
 Earlier vs Later Treated
 </td>
 <td style="text-align:right;">
+0.0683810
+</td>
+<td style="text-align:right;">
+0.1487745
+</td>
+<td style="text-align:right;">
 0.0079628
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.1589397
+</td>
+<td style="text-align:right;">
+-0.0314314
 </td>
 <td style="text-align:right;">
 0.0009728
@@ -4548,12 +4673,24 @@ Later vs Always Treated
 Later vs Earlier Treated
 </td>
 <td style="text-align:right;">
+0.0233921
+</td>
+<td style="text-align:right;">
+-0.0174274
+</td>
+<td style="text-align:right;">
 -0.0034427
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Treated vs Untreated
+</td>
+<td style="text-align:right;">
+0.7492871
+</td>
+<td style="text-align:right;">
+-0.2207888
 </td>
 <td style="text-align:right;">
 -0.1375213
@@ -4576,6 +4713,12 @@ Treated vs Untreated
 Type
 </th>
 <th style="text-align:right;">
+Weights
+</th>
+<th style="text-align:right;">
+Average DID Estimate
+</th>
+<th style="text-align:right;">
 Weighted Estimate
 </th>
 </tr>
@@ -4586,12 +4729,24 @@ Weighted Estimate
 Earlier vs Later Treated
 </td>
 <td style="text-align:right;">
+0.0683810
+</td>
+<td style="text-align:right;">
+0.0961047
+</td>
+<td style="text-align:right;">
 0.0073682
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.1589397
+</td>
+<td style="text-align:right;">
+0.0940074
 </td>
 <td style="text-align:right;">
 0.0174822
@@ -4602,12 +4757,24 @@ Later vs Always Treated
 Later vs Earlier Treated
 </td>
 <td style="text-align:right;">
+0.0233921
+</td>
+<td style="text-align:right;">
+0.1505417
+</td>
+<td style="text-align:right;">
 0.0020947
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Treated vs Untreated
+</td>
+<td style="text-align:right;">
+0.7492871
+</td>
+<td style="text-align:right;">
+-0.0263060
 </td>
 <td style="text-align:right;">
 -0.0100514
@@ -4630,6 +4797,12 @@ Treated vs Untreated
 Type
 </th>
 <th style="text-align:right;">
+Weights
+</th>
+<th style="text-align:right;">
+Average DID Estimate
+</th>
+<th style="text-align:right;">
 Weighted Estimate
 </th>
 </tr>
@@ -4640,12 +4813,24 @@ Weighted Estimate
 Earlier vs Later Treated
 </td>
 <td style="text-align:right;">
+0.0683810
+</td>
+<td style="text-align:right;">
+0.0036098
+</td>
+<td style="text-align:right;">
 -0.0007191
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.1589397
+</td>
+<td style="text-align:right;">
+0.0504242
 </td>
 <td style="text-align:right;">
 0.0085564
@@ -4656,12 +4841,24 @@ Later vs Always Treated
 Later vs Earlier Treated
 </td>
 <td style="text-align:right;">
+0.0233921
+</td>
+<td style="text-align:right;">
+0.0490119
+</td>
+<td style="text-align:right;">
 0.0001507
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Treated vs Untreated
+</td>
+<td style="text-align:right;">
+0.7492871
+</td>
+<td style="text-align:right;">
+0.0238073
 </td>
 <td style="text-align:right;">
 0.0210569
@@ -4684,6 +4881,12 @@ Treated vs Untreated
 Type
 </th>
 <th style="text-align:right;">
+Weights
+</th>
+<th style="text-align:right;">
+Average DID Estimate
+</th>
+<th style="text-align:right;">
 Weighted Estimate
 </th>
 </tr>
@@ -4694,12 +4897,24 @@ Weighted Estimate
 Earlier vs Later Treated
 </td>
 <td style="text-align:right;">
+0.0683810
+</td>
+<td style="text-align:right;">
+0.0887179
+</td>
+<td style="text-align:right;">
 0.0056843
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.1589397
+</td>
+<td style="text-align:right;">
+0.1885142
 </td>
 <td style="text-align:right;">
 0.0336117
@@ -4710,12 +4925,24 @@ Later vs Always Treated
 Later vs Earlier Treated
 </td>
 <td style="text-align:right;">
+0.0233921
+</td>
+<td style="text-align:right;">
+0.0994063
+</td>
+<td style="text-align:right;">
 0.0020305
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Treated vs Untreated
+</td>
+<td style="text-align:right;">
+0.7492871
+</td>
+<td style="text-align:right;">
+0.0086094
 </td>
 <td style="text-align:right;">
 0.0262756
@@ -4738,6 +4965,12 @@ Treated vs Untreated
 Type
 </th>
 <th style="text-align:right;">
+Weights
+</th>
+<th style="text-align:right;">
+Average DID Estimate
+</th>
+<th style="text-align:right;">
 Weighted Estimate
 </th>
 </tr>
@@ -4748,12 +4981,24 @@ Weighted Estimate
 Earlier vs Later Treated
 </td>
 <td style="text-align:right;">
+0.0683810
+</td>
+<td style="text-align:right;">
+-0.0146061
+</td>
+<td style="text-align:right;">
 -0.0023226
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.1589397
+</td>
+<td style="text-align:right;">
+0.0169005
 </td>
 <td style="text-align:right;">
 0.0048413
@@ -4764,12 +5009,24 @@ Later vs Always Treated
 Later vs Earlier Treated
 </td>
 <td style="text-align:right;">
+0.0233921
+</td>
+<td style="text-align:right;">
+-0.0157802
+</td>
+<td style="text-align:right;">
 -0.0013013
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Treated vs Untreated
+</td>
+<td style="text-align:right;">
+0.7492871
+</td>
+<td style="text-align:right;">
+-0.0068820
 </td>
 <td style="text-align:right;">
 0.0064291
@@ -4792,6 +5049,12 @@ Treated vs Untreated
 Type
 </th>
 <th style="text-align:right;">
+Weights
+</th>
+<th style="text-align:right;">
+Average DID Estimate
+</th>
+<th style="text-align:right;">
 Weighted Estimate
 </th>
 </tr>
@@ -4802,12 +5065,24 @@ Weighted Estimate
 Earlier vs Later Treated
 </td>
 <td style="text-align:right;">
+0.0683810
+</td>
+<td style="text-align:right;">
+0.1000224
+</td>
+<td style="text-align:right;">
 0.0051705
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Later vs Always Treated
+</td>
+<td style="text-align:right;">
+0.1589397
+</td>
+<td style="text-align:right;">
+-0.0596393
 </td>
 <td style="text-align:right;">
 -0.0044690
@@ -4818,12 +5093,24 @@ Later vs Always Treated
 Later vs Earlier Treated
 </td>
 <td style="text-align:right;">
+0.0233921
+</td>
+<td style="text-align:right;">
+0.0208665
+</td>
+<td style="text-align:right;">
 -0.0017883
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 Treated vs Untreated
+</td>
+<td style="text-align:right;">
+0.7492871
+</td>
+<td style="text-align:right;">
+-0.1422163
 </td>
 <td style="text-align:right;">
 -0.0839315
@@ -4835,3 +5122,135 @@ Treated vs Untreated
     ## [1] "Weighted sum of decomposition = 0.0361"
 
     ## [1] "Two-way FE estimate = 0.0361"
+
+    ## `summarise()` has grouped output by 'fipsstat'. You can override using the
+    ## `.groups` argument.
+
+    ## NOTE: 1 observation removed because of NA values (RHS: 1).
+    ## NOTE: 1 observation removed because of NA values (RHS: 1).
+    ## NOTE: 1 observation removed because of NA values (RHS: 1).
+    ## NOTE: 1 observation removed because of NA values (RHS: 1).
+    ## NOTE: 1 observation removed because of NA values (RHS: 1).
+    ## NOTE: 1 observation removed because of NA values (RHS: 1).
+    ## NOTE: 1 observation removed because of NA values (RHS: 1).
+    ## NOTE: 1 observation removed because of NA values (RHS: 1).
+    ## NOTE: 1 observation removed because of NA values (RHS: 1).
+
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+**Table 4 Callaway and Sant’anna Overall ATTs and Standard Errors**
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+Overall ATTs
+</th>
+<th style="text-align:right;">
+Overall SEs
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+log.Violent_Crime_Rate
+</td>
+<td style="text-align:right;">
+-0.0221834
+</td>
+<td style="text-align:right;">
+0.0236059
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+log.Murder_Rate
+</td>
+<td style="text-align:right;">
+-0.0531075
+</td>
+<td style="text-align:right;">
+0.0251004
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+log.Rape_Rate
+</td>
+<td style="text-align:right;">
+0.0299128
+</td>
+<td style="text-align:right;">
+0.0269418
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+log.Aggravate_Assult_Rate
+</td>
+<td style="text-align:right;">
+-0.0134550
+</td>
+<td style="text-align:right;">
+0.0380930
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+log.Robbery_Rate
+</td>
+<td style="text-align:right;">
+0.0276803
+</td>
+<td style="text-align:right;">
+0.0300998
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+log.Property_Crime_Rate
+</td>
+<td style="text-align:right;">
+0.0113524
+</td>
+<td style="text-align:right;">
+0.0101827
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+log.Auto_Theft_Rate
+</td>
+<td style="text-align:right;">
+0.0126156
+</td>
+<td style="text-align:right;">
+0.0390629
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+log.Burglary_Rate
+</td>
+<td style="text-align:right;">
+-0.0131969
+</td>
+<td style="text-align:right;">
+0.0136207
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+log.Larceny_Rate
+</td>
+<td style="text-align:right;">
+0.0265453
+</td>
+<td style="text-align:right;">
+0.0134593
+</td>
+</tr>
+</tbody>
+</table>

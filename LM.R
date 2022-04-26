@@ -222,7 +222,7 @@ for (i in 1:9) {
   colnames(df)[3] <- "Its_corresponding_Arrest_Rate"
   X <- colnames(df)[2:45] %>% 
     paste(.,collapse = " + ")
-  two_ways_fixed_effect <- colnames(reg_df)[46:47] %>% 
+  two_ways_fixed_effect <- colnames(df)[46:47] %>% 
     paste(., collapse = " + ")
   
   formula <- as.formula(paste(dependent_variable, " ~ ", X, " | ", two_ways_fixed_effect, sep=""))
