@@ -476,7 +476,7 @@ fit_tw9 <- lm(log.Larceny_Rate ~ shalll + factor(state) + factor(year),
 
 print(paste("Two-way FE estimate =", round(fit_tw9$coefficients[2], 4)))
 
-#Callaway & Sant'anna
+#Callaway & Sant'anna, Sun & Abraham
 cs_data <- LM %>% select(fipsstat:shalll,
                          starts_with("log."),
                          starts_with("Arrest_Rate_")) %>% 
@@ -545,13 +545,19 @@ for (n in 1:9){
   l1 <- c(l1, agg_effects)
   l2 <- c(l2, c(agg_effects$overall.att, agg_effects$overall.se))
   
-  sun_abbraham <- paste(y, '~', x, " + sunab(year_treated, year) | fipsstat + year") %>% 
+  sun_abbraham <- paste(y, '~', x, " + sunab(year_treated, year) | fipsstat + year") %>%
     as.formula()
   sun_abbraham_reg <- feols(fml = sun_abbraham, data = cs_data)
   l3 <- c(l3, sun_abbraham_reg)
 }
 
+l2 <- l2 %>% as.data.frame()
+l2_estimates <- l2[seq(1, nrow(l2), 2), ] %>% as.data.frame()
+l2_se <- l2[seq(2, nrow(l2), 2), ] %>% as.data.frame()
 
+types_of_crimes <- dependent_vars %>% as.data.frame()
+cs_table <- cbind(types_of_crimes, l2_estimates, l2_se)
 
-
+kable(cs_table, col.names = c("Types of Crimes", "Overall ATTs", "Overall SEs"), caption = "**Table 4 Callaway and Sant’anna Overall ATTs and Standard Errors**", format_caption = c("italic", "underline")) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
 
