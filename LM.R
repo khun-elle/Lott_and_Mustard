@@ -55,6 +55,9 @@ rollout <- rollout[match(unique(rollout$state), rollout$state),]  %>%
   as_tibble() %>% 
   arrange(year_first_treated)
 
+kbl(rollout, col.names = c("State", "Year First Treated"), caption = "**Table 1: A Table of Rollout State By State", format_caption = c("italic", "underline")) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F)
+
 #table 1
 stats <- list(
   mean = ~mean(.x, na.rm = TRUE),

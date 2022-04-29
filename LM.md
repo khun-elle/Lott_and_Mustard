@@ -1,3 +1,293 @@
+## Lott and Mustard Replication
+
+### Introduction
+
+Inspired by Crime, Deterrence, and Right-to-Carry Concealed Handguns by
+Lott and Mustard, I was incited to expand their findings and attempt to
+replicate their regression results using modern statistical techniques
+to reaffirm their conclusion that passing shall issue laws is essential
+to protect the fundamental right of self-defense for the U.S. citizens.
+
+In 1997, Lott and Mustard published their controversial paper revealing
+that right-to-carry concealed weapons laws are helpful in reducing
+crimes and at the same time cause no increase in accidental deaths.
+Their studies utilize cross-sectional time-series data for the U.S.
+between 1977 to 1992 to investigate the effect of permitting the right
+to use firearms on log crime rates. They found many types of crimes such
+as murder rate, rape rate, and aggravated assaults rate are reduced
+significantly for the counties that implement such laws. The sensational
+counterintuitive association between carrying a concealed handgun and
+the reduction in crimes are of interest to the public because it could
+promote the health and safety of our citizens. Lott and Mustard further
+claimed that these shall issue laws not only provide benefits to those
+who carry handguns, but also to those who don’t. Especially among women,
+even if a minute fraction of women own guns, “the external benefits to
+other women from a woman carrying a concealed handgun appear to be large
+relative to the gain produced by an additional man carrying a concealed
+handgun”
+<sup>1</sup>
+. This is because the criminals face a heightened expected costs from
+committing crimes and the higher probability of getting caught.
+Although, the results could potentially lead to higher property crimes
+due to substitution effects, the overall net gain from the passage of
+shall issue laws is still positive.
+
+Our analysis attempted to replicate the authors’ results using twoway
+fixed effects even though the outcomes are likely to be biased due to
+dynamic treatment effects. The issue of dynamic treatment effects calls
+for other estimators that do not have a no sign flip property such as
+Callaway & Sant’anna or Sun & Abraham. In addition, we implement bacon
+decomposition to examine the weights and the average DID estimate.
+
+\[The paper is organized as follows. In Sect. 2, we review literature
+and other related works and make connections to our paper. Assumptions
+and the set up of the auction is presented in Sect. 3. The type of
+auction to adopt is discussed in Sect. 4. In Sect. 5, we consider the
+idea of auction fever and how it can influence bidders to deviate from
+equilibrium strategy. How the proceeds from auction can be used is
+explained in Sect. 6. In Sect. 7, we examine auction with resale and how
+bidding behavior might change in such a situation. Sect. 8 discuss
+welfare analysis. Finally, Sect. 9 concludes.\]
+
+### 1 Background and Economic Theory
+
+#### 1.1 Related Literature
+
+In their controversial paper, Lott and Mustard investigated the actual
+impacts of right-to-carry concealed-handgun laws on the deterrence of
+violent crime. They exploited a large data set of over 50,000
+observations on nearly 200 variables. The variables include county level
+crime rates in their log forms, the corresponding arrest rates,
+demographic information, economic factors, and population
+characteristics. Then, they performed regressions using log crime rates
+as the dependent variables on shall-issue indicator variable, as well as
+arrest rates, and other controls. Although it is likely that their
+regressions suffer from specification error such as simultaneity bias in
+the estimation of arrest rate and crime rate, their results are found to
+be extremely robust. To enhance understandings, it is helpful to write
+out the model they estimate:
+*C*<sub>*i**t*</sub> = *α* + *γ**I*<sub>*i**t*</sub> + *β**A*<sub>*i**t*</sub> + *δ**X*<sub>*i**t*</sub> + *ε*<sub>*i**t*</sub>
+Where
+*I*<sub>*i**t*</sub>
+is the shall-issue indicator variable,
+*A*<sub>*i**t*</sub>
+represents arrest rates, and
+*X*<sub>*i**t*</sub>
+denotes demographic information, economic factors, and population
+characteristics. It is clear from the regression specification that the
+effect of passing a shall-issue gun law is captured by the parameter
+*γ*
+. Positive value of
+*γ*
+implies that shall-issue provisions are associated with higher crime
+rates, while negative value would suggest otherwise. This representation
+also implies that every county possesses the same slope but different
+intercepts depending on whether the law is adopted. The indicator
+variable
+*I*<sub>*i**t*</sub>
+took the unit value if county i adopt the law in year t and zero
+otherwise. From the data set, we observe that there are a total of 18
+states that have ever adopted the laws at some point.
+
+#### 1.2 the deterrence effect of concealed carry weapon (shall issue) laws
+
+The idea of shall-issue laws is that “In those states that have
+‘shall-issue’ laws, concealed weapons permits are granted unless there
+is a good reason to deny them. In the remaining states, concealed
+weapons permits are issued only if the applicant can show that he or she
+needs to carry such a weapon”
+<sup>2</sup>
+. The corollary is that potential criminals are deterred from committing
+crimes since there is a significantly greater chance of running into an
+armed citizen. From this perspective, we can employ Becker’s model
+(1968) to help explicate the decision making process of an offender
+<sup>3</sup>
+. Simply put, a risk-neutral offender solves his utility maximization
+problem weighing costs and benefits of committing a crime. The offender
+commits crime if and only if the expected payoffs are positive,
+otherwise, he abstains from it. The cost can be raised by allowing
+citizens to carry concealed guns or increasing the probability of being
+arrested. When the offender believes that the probability of confronting
+an armed person is high, he substitutes toward “property crimes
+involving stealth and where the probability of contact between the
+criminal and the victim are minimal” to avoid getting injured
+<sup>1</sup>
+. Another strategy to reduce violent crime is increasing spending on
+police, however, it is incontrovertible that simply allowing citizens to
+defend themselves is more economical
+<sup>2</sup>
+.
+
+To sum up, the authors found that shall-issue laws are significantly
+associated with lower violent crime. They asserted that if the laws were
+adopted nationwide in 1992, it would have been possible to avoid at
+least 1,570 murders and 4,177 rapes. Although the rate of property crime
+might increase due to substitution effects, the net effect of allowing
+handguns remains positive and is socially beneficial. The robust results
+allow us to draw confident conclusions about the impact of
+right‐to‐carry laws on violent crime.
+
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+\*\*Table 1: A Table of Rollout State By State
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+State
+</th>
+<th style="text-align:right;">
+Year First Treated
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Alabama
+</td>
+<td style="text-align:right;">
+1977
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Connecticut
+</td>
+<td style="text-align:right;">
+1977
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+New Hampshire
+</td>
+<td style="text-align:right;">
+1977
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+North Dakota
+</td>
+<td style="text-align:right;">
+1977
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+South Dakota
+</td>
+<td style="text-align:right;">
+1977
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Vermont
+</td>
+<td style="text-align:right;">
+1977
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Washington
+</td>
+<td style="text-align:right;">
+1977
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Indiana
+</td>
+<td style="text-align:right;">
+1981
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Maine
+</td>
+<td style="text-align:right;">
+1986
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Florida
+</td>
+<td style="text-align:right;">
+1988
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Virginia
+</td>
+<td style="text-align:right;">
+1989
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Georgia
+</td>
+<td style="text-align:right;">
+1990
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Pennsylvania
+</td>
+<td style="text-align:right;">
+1990
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+West Virginia
+</td>
+<td style="text-align:right;">
+1990
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Idaho
+</td>
+<td style="text-align:right;">
+1991
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mississippi
+</td>
+<td style="text-align:right;">
+1991
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Oregon
+</td>
+<td style="text-align:right;">
+1991
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Montana
+</td>
+<td style="text-align:right;">
+1992
+</td>
+</tr>
+</tbody>
+</table>
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>
 Table 1
@@ -227,6 +517,35 @@ Arrest Rate for Violent Crimes
 </tr>
 </tbody>
 </table>
+
+### 2. Data
+
+The original data set from Lott and Mustard (1997) contains county-level
+data from 1982 to 1992. The variables include nine types of crime rates:
+violent crime rate, murder rate, rape rate, aggravated assault rate,
+robbery rate, property crime rate, auto theft rate, burglary rate, and
+larceny rate. The corresponding arrest rates for each type of crime are
+also provided to help with analyses. Other demographics, economics, and
+population characteristics are also supplied.
+
+We use a subset of data examining only those years between 1977 to 1992.
+While the authors used county-level data, we choose to work with
+state-level data since the laws are ultimately at the state level. As
+suggested by Ayres and Donohue III (2002), using county data is likely
+to “exaggerate the amount of independent data available to the
+researcher, thereby possibly creating the appearance of statistical
+significance when in fact none exists”
+<sup>4</sup>
+. In addition, Lott and Mustard used arrest rates which resulted in many
+counties with missing data being dropped which likely led to biases.
+Using state-level data can improve accuracy and precision of our
+regression analysis.
+
+Table 2 presents a summary of violent crimes and their corresponding
+arrest rates showing number of observations, mean, and standard
+deviation. The summary statistics are also reported for economics, and
+demographic variables.
+
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>
 Table 2: Summary Statistics for Various Crime Outcomes and Demographics
@@ -1114,6 +1433,20 @@ Other Female Over 65
 </tr>
 </tbody>
 </table>
+
+### 3. Empirical model and Estimation
+
+#### 3.1 Twoway Fixed Effects
+
+We reexamine the twoway fixed effects regression (TWFE) similarly to the
+one used by the authors, only we will be using the state-level data
+instead of county-level data. It is critical to note that TWFE estimates
+will be biased if average treatment effect changes over time or parallel
+trend assumption fails to hold. We proceed with the nine regressions
+where the outcome is each type of crime rates in logarithmic form. Other
+variables such as shall issue dummy, arrest rates, economics, and
+demographic information are used as controls. The following table
+presents the results.
 
     ## NOTE: 14 observations removed because of NA values (RHS: 14).
 
@@ -4367,6 +4700,48 @@ R<sup>2</sup> / R<sup>2</sup> adjusted
 </td>
 </tr>
 </table>
+
+Examination of the regression results shows the effect of
+concealed-handgun laws on various categories of crime. Specifically, we
+observe a negative relationship between passage of the laws and all
+types of crime except for larceny, suggesting that adopting shall-issue
+statutes can significantly reduce crime rates. However, the caveat of
+this regression specification is that by using a single indicator
+variable for the laws, we are explicitly assuming the same effect across
+all states and years. This issue has been investigated further by Black
+and Nagin (1998). They generated state-specific dummy variables for the
+shall-issue laws and found that the signs of the coefficients vary
+across states, with some positive and some negative
+<sup>5</sup>
+. So the effects are unclear and thus, we will explore other models in
+section 4 before drawing any conclusions about the laws.
+
+#### 3.2 Bacon Decomposition
+
+The tables below present Bacon decomposition of twoway fixed effects
+estimate. Goodman-Bacon (2019) shows that the estimate is a weighted
+average of 2x2 parameters and their weights as determined by their
+relative size in the data. Under restrictive assumptions of parallel
+trends and time invariant treatment effects, the estimate reflects the
+actual ATT. In our analysis of the effect of shall-issue laws on crime
+rates, states opted for the laws at different points in time, so we can
+expect twoway fixed effects models to be biased.
+
+It is important to note that twoway fixed effects do not weight all 2x2s
+uniformly. It places higher weight to states that were treated in the
+middle of the panel, since these states have maximum treatment variance.
+In our data, about 75 percent of the weights are assigned to treated
+versus untreated units. So this 2x2 contributes the most to the
+resulting twoway fixed effects estimate followed by later versus always
+treated, and earlier versus later respectively. The only problematic
+comparison is when you compare the later group to the already-treated
+earlier group since the estimate also contains parallel trends bias and
+heterogeneity in time bias. Unless the parallel trends assumption is
+satisfied and the treatment effects are constant for a group over time,
+we suffer severely from bias
+<sup>6</sup>
+.
+
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 **Bacon Decomposition: Log Violent Crime Rate**
@@ -5123,6 +5498,42 @@ Treated vs Untreated
 
     ## [1] "Two-way FE estimate = 0.0361"
 
+### Callaway and Sant’Anna
+
+Since dynamic treatment effects can bias twoway fixed effect estimator
+by causing sign flip, we turn to Callaway and Sant’Anna (2020) estimator
+to help fix the issues that arise when using TWFE. Callaway and
+Sant’Anna deal with staggered treatment timing by considering each group
+separately by when they were treated. The estimator of interest is
+“group-time treatment effects” which can be calculated by “comparing the
+post-treatment outcomes of the groups treated in that period against the
+never-treated groups that are most similar to those treated groups”
+<sup>7</sup>
+. The major difference between TWFE and Callaway and Sant’Anna estimator
+is that the latter doesn’t use already-treated as controls.
+
+After we estimate group-time average treatment effects for each group
+across all time periods, we can then aggregate them into an overall
+treatment effect parameter. Therefore, the resulting estimate is the
+average effect of the treatment, or the shall-issue laws, experienced by
+all states that ever adopted the laws. The following table reports
+overall ATTs and standard errors for the model that uses each of the
+nine crime rates as a dependent variable, including year and state
+identification, and corresponding arrest rates as controls. We choose to
+present the overall treatment effect rather than group-level effects
+because many states simply do not have enough states per treatment date
+for the bootstrapping to provide accurate 95 percent confidence
+intervals. By comparing the results below to those estimated by using
+TWFE in section 3, we notice the discrepancies between them in the
+coefficients and signs. In particular, the coefficients of property
+crime rate, rape rate, robbery rate, and auto theft rate switched signs.
+Callaway and Sant’Anna pointed out in their paper a special case of the
+only time where the overall effect parameters estimated using TWFE and
+their method exactly match is when the group-time treatment effect is
+the same across all states and years
+<sup>8</sup>
+.
+
     ## `summarise()` has grouped output by 'fipsstat'. You can override using the
     ## `.groups` argument.
 
@@ -5161,7 +5572,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0220902
+0.0232875
 </td>
 </tr>
 <tr>
@@ -5172,7 +5583,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0256017
+0.0271770
 </td>
 </tr>
 <tr>
@@ -5183,7 +5594,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0243499
+0.0244191
 </td>
 </tr>
 <tr>
@@ -5194,7 +5605,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0366443
+0.0380653
 </td>
 </tr>
 <tr>
@@ -5205,7 +5616,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0299092
+0.0292769
 </td>
 </tr>
 <tr>
@@ -5216,7 +5627,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0106353
+0.0113823
 </td>
 </tr>
 <tr>
@@ -5227,7 +5638,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0419903
+0.0369638
 </td>
 </tr>
 <tr>
@@ -5238,7 +5649,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0137349
+0.0141486
 </td>
 </tr>
 <tr>
@@ -5249,8 +5660,10 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0133977
+0.0134217
 </td>
 </tr>
 </tbody>
 </table>
+
+### 5. Sun and Abraham
