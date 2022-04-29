@@ -5498,7 +5498,7 @@ Treated vs Untreated
 
     ## [1] "Two-way FE estimate = 0.0361"
 
-### Callaway and Sant’Anna
+### 4. Callaway and Sant’Anna
 
 Since dynamic treatment effects can bias twoway fixed effect estimator
 by causing sign flip, we turn to Callaway and Sant’Anna (2020) estimator
@@ -5572,7 +5572,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0232875
+0.0234994
 </td>
 </tr>
 <tr>
@@ -5583,7 +5583,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0271770
+0.0262877
 </td>
 </tr>
 <tr>
@@ -5594,7 +5594,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0244191
+0.0261592
 </td>
 </tr>
 <tr>
@@ -5605,7 +5605,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0380653
+0.0365027
 </td>
 </tr>
 <tr>
@@ -5616,7 +5616,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0292769
+0.0299724
 </td>
 </tr>
 <tr>
@@ -5627,7 +5627,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0113823
+0.0106508
 </td>
 </tr>
 <tr>
@@ -5638,7 +5638,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0369638
+0.0366924
 </td>
 </tr>
 <tr>
@@ -5649,7 +5649,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0141486
+0.0133429
 </td>
 </tr>
 <tr>
@@ -5660,10 +5660,44 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0134217
+0.0136521
 </td>
 </tr>
 </tbody>
 </table>
 
 ### 5. Sun and Abraham
+
+### References
+
+Ayres, Ian, and John Donohue. “Shooting down the More Guns, Less Crime
+Hypothesis,” November 2002. <https://doi.org/10.3386/w9336>.
+
+Callaway, Brantly, and Pedro H.C. Sant’Anna. “Difference-in-Differences
+with Multiple Time Periods.” Journal of Econometrics 225, no. 2 (2021):
+200–230. <https://doi.org/10.1016/j.jeconom.2020.12.001>.
+
+Cunningham, Scott. Causal Inference: The Mixtape. New Haven, CT: Yale
+University Press, 2021.
+
+Huntington-Klein, Nick. The Effect: An Introduction to Research Design
+and Causality. Boca Raton, FL: CRC Press, 2022.
+
+Lott, Jr., John R., and David B. Mustard. “Crime, Deterrence, and
+Right‐to‐Carry Concealed Handguns.” The Journal of Legal Studies 26, no.
+1 (January 1997): 1–68. <https://doi.org/10.1086/467988>.
+
+Moody, Carlisle E., and Thomas B. Marvell. “The Debate on Right-to-Carry
+Concealed Weapons Laws,” January 2008.
+
+Moody, Carlisle E. “Testing for the Effects of Concealed Weapons Laws:
+Specification Errors and Robustness.” The Journal of Law and Economics
+44, no. S2 (October 2001): 799–813. <https://doi.org/10.1086/323313>.
+
+Rauhut, Heiko. “Game Theory.” Oxford Handbooks Online, November 8, 2015.
+<https://doi.org/10.1093/oxfordhb/9780199338801.013.7>.
+
+Sun, Liyang, and Sarah Abraham. “Estimating Dynamic Treatment Effects in
+Event Studies with Heterogeneous Treatment Effects.” Journal of
+Econometrics 225, no. 2 (2021): 175–99.
+<https://doi.org/10.1016/j.jeconom.2020.09.006>.

@@ -560,7 +560,7 @@ fit_tw9 <- lm(log.Larceny_Rate ~ shalll + factor(state) + factor(year),
 print(paste("Two-way FE estimate =", round(fit_tw9$coefficients[2], 4)))
 ```
 
-### Callaway and Sant'Anna
+### 4. Callaway and Sant'Anna
   Since dynamic treatment effects can bias twoway fixed effect estimator by causing sign flip, we turn to Callaway and Sant’Anna (2020) estimator to help fix the issues that arise when using TWFE. Callaway and Sant’Anna deal with staggered treatment timing by considering each group separately by when they were treated. The estimator of interest is “group-time treatment effects” which can be calculated by “comparing the post-treatment outcomes of the groups treated in that period against the never-treated groups that are most similar to those treated groups”$$^7$$. The major difference between TWFE and Callaway and Sant’Anna estimator is that the latter doesn’t use already-treated as controls.
   
   After we estimate group-time average treatment effects for each group across all time periods, we can then aggregate them into an overall treatment effect parameter. Therefore, the resulting estimate is the average effect of the treatment, or the shall-issue laws, experienced by all states that ever adopted the laws. The following table reports overall ATTs and standard errors for the model that uses each of the nine crime rates as a dependent variable, including year and state identification, and corresponding arrest rates as controls. We choose to present the overall treatment effect rather than group-level effects because many states simply do not have enough states per treatment date for the bootstrapping to provide accurate 95 percent confidence intervals. By comparing the results below to those estimated by using TWFE in section 3, we notice the discrepancies between them in the coefficients and signs. In particular, the coefficients of property crime rate, rape rate, robbery rate, and auto theft rate switched signs. Callaway and Sant’Anna pointed out in their paper a special case of the only time where the overall effect parameters estimated using TWFE and their method exactly match is when the group-time treatment effect is the same across all states and years$$^8$$.
@@ -671,3 +671,21 @@ for (i in 1:9) {
 }
 ```
 
+### References
+Ayres, Ian, and John Donohue. “Shooting down the More Guns, Less Crime Hypothesis,” November 2002. https://doi.org/10.3386/w9336. 
+
+Callaway, Brantly, and Pedro H.C. Sant’Anna. “Difference-in-Differences with Multiple Time Periods.” Journal of Econometrics 225, no. 2 (2021): 200–230. https://doi.org/10.1016/j.jeconom.2020.12.001. 
+
+Cunningham, Scott. Causal Inference: The Mixtape. New Haven, CT: Yale University Press, 2021. 
+
+Huntington-Klein, Nick. The Effect: An Introduction to Research Design and Causality. Boca Raton, FL: CRC Press, 2022. 
+
+Lott, Jr., John&nbsp;R., and David&nbsp;B. Mustard. “Crime, Deterrence, and Right‐to‐Carry Concealed Handguns.” The Journal of Legal Studies 26, no. 1 (January 1997): 1–68. https://doi.org/10.1086/467988. 
+
+Moody, Carlisle E., and Thomas B. Marvell. “The Debate on Right-to-Carry Concealed Weapons Laws,” January 2008. 
+
+Moody, Carlisle&nbsp;E. “Testing for the Effects of Concealed Weapons Laws: Specification Errors and Robustness.” The Journal of Law and Economics 44, no. S2 (October 2001): 799–813. https://doi.org/10.1086/323313.
+
+Rauhut, Heiko. “Game Theory.” Oxford Handbooks Online, November 8, 2015. https://doi.org/10.1093/oxfordhb/9780199338801.013.7.
+
+Sun, Liyang, and Sarah Abraham. “Estimating Dynamic Treatment Effects in Event Studies with Heterogeneous Treatment Effects.” Journal of Econometrics 225, no. 2 (2021): 175–99. https://doi.org/10.1016/j.jeconom.2020.09.006. 
