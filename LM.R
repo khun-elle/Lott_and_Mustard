@@ -568,7 +568,7 @@ kable(l2, col.names = c("Overall ATTs", "Overall SEs"), caption = "**Table 4 Cal
 for (i in 1:9) {
   y <- dependent_vars[i]
   file_name <- paste0(y, ".jpeg")
-  jpeg(filename = file_name, width = 700, height = 350)
+  jpeg(filename = file_name, width = 960, height = 480)
   iplot(l3[[y]], ref.line = -1, main = "")
   dev.off()
 }
