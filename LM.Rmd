@@ -275,7 +275,7 @@ LM %>% select(shalll, starts_with("Arrest_Rate_"), Violent_Crime_Rate:Larceny_Ra
 
 We reexamine the twoway fixed effects regression (TWFE) similarly to the one used by the authors, only we will be using the state-level data instead of county-level data. It is critical to note that TWFE estimates will be biased if average treatment effect changes over time or parallel trend assumption fails to hold. We proceed with the nine regressions where the outcome is each type of crime rates in logarithmic form. Other variables such as shall issue dummy, arrest rates, economics, and demographic information are used as controls. The following table presents the results.
 
-```{r setup 1.6, warning=FALSE, echo=FALSE, results='hide'}
+```{r setup 1.6, warning=FALSE, echo=FALSE, message=FALSE}
 #table 3
 ln_crime_rate <- LM %>% select(starts_with("log."))
 
@@ -590,7 +590,7 @@ After we estimate group-time average treatment effects for each group across all
 By comparing the results below to those estimated by using TWFE in Section 3, we notice the discrepancies between them in the coefficients and signs. In particular, the coefficients of property crime rate, rape rate, robbery rate, and auto theft rate switched signs. Callaway and Sant’Anna pointed out in their paper a special case of the only time where the overall effect parameters estimated using TWFE and their method exactly match is when the group-time treatment effect is the same across all states and years$$^8$$.
 
 
-```{r setup 1.17, warning=FALSE, echo=FALSE, results='hide'}
+```{r setup 1.17, warning=FALSE, echo=FALSE}
 #Callaway & Sant'anna, Sun & Abraham
 cs_data <- LM %>% select(fipsstat:shalll,
                          starts_with("log."),

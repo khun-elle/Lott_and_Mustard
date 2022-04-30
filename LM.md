@@ -1471,21 +1471,6 @@ variables such as shall issue dummy, arrest rates, economics, and
 demographic information are used as controls. The following table
 presents the results.
 
-    ## NOTE: 14 observations removed because of NA values (RHS: 14).
-
-    ## NOTE: 10 observations removed because of NA values (RHS: 10).
-
-    ## NOTE: 17 observations removed because of NA values (RHS: 17).
-
-    ## NOTE: 8 observations removed because of NA values (RHS: 8).
-
-    ## NOTE: 7 observations removed because of NA values (RHS: 7).
-    ## NOTE: 7 observations removed because of NA values (RHS: 7).
-    ## NOTE: 7 observations removed because of NA values (RHS: 7).
-    ## NOTE: 7 observations removed because of NA values (RHS: 7).
-
-    ## NOTE: 8 observations removed because of NA values (RHS: 8).
-
 <div align="center">
 
 <table style="border-collapse:collapse; border:none;">
@@ -5603,7 +5588,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0245736
+0.0225798
 </td>
 </tr>
 <tr>
@@ -5614,7 +5599,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0247550
+0.0246418
 </td>
 </tr>
 <tr>
@@ -5625,7 +5610,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0283842
+0.0259296
 </td>
 </tr>
 <tr>
@@ -5636,7 +5621,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0386233
+0.0370905
 </td>
 </tr>
 <tr>
@@ -5647,7 +5632,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0308155
+0.0311881
 </td>
 </tr>
 <tr>
@@ -5658,7 +5643,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0112083
+0.0108950
 </td>
 </tr>
 <tr>
@@ -5669,7 +5654,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0372221
+0.0389122
 </td>
 </tr>
 <tr>
@@ -5680,7 +5665,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0144514
+0.0134796
 </td>
 </tr>
 <tr>
@@ -5691,7 +5676,7 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0138114
+0.0132846
 </td>
 </tr>
 </tbody>
