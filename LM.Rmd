@@ -102,6 +102,7 @@ kbl(rollout, col.names = c("State", "Year First Treated"), caption = "**Table 1:
 ```
 </div>
 
+<div align="center">
 ```{r setup 1.3, warning=FALSE, echo=FALSE}
 #table 1
 stats <- list(
@@ -147,6 +148,7 @@ t1 %>%
   ) %>% 
   kable_styling(latex_options = c("striped", "HOLD_position"))
 ```
+</div>
 
 ### 3. Data
 
@@ -156,6 +158,7 @@ We use a subset of data examining only those years between 1977 to 1992. While t
 
 Table 2 presents a summary of violent crimes and their corresponding arrest rates showing number of observations, mean, and standard deviation. The summary statistics are also reported for economics, and demographic variables.
 
+<div align="center">
 ```{r setup 1.4, warning=FALSE, echo=FALSE}
 #table 2
 stats_2 <- list(
@@ -199,7 +202,9 @@ t2 %>%
   ) %>% 
   kable_styling(latex_options = c("striped", "HOLD_position"))
 ```
+</div>
 
+<div align="center">
 ```{r setup 1.5, warning=FALSE, echo=FALSE}
 #table 2 cont.
 LM %>% select(shalll, starts_with("Arrest_Rate_"), Violent_Crime_Rate:Larceny_Rate, starts_with("RPC_"), starts_with("pp")) %>% 
@@ -263,13 +268,14 @@ LM %>% select(shalll, starts_with("Arrest_Rate_"), Violent_Crime_Rate:Larceny_Ra
   kable_styling(latex_options = c("striped", "HOLD_position"))
 
 ```
+</div>
 
 ### 4. Empirical model and Estimation 
 #### 4.1 Twoway Fixed Effects
 
 We reexamine the twoway fixed effects regression (TWFE) similarly to the one used by the authors, only we will be using the state-level data instead of county-level data. It is critical to note that TWFE estimates will be biased if average treatment effect changes over time or parallel trend assumption fails to hold. We proceed with the nine regressions where the outcome is each type of crime rates in logarithmic form. Other variables such as shall issue dummy, arrest rates, economics, and demographic information are used as controls. The following table presents the results.
 
-```{r setup 1.6, warning=FALSE, echo=FALSE}
+```{r setup 1.6, warning=FALSE, echo=FALSE, results='hide'}
 #table 3
 ln_crime_rate <- LM %>% select(starts_with("log."))
 
@@ -301,6 +307,7 @@ for (i in 1:9) {
 }
 ```
 
+<div align="center">
 ```{r setup 1.7, warning=FALSE, echo=FALSE}
 tab_model(regression[1:3], 
           show.ci = FALSE, 
@@ -326,7 +333,7 @@ tab_model(regression[7:9],
           digits = 5,
           dv.labels = c("Log Auto Theft Rate", "Log Burglary Rate", "Log Larceny Rate"))
 ```
-
+</div>
 
 Examination of the regression results shows the effect of concealed-handgun laws on various categories of crime. Specifically, we observe a negative relationship between passage of the laws and all types of crime except for larceny, suggesting that adopting shall-issue statutes can significantly reduce crime rates. However, the caveat of this regression specification is that by using a single indicator variable for the laws, we are explicitly assuming the same effect across all states and years. This issue has been investigated further by Black and Nagin (1998). They generated state-specific dummy variables for the shall-issue laws and found that the signs of the coefficients vary across states, with some positive and some negative$$^5$$. So the effects are unclear and thus, we will explore other models in Section 4 before drawing any conclusions about the laws.
 
@@ -583,7 +590,7 @@ After we estimate group-time average treatment effects for each group across all
 By comparing the results below to those estimated by using TWFE in Section 3, we notice the discrepancies between them in the coefficients and signs. In particular, the coefficients of property crime rate, rape rate, robbery rate, and auto theft rate switched signs. Callaway and Sant’Anna pointed out in their paper a special case of the only time where the overall effect parameters estimated using TWFE and their method exactly match is when the group-time treatment effect is the same across all states and years$$^8$$.
 
 
-```{r setup 1.17, warning=FALSE, echo=FALSE}
+```{r setup 1.17, warning=FALSE, echo=FALSE, results='hide'}
 #Callaway & Sant'anna, Sun & Abraham
 cs_data <- LM %>% select(fipsstat:shalll,
                          starts_with("log."),
@@ -632,6 +639,7 @@ dependent_vars <- cs_data %>% select(starts_with("log.")) %>% names()
 independent_vars <- cs_data %>% select(starts_with("Arrest_Rate_")) %>% names()
 ```
 
+<div align="center">
 ```{r setup 1.18, warning=FALSE, echo=FALSE}
 for (n in 1:9){
   y <- dependent_vars[n]
@@ -674,6 +682,7 @@ l2 <- l2 %>% as.data.frame() %>%t()
 kable(l2, col.names = c("Overall ATTs", "Overall SEs"), caption = "**Table 4 Callaway and Sant’anna Overall ATTs and Standard Errors**", format_caption = c("italic", "underline")) %>%
   kable_styling(bootstrap_options = "striped", full_width = F)
 ```
+</div>
 
 ### 6. Sun and Abraham
 

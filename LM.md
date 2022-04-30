@@ -298,6 +298,8 @@ Montana
 
 </div>
 
+<div align="center">
+
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>
 Table 1
@@ -528,6 +530,8 @@ Arrest Rate for Violent Crimes
 </tbody>
 </table>
 
+</div>
+
 ### 3. Data
 
 The original data set from Lott and Mustard (1997) contains county-level
@@ -555,6 +559,8 @@ Table 2 presents a summary of violent crimes and their corresponding
 arrest rates showing number of observations, mean, and standard
 deviation. The summary statistics are also reported for economics, and
 demographic variables.
+
+<div align="center">
 
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>
@@ -916,6 +922,11 @@ Rpc Retirement Pmt
 </tr>
 </tbody>
 </table>
+
+</div>
+
+<div align="center">
+
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>
 Table 2 Cont.
@@ -1444,6 +1455,8 @@ Other Female Over 65
 </tbody>
 </table>
 
+</div>
+
 ### 4. Empirical model and Estimation
 
 #### 4.1 Twoway Fixed Effects
@@ -1472,6 +1485,8 @@ presents the results.
     ## NOTE: 7 observations removed because of NA values (RHS: 7).
 
     ## NOTE: 8 observations removed because of NA values (RHS: 8).
+
+<div align="center">
 
 <table style="border-collapse:collapse; border:none;">
 <tr>
@@ -4711,6 +4726,8 @@ R<sup>2</sup> / R<sup>2</sup> adjusted
 </tr>
 </table>
 
+</div>
+
 Examination of the regression results shows the effect of
 concealed-handgun laws on various categories of crime. Specifically, we
 observe a negative relationship between passage of the laws and all
@@ -5549,6 +5566,8 @@ across all states and years
     ## `summarise()` has grouped output by 'fipsstat'. You can override using the
     ## `.groups` argument.
 
+<div align="center">
+
     ## NOTE: 1 observation removed because of NA values (RHS: 1).
     ## NOTE: 1 observation removed because of NA values (RHS: 1).
     ## NOTE: 1 observation removed because of NA values (RHS: 1).
@@ -5584,7 +5603,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0242315
+0.0245736
 </td>
 </tr>
 <tr>
@@ -5595,7 +5614,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0240158
+0.0247550
 </td>
 </tr>
 <tr>
@@ -5606,7 +5625,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0266367
+0.0283842
 </td>
 </tr>
 <tr>
@@ -5617,7 +5636,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0376895
+0.0386233
 </td>
 </tr>
 <tr>
@@ -5628,7 +5647,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0310153
+0.0308155
 </td>
 </tr>
 <tr>
@@ -5639,7 +5658,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0105518
+0.0112083
 </td>
 </tr>
 <tr>
@@ -5650,7 +5669,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0369499
+0.0372221
 </td>
 </tr>
 <tr>
@@ -5661,7 +5680,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0142262
+0.0144514
 </td>
 </tr>
 <tr>
@@ -5672,11 +5691,13 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0140448
+0.0138114
 </td>
 </tr>
 </tbody>
 </table>
+
+</div>
 
 ### 6. Sun and Abraham
 
