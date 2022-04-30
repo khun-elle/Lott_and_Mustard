@@ -1,12 +1,12 @@
 ---
 title: "Lott & Mustard Replication"
-author: "Elle Boodsakorn"
+author: Elle Boodsakorn
 date: "5/4/2022"
 output:
   md_document:
     variant: markdown_github
 always_allow_html: yes
-fontsize: 15pt
+fontsize: 20pt
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
