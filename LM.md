@@ -24,7 +24,7 @@ who carry handguns, but also to those who don’t. Especially among women,
 even if a minute fraction of women own guns, “the external benefits to
 other women from a woman carrying a concealed handgun appear to be large
 relative to the gain produced by an additional man carrying a concealed
-handgun”
+handgun up to 3 to 4 times”
 <sup>1</sup>
 . This is because the criminals face a heightened expected costs from
 committing crimes and the higher probability of getting caught.
@@ -112,6 +112,9 @@ an armed person is high, he substitutes toward “property crimes
 involving stealth and where the probability of contact between the
 criminal and the victim are minimal” to avoid getting injured
 <sup>1</sup>
+. The second reasoning behind deterrence theory is that “victims who
+have guns are in a much better position to defend themselves”
+<sup>10</sup>
 . Another strategy to reduce violent crime is increasing spending on
 police, however, it is incontrovertible that simply allowing citizens to
 defend themselves is more economical
@@ -5572,7 +5575,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0234994
+0.0250462
 </td>
 </tr>
 <tr>
@@ -5583,7 +5586,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0262877
+0.0246623
 </td>
 </tr>
 <tr>
@@ -5594,7 +5597,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0261592
+0.0275430
 </td>
 </tr>
 <tr>
@@ -5605,7 +5608,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0365027
+0.0380573
 </td>
 </tr>
 <tr>
@@ -5616,7 +5619,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0299724
+0.0314907
 </td>
 </tr>
 <tr>
@@ -5627,7 +5630,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0106508
+0.0111100
 </td>
 </tr>
 <tr>
@@ -5638,7 +5641,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0366924
+0.0363556
 </td>
 </tr>
 <tr>
@@ -5649,7 +5652,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0133429
+0.0141152
 </td>
 </tr>
 <tr>
@@ -5660,7 +5663,7 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0136521
+0.0138992
 </td>
 </tr>
 </tbody>
@@ -5668,36 +5671,81 @@ log.Larceny_Rate
 
 ### 5. Sun and Abraham
 
+### 6. Conclusion
+
+#### 6.1 Summary and Conclusions
+
+The publication of Lott and Mustard’s sensational findings of the
+negative association between citizen gun ownership and criminal
+deterrence has been of interest to legislators and policymakers. The
+authors utilized twoway fixed effects regressions to conclude that
+relatively easy access to handguns increases expected cost of committing
+crimes and therefore reduces crime rates. Their radical conclusion
+follows an economic model of rational deterrence which states that once
+the cost of committing an offense outweighs the benefits, the criminals
+are deterred, assuming that “there is no difference between criminal and
+noncriminals, other than their assessment of the costs and benefits of
+committing crimes”
+<sup>11</sup>
+.
+
+The authors’ methodology for investigating the relationship between
+shall-issue laws and crime rates employs twoway fixed effects
+regressions which can suffer from substantial bias in the case of
+dynamic treatment effects and staggered treatment adoption. We reexamine
+the association using estimators that are robust to differential timing
+such as those invented by Callaway and Sant’Anna and Sun and Abraham. We
+find that concealed-weapons laws have negative effects only on a subset
+of all crime rates. In particular, we find that the laws only help
+reduce violent crime rates, aggravated assault rates, murder rates, and
+burglary rates. For other crimes, results show positive effects. In any
+case, the Lott and Mustard analysis serves as a starting point that
+calls for further analysis on this topic. This sort of analysis, coupled
+with modern statistical techniques, enable legislators and policymakers
+to devise appropriate policies to achieve safety and security of the
+nation.
+
 ### References
 
-Ayres, Ian, and John Donohue. “Shooting down the More Guns, Less Crime
-Hypothesis,” November 2002. <https://doi.org/10.3386/w9336>.
+1.  Lott, Jr., John R., and David B. Mustard. “Crime, Deterrence, and
+    Right‐to‐Carry Concealed Handguns.” The Journal of Legal Studies 26,
+    no. 1 (January 1997): 1–68. <https://doi.org/10.1086/467988>.
 
-Callaway, Brantly, and Pedro H.C. Sant’Anna. “Difference-in-Differences
-with Multiple Time Periods.” Journal of Econometrics 225, no. 2 (2021):
-200–230. <https://doi.org/10.1016/j.jeconom.2020.12.001>.
+2.  Moody, Carlisle E. “Testing for the Effects of Concealed Weapons
+    Laws: Specification Errors and Robustness.” The Journal of Law and
+    Economics 44, no. S2 (October 2001): 799–813.
+    <https://doi.org/10.1086/323313>.
 
-Cunningham, Scott. Causal Inference: The Mixtape. New Haven, CT: Yale
-University Press, 2021.
+3.  Rauhut, Heiko. “Game Theory.” Oxford Handbooks Online, November
+    8, 2015. <https://doi.org/10.1093/oxfordhb/9780199338801.013.7>.
 
-Huntington-Klein, Nick. The Effect: An Introduction to Research Design
-and Causality. Boca Raton, FL: CRC Press, 2022.
+4.  Ayres, Ian, and John Donohue. “Shooting down the More Guns, Less
+    Crime Hypothesis,” November 2002. <https://doi.org/10.3386/w9336>.
 
-Lott, Jr., John R., and David B. Mustard. “Crime, Deterrence, and
-Right‐to‐Carry Concealed Handguns.” The Journal of Legal Studies 26, no.
-1 (January 1997): 1–68. <https://doi.org/10.1086/467988>.
+5.  Moody, Carlisle E., and Thomas B. Marvell. “The Debate on
+    Right-to-Carry Concealed Weapons Laws,” January 2008.
 
-Moody, Carlisle E., and Thomas B. Marvell. “The Debate on Right-to-Carry
-Concealed Weapons Laws,” January 2008.
+6.  Cunningham, Scott. Causal Inference: The Mixtape. New Haven, CT:
+    Yale University Press, 2021.
 
-Moody, Carlisle E. “Testing for the Effects of Concealed Weapons Laws:
-Specification Errors and Robustness.” The Journal of Law and Economics
-44, no. S2 (October 2001): 799–813. <https://doi.org/10.1086/323313>.
+7.  Huntington-Klein, Nick. The Effect: An Introduction to Research
+    Design and Causality. Boca Raton, FL: CRC Press, 2022.
 
-Rauhut, Heiko. “Game Theory.” Oxford Handbooks Online, November 8, 2015.
-<https://doi.org/10.1093/oxfordhb/9780199338801.013.7>.
+8.  Callaway, Brantly, and Pedro H.C. Sant’Anna.
+    “Difference-in-Differences with Multiple Time Periods.” Journal of
+    Econometrics 225, no. 2 (2021): 200–230.
+    <https://doi.org/10.1016/j.jeconom.2020.12.001>.
 
-Sun, Liyang, and Sarah Abraham. “Estimating Dynamic Treatment Effects in
-Event Studies with Heterogeneous Treatment Effects.” Journal of
-Econometrics 225, no. 2 (2021): 175–99.
-<https://doi.org/10.1016/j.jeconom.2020.09.006>.
+9.  Sun, Liyang, and Sarah Abraham. “Estimating Dynamic Treatment
+    Effects in Event Studies with Heterogeneous Treatment Effects.”
+    Journal of Econometrics 225, no. 2 (2021): 175–99.
+    <https://doi.org/10.1016/j.jeconom.2020.09.006>.
+
+10. “An Interview with John R. Lott, Jr. Author of More Guns, Less
+    Crime: Understanding Crime and Gun Control Laws.” University of
+    Chicago Press, 1998. University of Chicago Press.
+    <https://press.uchicago.edu/Misc/Chicago/493636.html>.
+
+11. Minnesota House Research, and Ben Johnson, Do criminal laws deter
+    crime?: Deterrence theory in criminal justice policy: A Primer §
+    (2019).
