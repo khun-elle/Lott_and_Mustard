@@ -5586,16 +5586,6 @@ across all states and years
 
 <div align="center">
 
-    ## NOTE: 1 observation removed because of NA values (RHS: 1).
-    ## NOTE: 1 observation removed because of NA values (RHS: 1).
-    ## NOTE: 1 observation removed because of NA values (RHS: 1).
-    ## NOTE: 1 observation removed because of NA values (RHS: 1).
-    ## NOTE: 1 observation removed because of NA values (RHS: 1).
-    ## NOTE: 1 observation removed because of NA values (RHS: 1).
-    ## NOTE: 1 observation removed because of NA values (RHS: 1).
-    ## NOTE: 1 observation removed because of NA values (RHS: 1).
-    ## NOTE: 1 observation removed because of NA values (RHS: 1).
-
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 **Table 4 Callaway and Sant’anna Overall ATTs and Standard Errors**
@@ -5621,7 +5611,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0231427
+0.0249167
 </td>
 </tr>
 <tr>
@@ -5632,7 +5622,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0242401
+0.0237893
 </td>
 </tr>
 <tr>
@@ -5643,7 +5633,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0241735
+0.0257660
 </td>
 </tr>
 <tr>
@@ -5654,7 +5644,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0365577
+0.0366242
 </td>
 </tr>
 <tr>
@@ -5665,7 +5655,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0320795
+0.0318662
 </td>
 </tr>
 <tr>
@@ -5676,7 +5666,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0107135
+0.0100526
 </td>
 </tr>
 <tr>
@@ -5687,7 +5677,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0372718
+0.0386665
 </td>
 </tr>
 <tr>
@@ -5698,7 +5688,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0147951
+0.0131674
 </td>
 </tr>
 <tr>
@@ -5709,7 +5699,7 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0129260
+0.0133855
 </td>
 </tr>
 </tbody>

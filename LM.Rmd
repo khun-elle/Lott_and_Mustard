@@ -658,7 +658,7 @@ independent_vars <- cs_data %>% select(starts_with("Arrest_Rate_")) %>% names()
 ```
 
 <div align="center">
-```{r setup 1.18, warning=FALSE, echo=FALSE}
+```{r setup 1.18, warning=FALSE, echo=FALSE, message=FALSE}
 for (n in 1:9){
   y <- dependent_vars[n]
   x <- independent_vars[n]
