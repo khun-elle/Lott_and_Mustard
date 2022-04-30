@@ -132,7 +132,6 @@ handguns remains positive and is socially beneficial. The robust results
 allow us to draw confident conclusions about the impact of
 right‐to‐carry laws on violent crime.
 
-<div align="center">
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 \*\*Table 1: A Table of Rollout State By State
@@ -5580,7 +5579,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0222624
+0.0254681
 </td>
 </tr>
 <tr>
@@ -5591,7 +5590,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0250905
+0.0236884
 </td>
 </tr>
 <tr>
@@ -5602,7 +5601,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0255007
+0.0268540
 </td>
 </tr>
 <tr>
@@ -5613,7 +5612,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0375775
+0.0377848
 </td>
 </tr>
 <tr>
@@ -5624,7 +5623,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0322382
+0.0314222
 </td>
 </tr>
 <tr>
@@ -5635,7 +5634,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0102472
+0.0109305
 </td>
 </tr>
 <tr>
@@ -5646,7 +5645,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0346701
+0.0362919
 </td>
 </tr>
 <tr>
@@ -5657,7 +5656,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0139062
+0.0139800
 </td>
 </tr>
 <tr>
@@ -5668,7 +5667,7 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0127498
+0.0140941
 </td>
 </tr>
 </tbody>
