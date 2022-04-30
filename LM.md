@@ -4754,6 +4754,8 @@ we suffer severely from bias
 <sup>6</sup>
 .
 
+<div align="center">
+
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 **Bacon Decomposition: Log Violent Crime Rate**
@@ -4837,6 +4839,10 @@ Treated vs Untreated
     ## [1] "Weighted sum of decomposition = -0.085"
 
     ## [1] "Two-way FE estimate = -0.085"
+
+</div>
+
+<div align="center">
 
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
@@ -4922,6 +4928,10 @@ Treated vs Untreated
 
     ## [1] "Two-way FE estimate = -0.0374"
 
+</div>
+
+<div align="center">
+
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 **Bacon Decomposition: Log Rape Rate**
@@ -5005,6 +5015,10 @@ Treated vs Untreated
     ## [1] "Weighted sum of decomposition = -0.0321"
 
     ## [1] "Two-way FE estimate = -0.0321"
+
+</div>
+
+<div align="center">
 
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
@@ -5090,6 +5104,10 @@ Treated vs Untreated
 
     ## [1] "Two-way FE estimate = -0.132"
 
+</div>
+
+<div align="center">
+
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 **Bacon Decomposition: Log Robbery Rate**
@@ -5173,6 +5191,10 @@ Treated vs Untreated
     ## [1] "Weighted sum of decomposition = 0.0169"
 
     ## [1] "Two-way FE estimate = 0.0169"
+
+</div>
+
+<div align="center">
 
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
@@ -5258,6 +5280,10 @@ Treated vs Untreated
 
     ## [1] "Two-way FE estimate = 0.029"
 
+</div>
+
+<div align="center">
+
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 **Bacon Decomposition: Log Auto Theft Rate**
@@ -5341,6 +5367,10 @@ Treated vs Untreated
     ## [1] "Weighted sum of decomposition = 0.0676"
 
     ## [1] "Two-way FE estimate = 0.0676"
+
+</div>
+
+<div align="center">
 
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
@@ -5426,6 +5456,10 @@ Treated vs Untreated
 
     ## [1] "Two-way FE estimate = 0.0076"
 
+</div>
+
+<div align="center">
+
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 **Bacon Decomposition: Log Larceny Rate**
@@ -5510,6 +5544,8 @@ Treated vs Untreated
 
     ## [1] "Two-way FE estimate = 0.0361"
 
+</div>
+
 ### 5. Callaway and Sant’Anna
 
 Since dynamic treatment effects can bias twoway fixed effect estimator
@@ -5548,9 +5584,6 @@ across all states and years
 <sup>8</sup>
 .
 
-    ## `summarise()` has grouped output by 'fipsstat'. You can override using the
-    ## `.groups` argument.
-
 <div align="center">
 
     ## NOTE: 1 observation removed because of NA values (RHS: 1).
@@ -5588,7 +5621,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0225798
+0.0231427
 </td>
 </tr>
 <tr>
@@ -5599,7 +5632,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0246418
+0.0242401
 </td>
 </tr>
 <tr>
@@ -5610,7 +5643,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0259296
+0.0241735
 </td>
 </tr>
 <tr>
@@ -5621,7 +5654,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0370905
+0.0365577
 </td>
 </tr>
 <tr>
@@ -5632,7 +5665,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0311881
+0.0320795
 </td>
 </tr>
 <tr>
@@ -5643,7 +5676,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0108950
+0.0107135
 </td>
 </tr>
 <tr>
@@ -5654,7 +5687,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0389122
+0.0372718
 </td>
 </tr>
 <tr>
@@ -5665,7 +5698,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0134796
+0.0147951
 </td>
 </tr>
 <tr>
@@ -5676,7 +5709,7 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0132846
+0.0129260
 </td>
 </tr>
 </tbody>

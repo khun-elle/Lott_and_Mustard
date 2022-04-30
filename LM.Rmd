@@ -343,6 +343,7 @@ The tables below present Bacon decomposition of twoway fixed effects estimate. G
 
 It is important to note that twoway fixed effects do not weight all 2x2s uniformly. It places higher weight to states that were treated in the middle of the panel, since these states have maximum treatment variance. In our data, about 75 percent of the weights are assigned to treated versus untreated units. So this 2x2 contributes the most to the resulting twoway fixed effects estimate followed by later versus always treated, and earlier versus later respectively. The only problematic comparison is when you compare the later group to the already-treated earlier group since the estimate also contains parallel trends bias and heterogeneity in time bias. Unless the parallel trends assumption is satisfied and the treatment effects are constant for a group over time, we suffer severely from bias$$^6$$.
 
+<div align="center">
 ```{r setup 1.8, warning=FALSE, echo=FALSE}
 #Bacon Decomposition without controls
 data_for_bacon <- LM %>% select(state:shalll, starts_with("log."))
@@ -372,7 +373,9 @@ fit_tw1 <- lm(log.Violent_Crime_Rate ~ shalll + factor(state) + factor(year),
 
 print(paste("Two-way FE estimate =", round(fit_tw1$coefficients[2], 4)))
 ```
+</div>
 
+<div align="center">
 ```{r setup 1.9, warning=FALSE, echo=FALSE}
 #when y = log.Murder_Rate
 df_bacon2 <- bacon(log.Murder_Rate ~ shalll,
@@ -398,7 +401,9 @@ fit_tw2 <- lm(log.Murder_Rate ~ shalll + factor(state) + factor(year),
 
 print(paste("Two-way FE estimate =", round(fit_tw2$coefficients[2], 4)))
 ```
+</div>
 
+<div align="center">
 ```{r setup 1.10, warning=FALSE, echo=FALSE}
 #when y = log.Rape_Rate
 df_bacon3 <- bacon(log.Rape_Rate ~ shalll,
@@ -424,7 +429,9 @@ fit_tw3 <- lm(log.Rape_Rate ~ shalll + factor(state) + factor(year),
 
 print(paste("Two-way FE estimate =", round(fit_tw3$coefficients[2], 4)))
 ```
+</div>
 
+<div align="center">
 ```{r setup 1.11, warning=FALSE, echo=FALSE}
 #when y = log.Aggravate_Assult_Rate
 df_bacon4 <- bacon(log.Aggravate_Assult_Rate ~ shalll,
@@ -450,7 +457,9 @@ fit_tw4 <- lm(log.Aggravate_Assult_Rate ~ shalll + factor(state) + factor(year),
 
 print(paste("Two-way FE estimate =", round(fit_tw4$coefficients[2], 4)))
 ```
+</div>
 
+<div align="center">
 ```{r setup 1.12, warning=FALSE, echo=FALSE}
 #when y = log.Robbery_Rate
 df_bacon5 <- bacon(log.Robbery_Rate ~ shalll,
@@ -476,7 +485,9 @@ fit_tw5 <- lm(log.Robbery_Rate ~ shalll + factor(state) + factor(year),
 
 print(paste("Two-way FE estimate =", round(fit_tw5$coefficients[2], 4)))
 ```
+</div>
 
+<div align="center">
 ```{r setup 1.13, warning=FALSE, echo=FALSE}
 #when y = log.Property_Crime_Rate
 df_bacon6 <- bacon(log.Property_Crime_Rate ~ shalll,
@@ -502,7 +513,9 @@ fit_tw6 <- lm(log.Property_Crime_Rate ~ shalll + factor(state) + factor(year),
 
 print(paste("Two-way FE estimate =", round(fit_tw6$coefficients[2], 4)))
 ```
+</div>
 
+<div align="center">
 ```{r setup 1.14, warning=FALSE, echo=FALSE}
 #when y = log.Auto_Theft_Rate
 df_bacon7 <- bacon(log.Auto_Theft_Rate ~ shalll,
@@ -528,7 +541,9 @@ fit_tw7 <- lm(log.Auto_Theft_Rate ~ shalll + factor(state) + factor(year),
 
 print(paste("Two-way FE estimate =", round(fit_tw7$coefficients[2], 4)))
 ```
+</div>
 
+<div align="center">
 ```{r setup 1.15, warning=FALSE, echo=FALSE}
 #when y = log.Burglary_Rate
 df_bacon8 <- bacon(log.Burglary_Rate ~ shalll,
@@ -554,7 +569,9 @@ fit_tw8 <- lm(log.Burglary_Rate ~ shalll + factor(state) + factor(year),
 
 print(paste("Two-way FE estimate =", round(fit_tw8$coefficients[2], 4)))
 ```
+</div>
 
+<div align="center">
 ```{r setup 1.16, warning=FALSE, echo=FALSE}
 #when y = log.Larceny_Rate
 df_bacon9 <- bacon(log.Larceny_Rate ~ shalll,
@@ -580,6 +597,7 @@ fit_tw9 <- lm(log.Larceny_Rate ~ shalll + factor(state) + factor(year),
 
 print(paste("Two-way FE estimate =", round(fit_tw9$coefficients[2], 4)))
 ```
+</div>
 
 ### 5. Callaway and Sant'Anna
 
@@ -590,7 +608,7 @@ After we estimate group-time average treatment effects for each group across all
 By comparing the results below to those estimated by using TWFE in Section 3, we notice the discrepancies between them in the coefficients and signs. In particular, the coefficients of property crime rate, rape rate, robbery rate, and auto theft rate switched signs. Callaway and Sant’Anna pointed out in their paper a special case of the only time where the overall effect parameters estimated using TWFE and their method exactly match is when the group-time treatment effect is the same across all states and years$$^8$$.
 
 
-```{r setup 1.17, warning=FALSE, echo=FALSE}
+```{r setup 1.17, warning=FALSE, echo=FALSE, message=FALSE}
 #Callaway & Sant'anna, Sun & Abraham
 cs_data <- LM %>% select(fipsstat:shalll,
                          starts_with("log."),
