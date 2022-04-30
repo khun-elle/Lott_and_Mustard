@@ -1,9 +1,3 @@
-<style type="text/css">
-  body{
-  font-size: 15pt;
-}
-</style>
-
 ## Lott and Mustard Replication
 
 ### 1. Introduction
@@ -72,6 +66,7 @@ regressions suffer from specification error such as simultaneity bias in
 the estimation of arrest rate and crime rate, their results are found to
 be extremely robust. To enhance understandings, it is helpful to write
 out the model they estimate:  
+ 
 *C*<sub>*i**t*</sub> = *α* + *γ**I*<sub>*i**t*</sub> + *β**A*<sub>*i**t*</sub> + *δ**X*<sub>*i**t*</sub> + *ε*<sub>*i**t*</sub>
   
   Where
@@ -5584,7 +5579,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0248794
+0.0245402
 </td>
 </tr>
 <tr>
@@ -5595,7 +5590,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0246350
+0.0224349
 </td>
 </tr>
 <tr>
@@ -5606,7 +5601,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0261084
+0.0266067
 </td>
 </tr>
 <tr>
@@ -5617,7 +5612,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0378823
+0.0382921
 </td>
 </tr>
 <tr>
@@ -5628,7 +5623,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0308357
+0.0305471
 </td>
 </tr>
 <tr>
@@ -5639,7 +5634,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0101233
+0.0102376
 </td>
 </tr>
 <tr>
@@ -5650,7 +5645,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0374326
+0.0388872
 </td>
 </tr>
 <tr>
@@ -5661,7 +5656,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0138174
+0.0140289
 </td>
 </tr>
 <tr>
@@ -5672,7 +5667,7 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0140060
+0.0140044
 </td>
 </tr>
 </tbody>

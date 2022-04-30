@@ -6,13 +6,8 @@ output:
   md_document:
     variant: markdown_github
 always_allow_html: yes
+fontsize: 15pt
 ---
-
-<style type="text/css">
-  body{
-  font-size: 15pt;
-}
-</style>
 
 ```{r setup, include=FALSE, echo=FALSE}
 load.libraries <- c('did', 'tidyverse', 'haven', 'fixest', 'skimr', 'kableExtra', 'stargazer', 'foreign', 'sjPlot', 'sjmisc', 'sjlabelled', 'bacondecomp')
@@ -72,7 +67,9 @@ LM <- StateLevelData %>% select(fipsstat:year,
 ### 2 Background and Economic Theory 
 #### 2.1 Related Literature
     
-In their controversial paper, Lott and Mustard investigated the actual impacts of right-to-carry concealed-handgun laws on the deterrence of violent crime. They exploited a large data set of over 50,000 observations on nearly 200 variables. The variables include county level crime rates in their log forms, the corresponding arrest rates, demographic information, economic factors, and population characteristics. Then, they performed regressions using log crime rates as the dependent variables on shall-issue indicator variable, as well as arrest rates, and other controls. Although it is likely that their regressions suffer from specification error such as simultaneity bias in the estimation of arrest rate and crime rate, their results are found to be extremely robust. To enhance understandings, it is helpful to write out the model they estimate:\
+In their controversial paper, Lott and Mustard investigated the actual impacts of right-to-carry concealed-handgun laws on the deterrence of violent crime. They exploited a large data set of over 50,000 observations on nearly 200 variables. The variables include county level crime rates in their log forms, the corresponding arrest rates, demographic information, economic factors, and population characteristics. Then, they performed regressions using log crime rates as the dependent variables on shall-issue indicator variable, as well as arrest rates, and other controls. Although it is likely that their regressions suffer from specification error such as simultaneity bias in the estimation of arrest rate and crime rate, their results are found to be extremely robust. To enhance understandings, it is helpful to write out the model they estimate:
+\
+&nbsp;
   $$
   C_{it} = \alpha + \gamma I_{it} + \beta A_{it} + \delta X_{it} + \varepsilon_{it}
   $$
