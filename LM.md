@@ -5611,7 +5611,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0249167
+0.0243754
 </td>
 </tr>
 <tr>
@@ -5622,7 +5622,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0237893
+0.0239104
 </td>
 </tr>
 <tr>
@@ -5633,7 +5633,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0257660
+0.0254492
 </td>
 </tr>
 <tr>
@@ -5644,7 +5644,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0366242
+0.0380582
 </td>
 </tr>
 <tr>
@@ -5655,7 +5655,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0318662
+0.0292242
 </td>
 </tr>
 <tr>
@@ -5666,7 +5666,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0100526
+0.0104400
 </td>
 </tr>
 <tr>
@@ -5677,7 +5677,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0386665
+0.0364692
 </td>
 </tr>
 <tr>
@@ -5688,7 +5688,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0131674
+0.0132843
 </td>
 </tr>
 <tr>
@@ -5699,7 +5699,7 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0133855
+0.0132982
 </td>
 </tr>
 </tbody>
@@ -5708,6 +5708,59 @@ log.Larceny_Rate
 </div>
 
 ### 6. Sun and Abraham
+
+Similar to the approach in the previous section, Sun and Abraham’s
+estimator is a blend of Callaway and Sant’Anna and Goodman-Bacon. While
+many researchers tend to use twoway fixed effects regressions that
+include leads and lags of the treatment, they show that in the settings
+with staggered treatment adoption, the coefficient on a given lead or
+lag can be contaminated by effects from other periods
+<sup>9</sup>
+. To remedy such issues, they invented an estimator that is free of
+contamination and is robust to treatment effects heterogeneity. Simply
+put, they first estimate each cohort average treatment effects on the
+treated (CATT) using a twoway fixed effects specification that interacts
+relative period indicators with cohort indicators, excluding indicators
+for never-treated cohorts. Then they estimate the weight, and average
+all CATTs to provide the average treatment effect. This estimator is
+called an “interaction-weighted” estimator; it uses sample shares of
+each cohort in the relevant periods to estimate the weights
+<sup>9</sup>
+.
+
+The model being estimated here is similar to that in the previous
+section. We use each crime rate in its logarithmic form as dependent
+variable with its corresponding arrest rate as independent variable.
+State and year fixed effects are also added as usual. Then, we present
+the event studies figures that help validate the existence of pretrends
+visually. Take the following results for rape rates and murder rates.
+
+\[rape rates figures here\]
+
+We observe no apparent pre-event trend prior to treatment year. In fact,
+all point estimates and their corresponding confidence intervals include
+zero for all 14 years prior to treatment year, reassuring that pre-event
+effects are effectively zero. Event studies graphs offer a functional
+way to evaluate cohort average treatment effects because they predict
+trends that are expected to see in the absence of treatment and how the
+realized outcome deviates from that prediction. On the right hand side
+of the graph, we notice statistically significant negative effects of
+shall-issue laws on rape rates. The laws delivered efficacious results
+for up to 4 years after they were passed. After that, it is unfortunate
+to see that the effects have been fading out over time. Rape rates took
+off again five years after the treatment year after which it becomes
+difficult to conclude any effect of the laws in the following years.
+
+Event study estimation of murder rates exhibits a similar result. The
+graph does not suggest a violation of pretend assumptions. The point
+estimates and their 95 percent confidence intervals contain zero for up
+to 13 years prior to the treatment year. In addition, what is special
+for this particular analysis is that the confidence intervals are very
+narrow, indicating that the effect size is known precisely. After the
+treatment year, there are some evidence of a decline in murder rates.
+However, just like rape rates, the effects faded out over time.
+
+\[murder rates figure here\]
 
 ### 7. Conclusion
 
