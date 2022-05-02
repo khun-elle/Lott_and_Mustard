@@ -5611,7 +5611,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0262703
+0.0231851
 </td>
 </tr>
 <tr>
@@ -5622,7 +5622,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0249196
+0.0247886
 </td>
 </tr>
 <tr>
@@ -5633,7 +5633,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0279116
+0.0267882
 </td>
 </tr>
 <tr>
@@ -5644,7 +5644,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0365444
+0.0360469
 </td>
 </tr>
 <tr>
@@ -5655,7 +5655,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0324034
+0.0299369
 </td>
 </tr>
 <tr>
@@ -5666,7 +5666,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0104859
+0.0104036
 </td>
 </tr>
 <tr>
@@ -5677,7 +5677,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0374126
+0.0352730
 </td>
 </tr>
 <tr>
@@ -5688,7 +5688,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0139801
+0.0136749
 </td>
 </tr>
 <tr>
@@ -5699,7 +5699,7 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0131565
+0.0134397
 </td>
 </tr>
 </tbody>
@@ -5735,7 +5735,11 @@ State and year fixed effects are also added as usual. Then, we present
 the event studies figures that help validate the existence of pretrends
 visually. Take the following results for rape rates and murder rates.
 
+<div align="center">
+
 ![](LM_files/figure-markdown_github/setup%201.20-1.png)
+
+</div>
 
 We observe no apparent pre-event trend prior to treatment year. In fact,
 all point estimates and their corresponding confidence intervals include
@@ -5760,7 +5764,11 @@ narrow, indicating that the effect size is known precisely. After the
 treatment year, there are some evidence of a decline in murder rates.
 However, just like rape rates, the effects faded out over time.
 
+<div align="center">
+
 ![](LM_files/figure-markdown_github/setup%201.21-1.png)
+
+</div>
 
 ### 7. Conclusion
 
