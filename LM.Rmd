@@ -70,11 +70,11 @@ In their controversial paper, Lott and Mustard investigated the actual impacts o
 \
 &nbsp;
   $$
-  C_{it} = \alpha + \gamma I_{it} + \beta A_{it} + \delta X_{it} + \varepsilon_{it}
+  C_{i,t} = \alpha + \gamma I_{i,t} + \beta A_{i,t} + \delta X_{i,t} + \varepsilon_{i,t}
   $$
 \
 &nbsp;
-Where $$I_{it}$$ is the shall-issue indicator variable, $$A_{it}$$ represents arrest rates, and $$X_{it}$$ denotes demographic information, economic factors, and population characteristics. It is clear from the regression specification that the effect of passing a shall-issue gun law is captured by the parameter $$\gamma$$. Positive value of $$\gamma$$ implies that shall-issue provisions are associated with higher crime rates, while negative value would suggest otherwise. This representation also implies that every county possesses the same slope but different intercepts depending on whether the law is adopted. The indicator variable $$I_{it}$$ took the unit value if county i adopt the law in year t and zero otherwise. From the data set, we observe that there are a total of 18 states that have ever adopted the laws at some point. 
+Where $$I_{i,t}$$ is the shall-issue indicator variable, $$A_{i,t}$$ represents arrest rates, and $$X_{i,t}$$ denotes demographic information, economic factors, and population characteristics. It is clear from the regression specification that the effect of passing a shall-issue gun law is captured by the parameter $$\gamma$$. Positive value of $$\gamma$$ implies that shall-issue provisions are associated with higher crime rates, while negative value would suggest otherwise. This representation also implies that every county possesses the same slope but different intercepts depending on whether the law is adopted. The indicator variable $$I_{i,t}$$ took the unit value if county i adopt the law in year t and zero otherwise. From the data set, we observe that there are a total of 18 states that have ever adopted the laws at some point. 
 
 #### 2.2 the deterrence effect of concealed carry weapon (shall issue) laws
 
