@@ -67,14 +67,14 @@ the estimation of arrest rate and crime rate, their results are found to
 be extremely robust. To enhance understandings, it is helpful to write
 out the model they estimate:  
  
-*C*<sub>*i**t*</sub> = *α* + *γ**I*<sub>*i**t*</sub> + *β**A*<sub>*i**t*</sub> + *δ**X*<sub>*i**t*</sub> + *ε*<sub>*i**t*</sub>
+*C*<sub>*i*, *t*</sub> = *α* + *γ**I*<sub>*i*, *t*</sub> + *β**A*<sub>*i*, *t*</sub> + *δ**X*<sub>*i*, *t*</sub> + *ε*<sub>*i*, *t*</sub>
   
   Where
-*I*<sub>*i**t*</sub>
+*I*<sub>*i*, *t*</sub>
 is the shall-issue indicator variable,
-*A*<sub>*i**t*</sub>
+*A*<sub>*i*, *t*</sub>
 represents arrest rates, and
-*X*<sub>*i**t*</sub>
+*X*<sub>*i*, *t*</sub>
 denotes demographic information, economic factors, and population
 characteristics. It is clear from the regression specification that the
 effect of passing a shall-issue gun law is captured by the parameter
@@ -86,7 +86,7 @@ rates, while negative value would suggest otherwise. This representation
 also implies that every county possesses the same slope but different
 intercepts depending on whether the law is adopted. The indicator
 variable
-*I*<sub>*i**t*</sub>
+*I*<sub>*i*, *t*</sub>
 took the unit value if county i adopt the law in year t and zero
 otherwise. From the data set, we observe that there are a total of 18
 states that have ever adopted the laws at some point.
@@ -5611,7 +5611,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0243754
+0.0249524
 </td>
 </tr>
 <tr>
@@ -5622,7 +5622,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0239104
+0.0231631
 </td>
 </tr>
 <tr>
@@ -5633,7 +5633,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0254492
+0.0263694
 </td>
 </tr>
 <tr>
@@ -5644,7 +5644,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0380582
+0.0365213
 </td>
 </tr>
 <tr>
@@ -5655,7 +5655,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0292242
+0.0305068
 </td>
 </tr>
 <tr>
@@ -5666,7 +5666,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0104400
+0.0103425
 </td>
 </tr>
 <tr>
@@ -5677,7 +5677,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0364692
+0.0363666
 </td>
 </tr>
 <tr>
@@ -5688,7 +5688,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0132843
+0.0128542
 </td>
 </tr>
 <tr>
@@ -5699,7 +5699,7 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0132982
+0.0136898
 </td>
 </tr>
 </tbody>
@@ -5736,6 +5736,7 @@ the event studies figures that help validate the existence of pretrends
 visually. Take the following results for rape rates and murder rates.
 
 \[rape rates figures here\]
+![](LM_files/figure-markdown_github/setup%201.20-1.png)
 
 We observe no apparent pre-event trend prior to treatment year. In fact,
 all point estimates and their corresponding confidence intervals include

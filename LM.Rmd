@@ -9,7 +9,7 @@ always_allow_html: yes
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
-load.libraries <- c('did', 'tidyverse', 'haven', 'fixest', 'skimr', 'kableExtra', 'stargazer', 'foreign', 'sjPlot', 'sjmisc', 'sjlabelled', 'bacondecomp')
+load.libraries <- c('did', 'tidyverse', 'haven', 'fixest', 'skimr', 'kableExtra', 'stargazer', 'foreign', 'sjPlot', 'sjmisc', 'sjlabelled', 'bacondecomp', 'jpeg', 'png')
 install.lib <- load.libraries[!load.libraries %in% installed.packages()]
 for(libs in install.lib) install.packages(libs, dependences = TRUE)
 sapply(load.libraries, require, character = TRUE)
@@ -708,7 +708,7 @@ kable(l2, col.names = c("Overall ATTs", "Overall SEs"), caption = "**Table 4 Cal
 # Sun and Abraham event study
 for (i in 1:9) {
   y <- dependent_vars[i]
-  file_name <- paste0(y, ".jpeg")
+  file_name <- paste0("/Users/jirapat/Desktop/R/Lott_and_Mustard/figures/", y, ".jpeg")
   jpeg(filename = file_name, width = 700, height = 350)
   iplot(l3[[y]], ref.line = -1, main = "")
   dev.off()
@@ -719,6 +719,11 @@ Similar to the approach in the previous section, Sun and Abraham’s estimator i
 The model being estimated here is similar to that in the previous section. We use each crime rate in its logarithmic form as dependent variable with its corresponding arrest rate as independent variable. State and year fixed effects are also added as usual. Then, we present the event studies figures that help validate the existence of pretrends visually. Take the following results for rape rates and murder rates.
 
 [rape rates figures here]
+```{r setup 1.20, warning=FALSE, echo=FALSE}
+img <- readPNG('log.Rape_Rate.png')
+grid::grid.raster(img)
+```
+
 
 We observe no apparent pre-event trend prior to treatment year. In fact, all point estimates and their corresponding confidence intervals include zero for all 14 years prior to treatment year, reassuring that pre-event effects are effectively zero. Event studies graphs offer a functional way to evaluate cohort average treatment effects because they predict trends that are expected to see in the absence of treatment and how the realized outcome deviates from that prediction. On the right hand side of the graph, we notice statistically significant negative effects of shall-issue laws on rape rates. The laws delivered efficacious results for up to 4 years after they were passed. After that, it is unfortunate to see that the effects have been fading out over time. Rape rates took off again five years after the treatment year after which it becomes difficult to conclude any effect of the laws in the following years.
 

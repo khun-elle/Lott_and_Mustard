@@ -1,4 +1,4 @@
-load.libraries <- c('did', 'tidyverse', 'haven', 'fixest', 'skimr', 'kableExtra', 'stargazer', 'foreign', 'sjPlot', 'sjmisc', 'sjlabelled', 'bacondecomp')
+load.libraries <- c('did', 'tidyverse', 'haven', 'fixest', 'skimr', 'kableExtra', 'stargazer', 'foreign', 'sjPlot', 'sjmisc', 'sjlabelled', 'bacondecomp', 'jpeg', 'png')
 install.lib <- load.libraries[!load.libraries %in% installed.packages()]
 for(libs in install.lib) install.packages(libs, dependences = TRUE)
 sapply(load.libraries, require, character = TRUE)
@@ -576,4 +576,9 @@ for (i in 1:9) {
   dev.off()
 }
 
-
+library(jpeg)
+myurl <- "https://github.com/khun-elle/Lott_and_Mustard/blob/main/figures/log.Rape_Rate.jpeg"
+z <- tempfile()
+download.file(myurl, z, mode="wb")
+pic <- readJPEG(z)
+file.remove(z) # cleanup
