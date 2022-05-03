@@ -10,7 +10,7 @@ to protect the fundamental right of self-defense for the U.S. citizens.
 
 In 1997, Lott and Mustard published their controversial paper revealing
 that right-to-carry concealed weapons laws are helpful in reducing
-crimes and at the same time cause no increase in accidental deaths.
+crimes and at the same time causing no increase in accidental deaths.
 Their studies utilize cross-sectional time-series data for the U.S.
 between 1977 to 1992 to investigate the effect of permitting the right
 to use firearms on log crime rates. They found many types of crimes such
@@ -18,13 +18,13 @@ as murder rate, rape rate, and aggravated assaults rate are reduced
 significantly for the counties that implement such laws. The sensational
 counterintuitive association between carrying a concealed handgun and
 the reduction in crimes are of interest to the public because it could
-promote the health and safety of our citizens. Lott and Mustard further
-claimed that these shall issue laws not only provide benefits to those
-who carry handguns, but also to those who don’t. Especially among women,
-even if a minute fraction of women own guns, “the external benefits to
-other women from a woman carrying a concealed handgun appear to be large
-relative to the gain produced by an additional man carrying a concealed
-handgun up to 3 to 4 times”
+ultimately promote the health and safety of our citizens. Lott and
+Mustard further claimed that these shall issue laws do not only provide
+benefits to those who carry handguns, but also to those who don’t.
+Especially among women, even if a minute fraction of women own guns,
+“the external benefits to other women from a woman carrying a concealed
+handgun appear to be large relative to the gain produced by an
+additional man carrying a concealed handgun up to 3 to 4 times”
 <sup>1</sup>
 . This is because the criminals face a heightened expected costs from
 committing crimes and the higher probability of getting caught.
@@ -35,7 +35,7 @@ shall issue laws is still positive.
 Our analysis attempted to replicate the authors’ results using twoway
 fixed effects even though the outcomes are likely to be biased due to
 dynamic treatment effects. The issue of dynamic treatment effects calls
-for other estimators that do not have a no sign flip property such as
+for other estimators that do have a no sign flip property such as
 Callaway & Sant’anna or Sun & Abraham. In addition, we implement bacon
 decomposition to examine the weights and the average DID estimate.
 
@@ -62,10 +62,10 @@ demographic information, economic factors, and population
 characteristics. Then, they performed regressions using log crime rates
 as the dependent variables on shall-issue indicator variable, as well as
 arrest rates, and other controls. Although it is likely that their
-regressions suffer from specification error such as simultaneity bias in
-the estimation of arrest rate and crime rate, their results are found to
-be extremely robust. To enhance understandings, it is helpful to write
-out the model they estimate:  
+regressions suffer from specification errors such as simultaneity bias
+in the estimation of arrest rate and crime rate, their results are found
+to be extremely robust. To enhance understandings, it is helpful to
+write out the model they estimate:  
  
 *C*<sub>*i*, *t*</sub> = *α* + *γ**I*<sub>*i*, *t*</sub> + *β**A*<sub>*i*, *t*</sub> + *δ**X*<sub>*i*, *t*</sub> + *ε*<sub>*i*, *t*</sub>
   
@@ -5611,7 +5611,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0231851
+0.0237719
 </td>
 </tr>
 <tr>
@@ -5622,7 +5622,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0247886
+0.0252350
 </td>
 </tr>
 <tr>
@@ -5633,7 +5633,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0267882
+0.0243008
 </td>
 </tr>
 <tr>
@@ -5644,7 +5644,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0360469
+0.0366719
 </td>
 </tr>
 <tr>
@@ -5655,7 +5655,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0299369
+0.0303028
 </td>
 </tr>
 <tr>
@@ -5666,7 +5666,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0104036
+0.0110444
 </td>
 </tr>
 <tr>
@@ -5677,7 +5677,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0352730
+0.0373350
 </td>
 </tr>
 <tr>
@@ -5688,7 +5688,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0136749
+0.0134924
 </td>
 </tr>
 <tr>
@@ -5699,7 +5699,7 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0134397
+0.0141127
 </td>
 </tr>
 </tbody>
@@ -5752,8 +5752,8 @@ of the graph, we notice statistically significant negative effects of
 shall-issue laws on rape rates. The laws delivered efficacious results
 for up to 4 years after they were passed. After that, it is unfortunate
 to see that the effects have been fading out over time. Rape rates took
-off again five years after the treatment year after which it becomes
-difficult to conclude any effect of the laws in the following years.
+off again five years later after which it becomes difficult to conclude
+any effect of the laws in the following years.
 
 Event study estimation of murder rates exhibits a similar result. The
 graph does not suggest a violation of pretend assumptions. The point
