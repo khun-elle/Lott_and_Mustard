@@ -5611,7 +5611,7 @@ log.Violent_Crime_Rate
 -0.0221834
 </td>
 <td style="text-align:right;">
-0.0229578
+0.0247204
 </td>
 </tr>
 <tr>
@@ -5622,7 +5622,7 @@ log.Murder_Rate
 -0.0531075
 </td>
 <td style="text-align:right;">
-0.0238892
+0.0246618
 </td>
 </tr>
 <tr>
@@ -5633,7 +5633,7 @@ log.Rape_Rate
 0.0299128
 </td>
 <td style="text-align:right;">
-0.0268147
+0.0288266
 </td>
 </tr>
 <tr>
@@ -5644,7 +5644,7 @@ log.Aggravate_Assult_Rate
 -0.0134550
 </td>
 <td style="text-align:right;">
-0.0360195
+0.0383298
 </td>
 </tr>
 <tr>
@@ -5655,7 +5655,7 @@ log.Robbery_Rate
 0.0276803
 </td>
 <td style="text-align:right;">
-0.0300132
+0.0298670
 </td>
 </tr>
 <tr>
@@ -5666,7 +5666,7 @@ log.Property_Crime_Rate
 0.0113524
 </td>
 <td style="text-align:right;">
-0.0108676
+0.0110919
 </td>
 </tr>
 <tr>
@@ -5677,7 +5677,7 @@ log.Auto_Theft_Rate
 0.0126156
 </td>
 <td style="text-align:right;">
-0.0372541
+0.0364918
 </td>
 </tr>
 <tr>
@@ -5688,7 +5688,7 @@ log.Burglary_Rate
 -0.0131969
 </td>
 <td style="text-align:right;">
-0.0144968
+0.0150000
 </td>
 </tr>
 <tr>
@@ -5699,7 +5699,7 @@ log.Larceny_Rate
 0.0265453
 </td>
 <td style="text-align:right;">
-0.0138977
+0.0137502
 </td>
 </tr>
 </tbody>
