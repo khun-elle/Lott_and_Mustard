@@ -5,7 +5,7 @@ sapply(load.libraries, require, character = TRUE)
 
 StateLevelData <- read_dta("/Users/jirapat/Desktop/STATA/Causal/UpdatedStateLevelData-2010.dta") %>% filter(year >= 1977 & year <= 1992)
 
-skim(StateLevelData)
+#skim(StateLevelData)
 
 #convert shalll dummies to factor
 #StateLevelData$shalll<- as.factor(StateLevelData$shalll)
@@ -104,7 +104,7 @@ t1 %>%
 
 #table 2
 stats_2 <- list(
-  Obs = length,
+  Obs = ~sum(!is.na(.x)),
   mean = ~mean(.x, na.rm = TRUE),
   standard_deviation = ~sd(.x, na.rm = TRUE)
 )

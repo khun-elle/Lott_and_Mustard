@@ -3,8 +3,8 @@ title: "Lott & Mustard Replication"
 author: "Elle Boodsakorn"
 date: "5/4/2022"
 output:
-  md_document:
-    variant: markdown_github
+  html_document: default
+  pdf_document: default
 always_allow_html: yes
 ---
 
@@ -84,7 +84,6 @@ To sum up, the authors found that shall-issue laws are significantly associated 
 
 <div align="center">
 ```{r setup 1.2, warning=FALSE, echo=FALSE}
-#rollout
 rollout <- LM %>% 
   select(state:shalll) %>% 
   mutate(yearXshalll = year * shalll) %>% 
@@ -97,8 +96,7 @@ rollout <- rollout[match(unique(rollout$state), rollout$state),]  %>%
   as_tibble() %>% 
   arrange(year_first_treated)
 
-kbl(rollout, col.names = c("State", "Year First Treated"), caption = "**Table 1: A Table of Rollout State By State", format_caption = c("italic", "underline")) %>%
-  kable_styling(bootstrap_options = "striped", full_width = F)
+kbl(rollout, col.names = c("State", "Year First Treated"), caption = "**Table 1: A Table of Rollout State By State", format_caption = c("italic", "underline")) %>% kable_styling(bootstrap_options = "striped", full_width = F)
 ```
 </div>
 
@@ -162,7 +160,7 @@ Table 2 presents a summary of violent crimes and their corresponding arrest rate
 ```{r setup 1.4, warning=FALSE, echo=FALSE}
 #table 2
 stats_2 <- list(
-  Obs = length,
+  Obs = ~sum(!is.na(.x)),
   mean = ~mean(.x, na.rm = TRUE),
   standard_deviation = ~sd(.x, na.rm = TRUE)
 )
