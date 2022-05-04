@@ -3,8 +3,8 @@ title: "Lott & Mustard Replication"
 author: "Elle Boodsakorn"
 date: "5/4/2022"
 output:
-  html_document: default
-  pdf_document: default
+  md_document:
+    variant: markdown_github
 always_allow_html: yes
 ---
 
